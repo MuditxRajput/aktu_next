@@ -1,14 +1,13 @@
-// components/ads/InBetweenPost_Responsive.jsx
-"use client";
 import { useEffect } from "react";
 
 const InBetweenPost_Responsive = () => {
   useEffect(() => {
     try {
-      console.log("Runnning");
+      console.log("Running adsbygoogle push");
       (window.adsbygoogle = window.adsbygoogle || []).push({});
+      console.log("COMPLETE adsbygoogle push");
     } catch (e) {
-      console.log(e);
+      console.error("Error while pushing adsbygoogle:", e);
     }
   }, []);
 
