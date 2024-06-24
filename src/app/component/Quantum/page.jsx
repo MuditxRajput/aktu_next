@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import pdf from '../../Image/pdf.png';
 import listOfQuantum from "../../utils/quantum";
 import Search from "../Search/Page";
-
+import InBetweenPost_Responsive from "../ads/page";
 const Quantum = () => {
   const router = useRouter();
   const query = useSelector((state) => state?.query.query || '');
@@ -19,6 +19,9 @@ const Quantum = () => {
   return (
     <>
       <Search />
+      <div>
+        <InBetweenPost_Responsive/>
+      </div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 m-3 p-5 gap-6 md:gap-10">
         {query ? quantumAfterQuery?.map((val, index) => (
           <div

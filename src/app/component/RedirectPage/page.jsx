@@ -2,7 +2,7 @@
 "use client";
 import { useSearchParams } from 'next/navigation';
 import { Suspense, useEffect, useState } from 'react';
-
+import InBetweenPost_Responsive from '../ads/page';
 const RedirectPage = () => {
   const [timeLeft, setTimeLeft] = useState(15);
   const [showButton, setShowButton] = useState(false);
@@ -28,9 +28,13 @@ const RedirectPage = () => {
     <>
       <div className='m-[50px] sm:m-[120px] flex flex-col sm:flex-row'>
         <div className='w-full sm:w-[876px] flex flex-col justify-center items-center'>
+          <InBetweenPost_Responsive/>
           <h2 className='text-4xl font-semibold mb-10'>Wait for sometime you pdf is on the way 🏃🏃</h2>
           <div className='p-4 flex justify-center items-center'>
             {!showButton && <p className='text-semibold'>Download will start in {timeLeft} seconds</p>}
+            <div>
+        <InBetweenPost_Responsive/>
+      </div>
             {showButton && (
               <button
                 className="bg-orange-600 text-white font-semibold px-2 rounded-md m-2 shadow-md shadow-orange-300"
@@ -40,6 +44,9 @@ const RedirectPage = () => {
                 Download pdf
               </button>
             )}
+            <div>
+        <InBetweenPost_Responsive/>
+      </div>
           </div>
           <p className="text-lg font-semibold mb-1 mt-1">What if I can't get the Aktu quantum?</p>
           <p>
