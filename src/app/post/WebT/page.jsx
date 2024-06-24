@@ -1,12 +1,15 @@
 "use client"
-import Image from 'next/image'
-import webTimg from '../../PostImage/webT_image.png'
+import Image from 'next/image';
+import webTimg from '../../PostImage/webT_image.png';
 const WebT = () => {
+  const pageTitle = "Web Technology Aktu Quantum pdf B-tech 3rd year | B.Tech 3rd Year Quantum";
+  const pageDescription = "Get the latest Web Technology Aktu Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
+  const pageKeywords = "Web Technology Aktu Quantum , Aktu Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns, webt aktu quantum, aktu quantum";
   return (
     <div className="m-7 rounded-md shadow-sm shadow-gray-700 p-10">
         <div className="mb-10">
           <h1 className="font-bold text-3xl mb-2">
-            Web Technology Aktu Quantum pdf B-tech 3rd year
+          Web Technology Aktu Quantum  Aktu Quantum pdf B-tech 3rd year
           </h1>
         </div>
         <div className="mb-6">
