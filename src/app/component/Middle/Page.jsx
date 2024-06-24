@@ -1,6 +1,6 @@
 "use client"
 import { useRouter } from "next/navigation";
-import InBetweenPost_Responsive from "../ads/InBetweenPost_Responsive.jsx/index.js";
+import InBetweenPost_Responsive from "../ads/InBetweenPost_Responsive";
 const Middle = () => {
   const router = useRouter();
   return (
