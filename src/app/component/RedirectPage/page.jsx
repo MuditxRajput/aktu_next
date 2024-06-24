@@ -2,7 +2,8 @@
 "use client";
 import { useSearchParams } from 'next/navigation';
 import { Suspense, useEffect, useState } from 'react';
-import InBetweenPost_Responsive from '../ads/page';
+import InBetweenPost_Responsive from '../ads/InBetweenPost_Responsive';
+
 const RedirectPage = () => {
   const [timeLeft, setTimeLeft] = useState(15);
   const [showButton, setShowButton] = useState(false);
@@ -29,34 +30,31 @@ const RedirectPage = () => {
       <div className='m-[50px] sm:m-[120px] flex flex-col sm:flex-row'>
         <div className='w-full sm:w-[876px] flex flex-col justify-center items-center'>
           <InBetweenPost_Responsive/>
-          <h2 className='text-4xl font-semibold mb-10'>Wait for sometime you pdf is on the way 🏃🏃</h2>
+          <h2 className='text-4xl font-semibold mb-10'>Wait for some time, your PDF is on the way 🏃🏃</h2>
           <div className='p-4 flex justify-center items-center'>
             {!showButton && <p className='text-semibold'>Download will start in {timeLeft} seconds</p>}
             <div>
-        <InBetweenPost_Responsive/>
-      </div>
+              <InBetweenPost_Responsive/>
+            </div>
             {showButton && (
               <button
                 className="bg-orange-600 text-white font-semibold px-2 rounded-md m-2 shadow-md shadow-orange-300"
                 onClick={handleOpenPdf}
               >
-                {" "}
-                Download pdf
+                Download PDF
               </button>
             )}
             <div>
-        <InBetweenPost_Responsive/>
-      </div>
+              <InBetweenPost_Responsive/>
+            </div>
           </div>
           <p className="text-lg font-semibold mb-1 mt-1">What if I can't get the Aktu quantum?</p>
           <p>
-            In the header section you get the pdf section, click on that and
-            fill out the form you need to enter some details like pdf name,
-            year, and sem with code and click on submit. Within 1 hr we upload
-            the pdf and you get access to that Aktu quantum pdf.
+            In the header section you get the PDF section, click on that and fill out the form. 
+            You need to enter some details like PDF name, year, and sem with code and click on submit. 
+            Within 1 hr we upload the PDF and you get access to that Aktu quantum PDF.
           </p>
         </div>
-        <div></div>
       </div>
     </>
   );

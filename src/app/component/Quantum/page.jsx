@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import pdf from '../../Image/pdf.png';
 import listOfQuantum from "../../utils/quantum";
 import Search from "../Search/Page";
-import InBetweenPost_Responsive from "../ads/page";
+import InBetweenPost_Responsive from "../ads/InBetweenPost_Responsive";
 const Quantum = () => {
   const router = useRouter();
   const query = useSelector((state) => state?.query.query || '');
