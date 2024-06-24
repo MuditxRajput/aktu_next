@@ -4,7 +4,9 @@ const InBetweenPost_Responsive = () => {
   useEffect(() => {
     try {
       console.log("Running adsbygoogle push");
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
+      window.addEventListener('load', function (){
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        })
       console.log("COMPLETE adsbygoogle push");
     } catch (e) {
       console.error("Error while pushing adsbygoogle:", e);
@@ -12,7 +14,7 @@ const InBetweenPost_Responsive = () => {
   }, []);
 
   return (
-    <div>
+    
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
@@ -21,7 +23,7 @@ const InBetweenPost_Responsive = () => {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-    </div>
+   
   );
 };
 
