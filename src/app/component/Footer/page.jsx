@@ -1,53 +1,53 @@
 import Link from 'next/link';
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+
 const Footer = () => {
   return (
-    <div className="rounded-lg shadow m-4 bg-orange-600 mt-10">
-      <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-        <span className="text-sm sm:text-center text-white">
+    <footer className="bg-orange-600 mt-10 w-full rounded-lg shadow p-4">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between">
+        <span className="text-sm text-center text-white mb-4 md:mb-0">
           © 2024 Aktu-Quantum. All Rights Reserved.
         </span>
-        <ul className="flex gap-8 text-white">
-          <li className="hover:underline cursor-pointer">
+        <ul className="flex flex-wrap gap-5 text-white justify-center mb-4 md:mb-0">
+          <li className="hover:underline cursor-pointer text-sm">
             <Link href="/">Home</Link>
           </li>
-        
-          <li className="hover:underline cursor-pointer">
+          <li className="hover:underline cursor-pointer text-sm">
             <Link href="/component/Contact">Contact</Link>
           </li>
-          <li className="hover:underline cursor-pointer">
+          <li className="hover:underline cursor-pointer text-sm">
             <Link href="/component/About">About</Link>
           </li>
-          <li className="hover:underline cursor-pointer">
+          <li className="hover:underline cursor-pointer text-sm">
             <Link href="/component/Privacy">Privacy Policy</Link>
           </li>
-          <li className="hover:underline cursor-pointer">
+          <li className="hover:underline cursor-pointer text-sm">
             <Link href="/component/Disclaimer">Disclaimer</Link>
           </li>
-          <li className="hover:underline cursor-pointer">
+          <li className="hover:underline cursor-pointer text-sm">
             <Link href="/component/Dmca">Dmca</Link>
           </li>
         </ul>
-        <ul className="flex items-center mt-3 text-white">
-          <li className="me-4">
+        <ul className="flex justify-center gap-4 text-white">
+          <li>
             <Link href="https://www.linkedin.com/in/mudit-rajput/">
-              <FaLinkedin className="text-white" />
+              <FaLinkedin className="text-xl hover:text-gray-300 transition-colors duration-200" />
             </Link>
           </li>
-          <li className="me-4">
+          <li>
             <Link href="https://www.instagram.com/react.build__/">
-              <FaInstagram className="text-white" />
+              <FaInstagram className="text-xl hover:text-gray-300 transition-colors duration-200" />
             </Link>
           </li>
           <li>
             <Link href="https://twitter.com/">
-              <FaTwitter className="text-white" />
+              <FaTwitter className="text-xl hover:text-gray-300 transition-colors duration-200" />
             </Link>
           </li>
         </ul>
       </div>
-    </div>
-  )
-}
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

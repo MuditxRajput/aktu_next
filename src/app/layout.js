@@ -31,7 +31,6 @@ export default function RootLayout({ children, pageTitle, pageDescription, pageK
 />
       </head>
       <body className={inter.className}>
-
         <Header />
         <Providers>
           {children}
