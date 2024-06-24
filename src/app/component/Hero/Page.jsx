@@ -3,7 +3,7 @@ import HeroImage from '../../Image/HeroImage.jpg'
 
 const Hero = () => {
   return (
-    <div className="flex flex-col mb-10 sm:flex-row h-[500px] sm:h-[600px]">
+    <div className="flex flex-col  sm:flex-row h-[500px] sm:h-[600px]">
       <div className="p-6 sm:p-12 flex flex-col flex-1 justify-center items-center">
         <div className="text-center sm:text-left flex flex-col gap-6">
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight">
