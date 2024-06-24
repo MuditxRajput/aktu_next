@@ -34,7 +34,7 @@ const Header = () => {
         </ul>
       </div>
       <div className="sm:hidden">
-        Hamburger
+        
       </div>
     </div>
   );
