@@ -4,8 +4,11 @@ import { default as AdCode } from "../AdCode";
 const Middle = () => {
   const router = useRouter();
   return (
+    <>
+    
+    <AdCode />
     <div className=" flex justify-center items-center flex-col ">
-      <AdCode />
+    
 
       <div className="flex gap-7 sm:gap-16 mt-32">
         <button
@@ -21,8 +24,9 @@ const Middle = () => {
           Notes
         </button>
       </div>
-      <AdCode />
     </div>
+      <AdCode />
+    </>
   );
 };
 
