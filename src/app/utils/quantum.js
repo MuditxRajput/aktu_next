@@ -16,7 +16,7 @@
     },
     {
        name:"FUNDAMENTALS OF ELECTRONICS ENGINEERING",
-       src:"https://drive.google.com/uc?export=view&id=1K6mrdNjrVndGHmc5ldsaUD8X2nTtjdbh/",
+       src:"https://drive.google.com/uc?export=view&id=1K6mrdNjrVndGHmc5ldsaUD8X2nTtjdbh",
        year:"1", 
     },
     {

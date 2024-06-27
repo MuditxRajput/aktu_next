@@ -31,41 +31,48 @@ const RedirectPage = () => {
   };
 
   return (
-    <div className="m-[50px] sm:m-[120px] flex flex-col sm:flex-row">
-      <div className="w-full sm:w-[876px] flex flex-col justify-center items-center">
-        <AdCode />
-        <h2 className="text-4xl font-semibold mb-10">
-          Wait for some time, your PDF is on the way 🏃🏃
-        </h2>
-        <AdCode />
-        <div className="p-4 flex justify-center items-center">
-          {!showButton && (
-            <p className="text-semibold whitespace-nowrap">
-              Download will start in {timeLeft} seconds
-            </p>
-          )}
-
+    <div className="container mx-auto p-4">
+      <div className="flex flex-col lg:flex-row">
+        <div className="lg:w-3/4 p-4 order-1 lg:order-1 flex flex-col justify-center items-center">
           <AdCode />
+          <h2 className="text-4xl font-semibold mb-10">
+            Wait for some time, your PDF is on the way 🏃🏃
+          </h2>
+          <AdCode />
+          <div className="p-4 flex justify-center items-center">
+            {!showButton && (
+              <p className="text-semibold whitespace-nowrap">
+                Download will start in {timeLeft} seconds
+              </p>
+            )}
 
-          {showButton && (
-            <button
-              className="bg-orange-600 text-white font-semibold px-2 rounded-md m-2 shadow-md shadow-orange-300"
-              onClick={handleOpenPdf}
-            >
-              Download PDF
-            </button>
-          )}
+            <AdCode />
+
+            {showButton && (
+              <button
+                className="bg-orange-600 text-white font-semibold px-2 rounded-md m-2 shadow-md shadow-orange-300"
+                onClick={handleOpenPdf}
+              >
+                Download PDF
+              </button>
+            )}
+          </div>
+          <AdCode />
+          <p className="text-lg font-semibold mb-1 mt-1">
+            What if I can't get the Aktu quantum?
+          </p>
+          <p>
+            In the header section, you get the PDF section, click on that and fill
+            out the form. You need to enter some details like PDF name, year, and
+            sem with code and click on submit. Within 1 hr we upload the PDF and
+            you get access to that Aktu quantum PDF.
+          </p>
         </div>
-        <AdCode />
-        <p className="text-lg font-semibold mb-1 mt-1">
-          What if I can't get the Aktu quantum?
-        </p>
-        <p>
-          In the header section you get the PDF section, click on that and fill
-          out the form. You need to enter some details like PDF name, year, and
-          sem with code and click on submit. Within 1 hr we upload the PDF and
-          you get access to that Aktu quantum PDF.
-        </p>
+        <div className="lg:w-1/4 p-4 order-2 lg:order-2 bg-gray-100">
+          {/* <h2 className="text-xl font-semibold mb-4">Right Sidebar Content</h2>
+          <p>This is the right sidebar content. On mobile devices, this will appear at the bottom.</p> */}
+          <AdCode/>
+        </div>
       </div>
     </div>
   );

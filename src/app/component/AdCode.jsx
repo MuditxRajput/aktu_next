@@ -27,7 +27,7 @@ const AdCode = () => {
   }, [router]);
 
   return (
-    <div className="container mx-auto text-center" style={{ minHeight: '1px', minWidth: '1px' }} aria-hidden={true}>
+    <div >
       <ins className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client="ca-pub-8884977910314227"
@@ -37,5 +37,5 @@ const AdCode = () => {
     </div>
   );
 };
-
+{/* <div className="container mx-auto text-center" style={{ minHeight: '1px', minWidth: '1px' }} aria-hidden={true}> */}
 export default AdCode;
