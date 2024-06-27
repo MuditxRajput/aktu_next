@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
-import electronic from "../../../PostImage/electronic.png";
+import electronic from "../../../PostImage/Electronic.png";
 import AdCode from "../../../component/AdCode";
 const Rts = () => {
   const pageTitle =
