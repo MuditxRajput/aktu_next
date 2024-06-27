@@ -23,11 +23,14 @@ const Quantum = () => {
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
           <div className="sidebar lg:w-1/4 p-4 bg-gray-100 order-1 lg:order-1">
-            <h2 className="text-xl font-semibold mb-4">Left Sidebar Content</h2>
-            <p>This is the left sidebar content. On mobile devices, this will appear at the top.</p>
+            {/* <h2 className="text-xl font-semibold mb-4">Left Sidebar Content</h2>
+            <p>This is the left sidebar content. On mobile devices, this will appear at the top.</p> */}
+            <div>
+
             <AdCode/>
+            </div>
           </div>
-          <div className="main-content lg:w-1/2 p-4 order-2 lg:order-2">
+          <div className="main-content lg:w-1/2 p-2 order-2 lg:order-2">
             <div>
               <AdCode/>
             </div>
@@ -72,7 +75,7 @@ const Quantum = () => {
                     />
                   </div>
                   <div className="px-3 py-2 bg-white rounded-b-2xl">
-                    <p className=" text-sm sm:text-lg font-semibold text-gray-800">{val.name}</p>
+                    <p className=" text-xs sm:text-lg font-semibold text-gray-800">{val.name}</p>
                     <p className="text-sm text-gray-500">year : {val.year}</p>
                   </div>
                 </div>
