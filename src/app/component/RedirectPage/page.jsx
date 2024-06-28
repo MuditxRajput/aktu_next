@@ -73,7 +73,7 @@ const RedirectPage = () => {
           </p>
         </div>
         <div className="lg:w-1/4 p-4 order-2 lg:order-2 bg-gray-100">
-           <h2 className="text-xl font-semibold mb-4">Right Sidebar Content</h2>
+           
            <AdCode />
         </div>
       </div>
