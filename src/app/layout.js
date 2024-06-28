@@ -15,6 +15,7 @@ export default function RootLayout({ children, pageTitle, pageDescription, pageK
       <head>
         <title>{title}</title>
         <meta name="description" content={description} />
+        <link rel="icon" href="/favicon.ico" />
         <meta name="keywords" content={keywords} />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-KPG8BQ65JZ"></script>
         <script dangerouslySetInnerHTML={{ __html: `
