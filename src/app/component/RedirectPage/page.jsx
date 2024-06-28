@@ -32,6 +32,7 @@ const RedirectPage = () => {
 
   return (
     <div className="container mx-auto p-4">
+      <AdCode/>
       <div className="flex flex-col lg:flex-row">
         <div className="lg:w-3/4 p-4 order-1 lg:order-1 flex flex-col justify-center items-center">
           <AdCode />
@@ -69,8 +70,8 @@ const RedirectPage = () => {
           </p>
         </div>
         <div className="lg:w-1/4 p-4 order-2 lg:order-2 bg-gray-100">
-          {/* <h2 className="text-xl font-semibold mb-4">Right Sidebar Content</h2>
-          <p>This is the right sidebar content. On mobile devices, this will appear at the bottom.</p> */}
+           <h2 className="text-xl font-semibold mb-4">Right Sidebar Content</h2>
+          {/* <p>This is the right sidebar content. On mobile devices, this will appear at the bottom.</p>  */}
           <AdCode/>
         </div>
       </div>
