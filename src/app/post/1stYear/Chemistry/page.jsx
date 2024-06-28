@@ -38,6 +38,7 @@ const Rts = () => {
                 <h1 className="font-bold text-3xl mb-2">
                   Engineering Chemistry Aktu Quantum pdf| B.tech 1st year aktu quantum pdf
                 </h1>
+                <AdCode/>
               </div>
               <div className="mb-6">
                 <div className="flex justify-center items-center mb-3">
@@ -170,7 +171,7 @@ const Rts = () => {
             <ul className="text-orange-500 font-semibold">
               <Link href="/post/rts">Real time Aktu Quantum pdf</Link>
             </ul>
-            <AdCode />
+            <AdCode/>
             {/* <h2 className="text-xl font-semibold mb-4">Sidebar Content</h2> */}
             <p></p>
           </div>

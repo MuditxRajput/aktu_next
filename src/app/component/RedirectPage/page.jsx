@@ -33,20 +33,23 @@ const RedirectPage = () => {
     <div className="container mx-auto p-4">
       <AdCode />
       <div className="flex flex-col lg:flex-row">
+       
         <div className="lg:w-3/4 p-4 order-1 lg:order-1 flex flex-col justify-center items-center">
-          <AdCode />
+         
         
           <h2 className="text-4xl font-semibold mb-10">
             Wait for some time, your PDF is on the way 🏃🏃
+            <AdCode/>
           </h2>
-          <AdCode />
+          
           <div className="p-4 flex justify-center items-center">
             {!showButton && (
               <p className="text-semibold whitespace-nowrap">
                 Download will start in {timeLeft} seconds
+                <AdCode/>
               </p>
             )}
-            <AdCode />
+         
             {showButton && (
               <button
                 className="bg-orange-600 text-white font-semibold px-2 rounded-md m-2 shadow-md shadow-orange-300"
@@ -56,8 +59,9 @@ const RedirectPage = () => {
               </button>
             )}
           </div>
-          <AdCode />
+         
           <p className="text-lg font-semibold mb-1 mt-1">
+            <AdCode/>
             What if I can't get the Aktu quantum?
           </p>
           <p>
@@ -65,6 +69,7 @@ const RedirectPage = () => {
             out the form. You need to enter some details like PDF name, year, and
             sem with code and click on submit. Within 1 hr we upload the PDF and
             you get access to that Aktu quantum PDF.
+            <AdCode/>
           </p>
         </div>
         <div className="lg:w-1/4 p-4 order-2 lg:order-2 bg-gray-100">
