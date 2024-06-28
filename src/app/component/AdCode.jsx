@@ -3,13 +3,24 @@ import { useEffect } from 'react';
 
 const AdCode = () => {
     useEffect(() => {
-        // Check if window.adsbygoogle is defined and push an empty object to initialize ads
-        if (typeof window !== "undefined" && window.adsbygoogle) {
+        const initializeAds = () => {
             try {
                 (window.adsbygoogle = window.adsbygoogle || []).push({});
             } catch (e) {
                 console.error('Adsbygoogle push error:', e);
             }
+        };
+
+        if (typeof window !== "undefined" && window.adsbygoogle) {
+            initializeAds();
+        } else {
+            // Reattempt initialization if the script is not yet loaded
+            const interval = setInterval(() => {
+                if (window.adsbygoogle) {
+                    initializeAds();
+                    clearInterval(interval);
+                }
+            }, 500);
         }
     }, []);
 
