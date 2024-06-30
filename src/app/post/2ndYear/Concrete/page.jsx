@@ -2,15 +2,16 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
-import maths2 from "../../../PostImage/maths2.png";
+import concreteTechnology from "../../../PostImage/Concrete.png"; // Assuming you have an image for Concrete Technology
 import AdCode from "../../../component/AdCode";
-const Maths2 = () => {
+
+const ConcreteTechnology = () => {
   const pageTitle =
-    "Mathematics-II Aktu Quantum pdf 1st year| B.tech 1st year aktu quantum pdf ";
+    "Concrete Technology AKTU Quantum pdf | B.Tech 3rd year quantum pdf";
   const pageDescription =
-    "Get the latest Mathematics-II Aktu Quantum PDF for B.Tech 1st year. Access question patterns, syllabus, and more.";
+    "Get the latest Concrete Technology AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =
-    "Mathematics-II Aktu Quantum, Aktu Quantum, B.Tech 1st Year, PDF, Syllabus, aktu , aktu result, aktu one view , Aktu 1st year quanutm pdf free";
+    "Concrete Technology AKTU Quantum, Aktu Quantum, B.Tech 3rd Year, PDF, Syllabus, aktu, aktu result, aktu one view, Aktu 3rd year quantum pdf free";
 
   return (
     <>
@@ -33,37 +34,34 @@ const Maths2 = () => {
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
           <div className="main-content lg:w-3/4 p-4">
-            <div className=" rounded-md shadow-sm shadow-gray-700 p-7">
+            <div className="rounded-md shadow-sm shadow-gray-700 p-7">
               <div className="mb-10">
-                <h1 className="font-bold text-3xl mb-2">
-                  Mathematics-II Aktu Quantum pdf 1st year| B.tech 1st year aktu
-                  quantum pdf
-                </h1>
+                <h1 className="font-bold text-3xl mb-2">{pageTitle}</h1>
               </div>
               <div className="mb-6">
                 <div className="flex justify-center items-center mb-3">
                   <Image
-                    src={maths2}
-                    alt="Syllabus of maths2 Aktu Quantum pdf"
+                    src={concreteTechnology}
+                    alt="Syllabus of Concrete Technology AKTU Quantum pdf"
                     className="border-2 border-black"
                   />
                 </div>
                 <AdCode />
                 <p>
-                  Hello mates, how are you, so the exam is near and you are
-                  concerned about your exam, especially Mathematics -II. Don't
-                  worry! In this post, I will share the Mathematics -II AKTU
-                  Quantum pdf with you. From this AKTU quantum pdf, you will
+                  Hello mates, how are you? The exam is near and you are
+                  concerned about your exam, especially Concrete Technology.
+                  Don't worry! In this post, I will share the Concrete Technology
+                  AKTU Quantum pdf with you. From this AKTU quantum pdf, you will
                   easily get the ideas of question patterns from the last 4-5
                   years. Most importantly, this pdf is the latest and covers all
-                  the syllabus as per AKTU syllabus. So without wasting any
-                  time, let's see how you can get the Latest Mathematics -II
-                  AKTU Quantum pdf for B-Tech in 1st year.
+                  the syllabus as per AKTU syllabus. So without wasting any time,
+                  let's see how you can get the Latest Concrete Technology AKTU
+                  Quantum pdf for B-Tech in 3rd year.
                 </p>
                 <Link href="https://t.me/freeAktuQuantum1">
-                  <div className="flex justify-center items-center mt-5 ">
-                    <FaTelegram className=" text-3xl sm:text-6xl" />{" "}
-                    <p className="px-3 font-semibold text-orange-500  underline">
+                  <div className="flex justify-center items-center mt-5">
+                    <FaTelegram className="text-3xl sm:text-6xl" />
+                    <p className="px-3 font-semibold text-orange-500 underline">
                       Join our telegram
                     </p>
                   </div>
@@ -72,11 +70,10 @@ const Maths2 = () => {
               <AdCode />
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">
-                  How to access the Latest Mathematics -II Aktu Quantum pdf
+                  How to access the Latest Concrete Technology AKTU Quantum pdf
                 </h2>
                 <p>
-                  You need to follow some steps to get access to the Mathematics
-                  -II Quantum pdf.
+                  You need to follow some steps to get access to the Concrete Technology Quantum.
                 </p>
                 <p className="text-lg font-semibold mb-1 mt-1">
                   Step 1: Go to our website.
@@ -97,73 +94,57 @@ const Maths2 = () => {
                 <p>
                   After clicking on the official website, you are redirected to
                   our official website, where you see the years button. As
-                  Mathematics -II comes under 1 year, you can click on the
-                  1-year button. After clicking on the 1-year button, the pdf
-                  section will be refreshed, and all quantum is of 1 years.
-                  Scroll down and find the Mathematics -II pdf, click on it, and
-                  access it directly.
+                  Concrete Technology comes under 3rd year, you can click on the
+                  3rd-year button. After clicking on the 3rd-year button, the pdf
+                  section will be refreshed, and all quantum is of 3rd years.
+                  Scroll down and find the Concrete Technology pdf, click on it,
+                  and access it directly.
                 </p>
                 <p className="text-lg font-semibold mb-1 mt-1">
                   Step 3: Access by searching.
                 </p>
                 <p>
                   If you don't want to scroll down, no problem. On the same
-                  page, you see the search bar, click on it, and type
-                  Mathematics -II. Simply type the first word of any AKTU
-                  quantum you want to find. After writing, click on the search
-                  button, and as you click on it, below it you see the
-                  Mathematics -II AKTU quantum pdf. Click on it and access it
-                  easily. These are all the steps you need to follow to get
-                  access to Mathematics -II AKTU quantum pdf.
-                </p>
-                <p>
-                  These are all the steps you need to follow to get access to
-                  maths2 Aktu Quantum pdf.
+                  page, you see the search bar, click on it, and type Concrete Technology.
+                  Simply type the first word of any AKTU quantum you want to find.
+                  After writing, click on the search button, and as you click on it,
+                  below it you see the Concrete Technology AKTU quantum pdf. Click on
+                  it and access it easily. These are all the steps you need to follow to get
+                  access to Concrete Technology AKTU quantum pdf.
                 </p>
                 <h3 className="text-lg font-semibold mb-1 mt-2">
-                  Syllabus of Engineering Mathematics-II Aktu Quantum pdf.
+                  Syllabus of Concrete Technology AKTU Quantum pdf
                 </h3>
                 <p>
-                  In Mathematics -II pdf, there are a total of 5 units as per
-                  the AKTU syllabus of Mathematics -II.
-                  <br />{" "}
-                  <span className="font-semibold">
-                    Unit 1: : Differential equation
-                  </span>{" "}
+                  In Concrete Technology pdf, there are a total of 5 units as per the AKTU syllabus of Concrete Technology.
                   <br />
-                  <span className="font-semibold">
-                    Unit 2: multivariable calculus -II
-                  </span>{" "}
+                  <span className="font-semibold">Unit 1: cement production & aggregates</span>
                   <br />
-                  <span className="font-semibold">
-                    Unit 3: Sequence and series
-                  </span>{" "}
+                  <span className="font-semibold">Unit 2: chemical & mineral admixtures</span>
                   <br />
-                  <span className="font-semibold">
-                    Unit 4: complex variables-differentiation
-                  </span>{" "}
+                  <span className="font-semibold">Unit 3: mix design & rheology of concrete</span>
                   <br />
-                  <span className="font-semibold">
-                    Unit 5: : complex variable - integration
-                  </span>{" "}
+                  <span className="font-semibold">Unit 4: concrete production, properties & testing</span>
+                  <br />
+                  <span className="font-semibold">Unit 5: specific concretes</span>
                   <br />
                 </p>
                 <p className="text-lg font-semibold mb-1 mt-1">
-                  What if I can't get the Aktu quantum?
+                  What if I can't get the AKTU quantum?
                 </p>
                 <p>
                   In the header section, you get the pdf section, click on that
                   and fill out the form. You need to enter some details like pdf
                   name, year, and semester with the code, and click on submit.
                   Within 1 hour, we upload the pdf and you get access to that
-                  Aktu quantum pdf..
+                  AKTU quantum pdf.
                 </p>
                 <p className="text-lg font-semibold mb-1 mt-1">Conclusion</p>
                 <p>
-                  In this post, we learned how to access Mathematics -II AKTU
-                  Quantum pdf for B-tech 1st year in just a few steps. I hope
-                  you like the post. There is a button below from which you can
-                  get access to the AKTU quantum series for all B.Tech.
+                  In this post, we learned how to access Concrete Technology AKTU
+                  Quantum pdf for B-tech 3rd year in just a few steps. I hope you
+                  like the post. There is a button below from which you can get
+                  access to the AKTU quantum series for all B.Tech.
                 </p>
               </div>
             </div>
@@ -172,12 +153,10 @@ const Maths2 = () => {
             <AdCode />
             <ol type="disc" className="text-orange-500 font-semibold flex flex-col">
               <Link href="/post/rts">Real time Quantum pdf</Link>
-              <Link href="/post/1stYear/Fmem">Fmem Aktu Quantum pdf</Link>
-              <Link href="/post/1stYear/Chemistry">Chemistry 1 year Quantum </Link>
+              <Link href="/post/3rdYear/Fmem">Fmem Aktu Quantum pdf</Link>
+              <Link href="/post/3rdYear/Chemistry">Chemistry 3rd year Quantum</Link>
             </ol>
             <AdCode />
-            {/* <h2 className="text-xl font-semibold mb-4">Sidebar Content</h2> */}
-            <p></p>
           </div>
         </div>
       </div>
@@ -185,4 +164,4 @@ const Maths2 = () => {
   );
 };
 
-export default Maths2;
+export default ConcreteTechnology;

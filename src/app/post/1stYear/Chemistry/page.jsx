@@ -4,7 +4,7 @@ import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import chemistry from "../../../PostImage/chemistry.png";
 import AdCode from "../../../component/AdCode";
-const Rts = () => {
+const Chemistry = () => {
   const pageTitle =
     "Engineering Chemistry Aktu Quantum pdf 1st year| B.tech 1st year aktu quantum pdf ";
   const pageDescription =
@@ -181,4 +181,4 @@ const Rts = () => {
   );
 };
 
-export default Rts;
+export default Chemistry;

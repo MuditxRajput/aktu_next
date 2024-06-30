@@ -4,7 +4,7 @@ import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import electronic from "../../../PostImage/Electronic.png";
 import AdCode from "../../../component/AdCode";
-const Rts = () => {
+const Electronic = () => {
   const pageTitle =
     "Fundamentals Of Electronics Engineering Aktu Quantum pdf | B.tech 1st year quantum ";
   const pageDescription =
@@ -192,4 +192,4 @@ const Rts = () => {
   );
 };
 
-export default Rts;
+export default Electronic;
