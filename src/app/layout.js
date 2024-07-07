@@ -18,6 +18,7 @@ export default function RootLayout({ children, pageTitle, pageDescription, pageK
         <link rel="icon" href="/favicon.ico" />
         <meta name="keywords" content={keywords} />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-KPG8BQ65JZ"></script>
+        <meta name="google-site-verification" content="rZNyTXrezE4ImuJHdfcYhqOPIcsK023w7VEJRdYdZiE" />
         <script dangerouslySetInnerHTML={{ __html: `
            window.dataLayer = window.dataLayer || [];
            function gtag(){dataLayer.push(arguments);}
