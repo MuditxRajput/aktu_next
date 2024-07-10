@@ -2,16 +2,16 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
-import dataAnalytics from "../../../PostImage/analytics.png"; // Assuming you have an image for Data Analytics
+import theoryOfMachinesImg from "../../../PostImage/machine.png";
 import AdCode from "../../../component/AdCode";
 
-const DataAnalytics = () => {
+const TheoryOfMachines = () => {
   const pageTitle =
-    "Data Analytics AKTU Quantum pdf | B.Tech 3rd year quantum pdf";
+    "Theory Of Machines AKTU Quantum PDF | B.Tech 3rd Year Quantum";
   const pageDescription =
-    "Get the latest Data Analytics AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
+    "Get the latest Theory Of Machines AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =
-    "Data Analytics AKTU Quantum, Aktu Quantum, B.Tech 3rd Year, PDF, Syllabus, aktu, aktu result, aktu one view, Aktu 3rd year quantum pdf free";
+    "Theory Of Machines AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns";
 
   return (
     <>
@@ -41,24 +41,24 @@ const DataAnalytics = () => {
               <div className="mb-6">
                 <div className="flex justify-center items-center mb-3">
                   <Image
-                    src={dataAnalytics}
-                    alt="Syllabus of Data Analytics AKTU Quantum pdf"
+                    src={theoryOfMachinesImg}
+                    alt="Syllabus of Theory Of Machines AKTU Quantum pdf"
                     className="border-2 border-black"
                   />
                 </div>
                 <div>
-                <AdCode />
+                  <AdCode />
                 </div>
                 <p>
                   Hello mates, how are you? The exam is near and you are
-                  concerned about your exam, especially Data Analytics. Don't
-                  worry! In this post, I will share the Data Analytics AKTU Quantum
-                  pdf with you. From this AKTU quantum pdf, you will easily get
-                  the ideas of question patterns from the last 4-5 years. Most
-                  importantly, this pdf is the latest and covers all the syllabus as
-                  per AKTU syllabus. So without wasting any time, let's see how you
-                  can get the Latest Data Analytics AKTU Quantum pdf for B-Tech in
-                  3rd year.
+                  concerned about your exam, especially Theory Of Machines.
+                  Don't worry! In this post, I will share the Theory Of Machines
+                  AKTU Quantum PDF with you. From this AKTU quantum PDF, you
+                  will easily get the ideas of question patterns from the last
+                  4-5 years. Most importantly, this PDF is the latest and covers
+                  all the syllabus as per AKTU syllabus. So without wasting any
+                  time, let's see how you can get the Latest Theory Of Machines
+                  AKTU Quantum PDF for B-Tech in 3rd year.
                 </p>
                 <Link href="https://t.me/freeAktuQuantum1">
                   <div className="flex justify-center items-center mt-5">
@@ -70,15 +70,15 @@ const DataAnalytics = () => {
                 </Link>
               </div>
               <div>
-              <AdCode />
+                <AdCode />
               </div>
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">
-                  How to access the Latest Data Analytics AKTU Quantum pdf
+                  How to access the Latest Theory Of Machines AKTU Quantum pdf
                 </h2>
                 <p>
-                  You need to follow some steps to get access to the Data Analytics
-                  Quantum.
+                  You need to follow some steps to get access to the Theory Of
+                  Machines Quantum.
                 </p>
                 <p className="text-lg font-semibold mb-1 mt-1">
                   Step 1: Go to our website.
@@ -98,40 +98,54 @@ const DataAnalytics = () => {
                 </p>
                 <p>
                   After clicking on the official website, you are redirected to
-                  our official website, where you see the years button. As Data
-                  Analytics comes under 3rd year, you can click on the 3rd-year
-                  button. After clicking on the 3rd-year button, the pdf section
-                  will be refreshed, and all quantum is of 3rd years. Scroll down
-                  and find the Data Analytics pdf, click on it, and access it
-                  directly.
+                  our official website, where you see the years button. As
+                  Theory Of Machines comes under 3rd year, you can click on the
+                  3rd-year button. After clicking on the 3rd-year button, the
+                  pdf section will be refreshed, and all quantum is of 3rd
+                  years. Scroll down and find the Theory Of Machines pdf, click
+                  on it, and access it directly.
                 </p>
                 <p className="text-lg font-semibold mb-1 mt-1">
                   Step 3: Access by searching.
                 </p>
                 <p>
-                  If you don't want to scroll down, no problem. On the same page,
-                  you see the search bar, click on it, and type Data Analytics.
-                  Simply type the first word of any AKTU quantum you want to find.
-                  After writing, click on the search button, and as you click on it,
-                  below it you see the Data Analytics AKTU quantum pdf. Click on it
-                  and access it easily. These are all the steps you need to follow to
-                  get access to Data Analytics AKTU quantum pdf.
+                  If you don't want to scroll down, no problem. On the same
+                  page, you see the search bar, click on it, and type Theory Of
+                  Machines. Simply type the first word of any AKTU quantum you
+                  want to find. After writing, click on the search button, and
+                  as you click on it, below it you see the Theory Of Machines
+                  AKTU quantum pdf. Click on it and access it easily.
+                </p>
+                <p>
+                  These are all the steps you need to follow to get access to
+                  Theory Of Machines AKTU quantum pdf.
                 </p>
                 <h3 className="text-lg font-semibold mb-1 mt-2">
-                  Syllabus of Data Analytics AKTU Quantum pdf
+                  Syllabus of Theory Of Machines AKTU Quantum pdf.
                 </h3>
                 <p>
-                  In Data Analytics pdf, there are a total of 5 units as per the AKTU syllabus of Data Analytics.
+                  In Theory Of Machines pdf, there are a total of 5 units as per
+                  the AKTU syllabus of Theory Of Machines.
+                  <br />{" "}
+                  <span className="font-semibold">
+                    Unit 1: Velocity And Acceleration Analysis
+                  </span>{" "}
                   <br />
-                  <span className="font-semibold">Unit 1: Introduction To Data Analytics</span>
+                  <span className="font-semibold">
+                    Unit 2: Cams Gears & Gear Trains
+                  </span>{" "}
                   <br />
-                  <span className="font-semibold">Unit 2: Data Analytics</span>
+                  <span className="font-semibold">
+                    Unit 3: Force Analysis
+                  </span>{" "}
                   <br />
-                  <span className="font-semibold">Unit 3: Mining Data Streams</span>
+                  <span className="font-semibold">
+                    Unit 4: Balancing & Governors
+                  </span>{" "}
                   <br />
-                  <span className="font-semibold">Unit 4: Frequent Itemsets And Clustering</span>
-                  <br />
-                  <span className="font-semibold">Unit 5: Frame Work and Visualisation</span>
+                  <span className="font-semibold">
+                    Unit 5: Brakes And Dynamometers
+                  </span>{" "}
                   <br />
                 </p>
                 <p className="text-lg font-semibold mb-1 mt-1">
@@ -146,23 +160,30 @@ const DataAnalytics = () => {
                 </p>
                 <p className="text-lg font-semibold mb-1 mt-1">Conclusion</p>
                 <p>
-                  In this post, we learned how to access Data Analytics AKTU
-                  Quantum pdf for B-tech 3rd year in just a few steps. I hope you
-                  like the post. There is a button below from which you can get
-                  access to the AKTU quantum series for all B.Tech.
+                  In this post, we learned how to access Theory Of Machines AKTU
+                  Quantum pdf for B-tech 3rd year in just a few steps. I hope
+                  you like the post. There is a button below from which you can
+                  get access to the AKTU quantum series for all B.Tech.
                 </p>
               </div>
             </div>
           </div>
           <div className="sidebar lg:w-1/4 p-4 bg-gray-100">
-            <AdCode />
-            <ol type="disc" className="text-orange-500 font-semibold flex flex-col">
+            <div>
+              <AdCode />
+            </div>
+            <ol
+              type="disc"
+              className="text-orange-500 font-semibold flex flex-col"
+            >
               <Link href="/post/rts">Real time Quantum pdf</Link>
               <Link href="/post/3rdYear/Fmem">Fmem Aktu Quantum pdf</Link>
-              <Link href="/post/3rdYear/Chemistry">Chemistry 3rd year Quantum</Link>
+              <Link href="/post/3rdYear/Chemistry">
+                Chemistry 3rd year Quantum
+              </Link>
             </ol>
             <div>
-            <AdCode />
+              <AdCode />
             </div>
           </div>
         </div>
@@ -171,4 +192,4 @@ const DataAnalytics = () => {
   );
 };
 
-export default DataAnalytics;
+export default TheoryOfMachines;

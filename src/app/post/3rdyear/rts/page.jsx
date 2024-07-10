@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import rtsImg from '../../PostImage/Rts_syllabus.png';
-import AdCode from "../../component/AdCode";
+import AdCode from "../../../component/AdCode";
+import rtsImg from '../../../PostImage/Rts_syllabus.png';
 
 const Rts = () => {
   const pageTitle = "Real Time System KOE-061 Aktu Quantum PDF | B.Tech 3rd Year Quantum";
