@@ -6,27 +6,27 @@
     },
     {
        name:"Fundamental of mechincal ENGINEERING",
-       src:"https://drive.google.com/uc?export=view&id=1IVZfKFavWjRWAIeA3my9IdsiulTBgZF5",
+       src:"https://gplinks.co/qwOrV",
        year:"1", 
     },
     {
        name:"ENGINEERING CHEMISTRY",
-       src:"https://drive.google.com/uc?export=view&id=1tjA5OHoP7RKHC7RbDdnqahtcVnluNfo_",
+       src:"https://gplinks.co/chemistryEng",
        year:"1", 
     },
     {
        name:"FUNDAMENTALS OF ELECTRONICS ENGINEERING",
-       src:"https://drive.google.com/uc?export=view&id=1K6mrdNjrVndGHmc5ldsaUD8X2nTtjdbh",
+       src:"https://gplinks.co/fRvHbKl",
        year:"1", 
     },
     {
        name:"ENGINEERING  MATHEMATICS -I",
-       src:"https://drive.google.com/uc?export=view&id=1i7aNWQ9KxvRrUnbsspwN7ZozWE_4dZ4a",
+       src:"https://gplinks.co/urxGsdTC",
        year:"1", 
     },
     {
        name:"ENGINEERING MATHEMATICS -II",
-       src:"https://drive.google.com/uc?export=view&id=1HGge5LhzwOatNeemxBNvWFGzXFNFNPjZ",
+       src:"https://gplinks.co/w0e9P",
        year:"1", 
     },
     {
@@ -36,47 +36,47 @@
     },
     {
        name:"ENGINEERING PHYSICS",
-       src:"https://drive.google.com/uc?export=view&id=1QTJP3Fab5yv7tSfixfi9meNe9upFGvZu",
+       src:"https://gplinks.co/9NJPlkh",
        year:"1", 
     },
     {
        name:"PROGRAMMING FOR PROBLEM-SOLVING",
-       src:"https://drive.google.com/uc?export=view&id=15m8SRGv3oYN2M4aWJb0q0AV3qay12Goe/",
+       src:"https://gplinks.co/O3RFap",
        year:"1", 
     },
     {
        name:"ENVIRONMENT AND ECOLOGY",
-       src:"https://drive.google.com/uc?export=view&id=15uvs2FoxBmbrYxiuRRcNP8s-bRFpdNwP",
+       src:"https://gplinks.co/d8JJK",
        year:"1", 
     },
     {
         name:"Tafl ",
-        src:"https://drive.google.com/uc?export=view&id=1Ug_IDw4h9FETuFNocq9RhKS707gV6M9M",
+        src:"https://gplinks.co/KfcyaJ",
         year:"2",
     },
     {
         name:"Data Structure and algo",
-        src:"https://drive.google.com/uc?export=view&id=1FTtFXdIuDAcPpZCquIditQ0tRX0TeDr0",
+        src:"https://gplinks.co/CuEo8",
         year:"2",
     },
     {
         name:"COA",
-        src:"https://drive.google.com/uc?export=view&id=1TyHajTWXbU4beg6rJYjgqE6_DBT0bni-",
+        src:"https://gplinks.co/VB5w",
         year:"2",
     },
     {
         name:"Materials Science and Engineering",
-        src:"https://drive.google.com/uc?export=view&id=1O4k766VXgtUtk1PlcGJMyTwZyunu5oA3",
+        src:"https://gplinks.co/rjvrW33",
         year:"2",
     },
     {
         name:"Fluid Mechanics & Fluid Machines",
-        src:"https://drive.google.com/uc?export=view&id=1O1TeDkbAOhPZra-eEfmKUgJkzgVaF7D8",
+        src:"https://gplinks.co/gRx4gi",
         year:"2",
     },
     {
         name:"Energy science quantum",
-        src:"https://drive.google.com/uc?export=view&id=1sWZo9amUSxBCiAh5HsrETLkLHKr3-NuV",
+        src:"https://gplinks.co/fSJfQNCp",
         year:"2",
     },
     {

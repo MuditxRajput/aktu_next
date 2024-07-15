@@ -12,11 +12,11 @@ const Quantum = () => {
   const query = useSelector((state) => state?.query.query || '');
   const openPdf = (url) => {
     if (url) {
-      const decodedUrl = decodeURIComponent(url);
+      // const decodedUrl = decodeURIComponent(url);
       if (/Mobi|Android/i.test(navigator.userAgent)) {
         window.location.href = decodedUrl;
       } else {
-        window.open(decodedUrl, "_blank", "noopener,noreferrer");
+        window.open(url, "_blank", "noopener,noreferrer");
       }
     }
     // const urlImp = 
