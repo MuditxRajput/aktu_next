@@ -11,8 +11,16 @@ const Quantum = () => {
   const router = useRouter();
   const query = useSelector((state) => state?.query.query || '');
   const openPdf = (url) => {
+    if (url) {
+      const decodedUrl = decodeURIComponent(url);
+      if (/Mobi|Android/i.test(navigator.userAgent)) {
+        window.location.href = decodedUrl;
+      } else {
+        window.open(decodedUrl, "_blank", "noopener,noreferrer");
+      }
+    }
     // const urlImp = 
-    router.push(`/component/RedirectPage?url=${encodeURIComponent(url)}`);
+    // router.push(`/component/RedirectPage?url=${encodeURIComponent(url)}`);
   };
   const quantumAfterQuery = listOfQuantum?.filter((val) =>
     val.name.toLowerCase().includes(query.toLowerCase())
