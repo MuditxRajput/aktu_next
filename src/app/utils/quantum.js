@@ -1,7 +1,7 @@
  const listOfQuantum = [
     {
             name:"Soft Skill",
-            src:"https://drive.google.com/uc?export=view&id=1utTDCJpqZJVm1Nvc5eyjcXSkKKKJ8J8c",
+            src:"https://gplinks.co/0iTWepG",
             year:"1"
     },
     {

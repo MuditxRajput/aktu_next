@@ -11,6 +11,7 @@ const Quantum = () => {
   const router = useRouter();
   const query = useSelector((state) => state?.query.query || '');
   const openPdf = (url) => {
+    // const urlImp = 
     router.push(`/component/RedirectPage?url=${encodeURIComponent(url)}`);
   };
   const quantumAfterQuery = listOfQuantum?.filter((val) =>
