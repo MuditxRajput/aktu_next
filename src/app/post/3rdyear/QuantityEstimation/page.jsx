@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import quantityEstimationImg from "../../../PostImage/Quality.png";
-import AdCode from "../../../component/AdCode";
 
 const QuantityEstimation = () => {
   const pageTitle =
@@ -47,7 +46,7 @@ const QuantityEstimation = () => {
                   />
                 </div>
                 <div>
-                  <AdCode />
+                  
                 </div>
                 <p>
                   Hello mates, how are you? The exam is near and you are
@@ -72,7 +71,7 @@ const QuantityEstimation = () => {
                 </Link>
               </div>
               <div>
-                <AdCode />
+                
               </div>
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">
@@ -160,7 +159,7 @@ const QuantityEstimation = () => {
                   What if I can't get the AKTU quantum?
                 </p>
                 <div>
-                <AdCode />
+                
                 </div>
                 <p>
                   In the header section, you get the pdf section, click on that
@@ -182,7 +181,7 @@ const QuantityEstimation = () => {
           </div>
           <div className="sidebar lg:w-1/4 p-4 bg-gray-100">
             <div>
-              <AdCode />
+              
             </div>
             <ol
               type="disc"
@@ -195,7 +194,7 @@ const QuantityEstimation = () => {
               </Link>
             </ol>
             <div>
-              <AdCode />
+              
             </div>
           </div>
         </div>

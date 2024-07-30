@@ -3,7 +3,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import webTimg from "../../../PostImage/webT_image.png"; // Assuming you have an image for Web Technology
-import AdCode from "../../../component/AdCode"; // Assuming you have an AdCode component
 
 const WebT = () => {
   const pageTitle = "Web Technology KIT-501 AKTU Quantum PDF B-Tech 3rd Year | B.Tech 3rd Year Quantum";
@@ -40,7 +39,7 @@ const WebT = () => {
                   So without wasting any time, let's see how you can get the Latest Web Technology AKTU Quantum PDF for B-Tech in 3rd year.
                 </p>
               </div>
-              <AdCode />
+              
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">How to access the Latest Web Technology AKTU Quantum PDF</h2>
                 <p>You need to follow some steps to get access to the Web Technology KIT-501 Quantum.</p>
@@ -97,17 +96,17 @@ const WebT = () => {
                   I hope you like the post. There is a button below from which you can get access to the AKTU quantum series for all B.Tech.
                 </p>
               </div>
-              <AdCode />
+              
             </div>
           </div>
           <div className="sidebar lg:w-1/4 p-4 bg-gray-100">
-            <AdCode />
+            
             <ol type="disc" className="text-orange-500 font-semibold flex flex-col">
               <Link href="/post/rts">Real time Quantum pdf</Link>
               <Link href="/post/3rdYear/Fmem">Fmem Aktu Quantum pdf</Link>
               <Link href="/post/3rdYear/Chemistry">Chemistry 3rd year Quantum</Link>
             </ol>
-            <AdCode />
+            
           </div>
         </div>
       </div>

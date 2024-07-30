@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import constitutionImg from '../../../PostImage/constitution.png'; // Assuming you have an image for Constitution Of India KNC 501 KNC 601, Law And Engineering
-import AdCode from "../../../component/AdCode";
 
 const ConstitutionOfIndia = () => {
   const pageTitle = "Constitution Of India KNC  KNC 501 KNC 601, Law And Engineering AKTU Quantum PDF | B.Tech 3rd Year Quantum";
@@ -41,7 +40,7 @@ const ConstitutionOfIndia = () => {
                   />
                 </div>
                 <div>
-                <AdCode />
+                
                 </div>
                 
                 <p>
@@ -59,7 +58,7 @@ const ConstitutionOfIndia = () => {
                   </div>
                 </Link>
               </div>
-              <AdCode />
+              
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">
                   How to access the Latest Constitution Of India KNC 501 KNC 601, Law And Engineering AKTU Quantum pdf
@@ -104,19 +103,19 @@ const ConstitutionOfIndia = () => {
                 </p>
               </div>
               <div>
-                <AdCode />
+                
                 </div>
             </div>
           </div>
           <div className="sidebar lg:w-1/4 p-4 bg-gray-100">
-            <AdCode />
+            
             <ol type="disc" className="text-orange-500 font-semibold flex flex-col">
               <Link href="/post/rts">Real time Quantum pdf</Link>
               <Link href="/post/3rdYear/Fmem">Fmem Aktu Quantum pdf</Link>
               <Link href="/post/3rdYear/Chemistry">Chemistry 3rd year Quantum</Link>
             </ol>
             <div>
-                <AdCode />
+                
                 </div>
           </div>
         </div>

@@ -1,12 +1,11 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { default as AdCode } from "../AdCode";
 const Middle = () => {
   const router = useRouter();
   return (
     <>
     
-    <AdCode />
+    
     <div className=" flex justify-center items-center flex-col ">
     
 
@@ -25,7 +24,7 @@ const Middle = () => {
         </button>
       </div>
     </div>
-      <AdCode />
+      
     </>
   );
 };

@@ -98,11 +98,11 @@ const Fmem = () => {
             </div>
           </div>
           <div className="sidebar lg:w-1/4 p-4 bg-gray-100">
-          <AdCode/>
+         
           <ul className="text-orange-500 font-semibold">
             <Link href='/post/rts'>Real time Aktu Quantum pdf</Link>
           </ul>
-          <AdCode/>
+         
             {/* <h2 className="text-xl font-semibold mb-4">Sidebar Content</h2> */}
             <p></p>
           </div>

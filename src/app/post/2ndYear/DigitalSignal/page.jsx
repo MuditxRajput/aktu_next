@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import dspImage from "../../../PostImage/signal.png"; // Assuming you have an image for Digital Signal Processing
-import AdCode from "../../../component/AdCode";
 
 const DigitalSignalProcessing = () => {
   const pageTitle =
@@ -46,7 +45,7 @@ const DigitalSignalProcessing = () => {
                     className="border-2 border-black"
                   />
                 </div>
-                <AdCode />
+                
                 <p>
                   Hello mates, how are you? The exam is near and you are
                   concerned about your exam, especially Digital Signal Processing. Don't worry! In this post, I will share the Digital Signal Processing AKTU Quantum pdf with you. From this AKTU
@@ -64,7 +63,7 @@ const DigitalSignalProcessing = () => {
                   </div>
                 </Link>
               </div>
-              <AdCode />
+              
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">
                   How to access the Latest Digital Signal Processing AKTU Quantum pdf
@@ -146,13 +145,13 @@ const DigitalSignalProcessing = () => {
             </div>
           </div>
           <div className="sidebar lg:w-1/4 p-4 bg-gray-100">
-            <AdCode />
+            
             <ol type="disc" className="text-orange-500 font-semibold flex flex-col">
               <Link href="/post/rts">Real time Quantum pdf</Link>
               <Link href="/post/3rdYear/Fmem">Fmem Aktu Quantum pdf</Link>
               <Link href="/post/3rdYear/Chemistry">Chemistry 3rd year Quantum</Link>
             </ol>
-            <AdCode />
+            
           </div>
         </div>
       </div>

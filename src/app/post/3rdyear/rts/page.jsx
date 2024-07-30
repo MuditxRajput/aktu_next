@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import AdCode from "../../../component/AdCode";
 import rtsImg from '../../../PostImage/Rts_syllabus.png';
 
 const Rts = () => {
@@ -33,7 +32,7 @@ const Rts = () => {
           <div className="flex justify-center items-center mb-3">
             <Image src={rtsImg} alt="Syllabus of Real time system KOE-061" className="border-2 border-black" />
           </div>
-          <AdCode/>
+          
           <p>
             Hello mates, how are you, so the exam is near and you are concerned about your exam, especially Real time system KOE-061. 
             Don't worry! In this post, I will share the Real time system KOE-061 Aktu Quantum pdf with you. From this Aktu quantum pdf, 
@@ -41,7 +40,7 @@ const Rts = () => {
             So without wasting any time, let's see how you can get the Latest Real time system KOE-061 Aktu Quantum pdf for B-Tech in 3rd year.
           </p>
         </div>
-        <AdCode/>
+        
         <div>
           <h2 className="text-xl font-semibold mb-4 mt-1">How to access the Latest Real time system KOE-061 Aktu Quantum pdf</h2>
           <p>You need to follow some steps to get access to the Real time system KOE-061 Quantum.</p>

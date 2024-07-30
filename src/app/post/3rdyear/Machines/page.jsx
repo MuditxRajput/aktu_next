@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import theoryOfMachinesImg from "../../../PostImage/machine.png";
-import AdCode from "../../../component/AdCode";
 
 const TheoryOfMachines = () => {
   const pageTitle =
@@ -47,7 +46,7 @@ const TheoryOfMachines = () => {
                   />
                 </div>
                 <div>
-                  <AdCode />
+                  
                 </div>
                 <p>
                   Hello mates, how are you? The exam is near and you are
@@ -70,7 +69,7 @@ const TheoryOfMachines = () => {
                 </Link>
               </div>
               <div>
-                <AdCode />
+                
               </div>
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">
@@ -170,7 +169,7 @@ const TheoryOfMachines = () => {
           </div>
           <div className="sidebar lg:w-1/4 p-4 bg-gray-100">
             <div>
-              <AdCode />
+              
             </div>
             <ol
               type="disc"
@@ -183,7 +182,7 @@ const TheoryOfMachines = () => {
               </Link>
             </ol>
             <div>
-              <AdCode />
+              
             </div>
           </div>
         </div>

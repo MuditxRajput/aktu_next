@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import transportImg from "../../../PostImage/transportation.png";
 // import AdCode from "../../../component/AdCode";
-import AdCode from "../../../component/AdCode";
 
 const TransportationEngineering = () => {
   const pageTitle = "Transportation Engineering KEC 602 AKTU Quantum PDF B-Tech 3rd Year | B.Tech 3rd Year Quantum";
@@ -41,7 +40,7 @@ const TransportationEngineering = () => {
                   So without wasting any time, let's see how you can get the Latest Transportation Engineering KEC 602 AKTU Quantum PDF for B-Tech in 3rd year.
                 </p>
               </div>
-              <AdCode />
+              
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">How to access the Latest Transportation Engineering KEC 602 AKTU Quantum PDF</h2>
                 <p>You need to follow some steps to get access to the Transportation Engineering KEC 602 Quantum.</p>
@@ -98,17 +97,17 @@ const TransportationEngineering = () => {
                   I hope you like the post. There is a button below from which you can get access to the AKTU quantum series for all B.Tech.
                 </p>
               </div>
-              <AdCode />
+              
             </div>
           </div>
           <div className="sidebar lg:w-1/4 p-4 bg-gray-100">
-            <AdCode />
+            
             <ol type="disc" className="text-orange-500 font-semibold flex flex-col">
               <Link href="/post/rts">Real Time Quantum PDF</Link>
               <Link href="/post/3rdYear/Fmem">FMEM AKTU Quantum PDF</Link>
               <Link href="/post/3rdYear/Chemistry">Chemistry 3rd Year Quantum</Link>
             </ol>
-            <AdCode />
+            
           </div>
         </div>
       </div>

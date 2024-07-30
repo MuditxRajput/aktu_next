@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import environment from "../../../PostImage/environment.png"; // Assuming you have an image for Environment And Ecology
-import AdCode from "../../../component/AdCode";
 
 const EnvironmentEcology = () => {
   const pageTitle =
@@ -48,7 +47,7 @@ const EnvironmentEcology = () => {
                     className="border-2 border-black"
                   />
                 </div>
-                <AdCode />
+                
                 <p>
                   Hello mates, how are you? The exam is near and you are
                   concerned about your exam, especially Environment And Ecology. 
@@ -68,7 +67,7 @@ const EnvironmentEcology = () => {
                   </div>
                 </Link>
               </div>
-              <AdCode />
+              
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">
                   How to access the Latest Environment And Ecology AKTU Quantum pdf
@@ -151,13 +150,13 @@ const EnvironmentEcology = () => {
             </div>
           </div>
           <div className="sidebar lg:w-1/4 p-4 bg-gray-100">
-            <AdCode />
+            
             <ol type="disc" className="text-orange-500 font-semibold flex flex-col">
               <Link href="/post/rts">Real time Quantum pdf</Link>
               <Link href="/post/1stYear/Fmem">Fmem Aktu Quantum pdf</Link>
               <Link href="/post/1stYear/Chemistry">Chemistry 1 year Quantum</Link>
             </ol>
-            <AdCode />
+            
           </div>
         </div>
       </div>

@@ -31,7 +31,7 @@ const RedirectPage = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <AdCode />
+      
       <div className="flex flex-col lg:flex-row">
        
         <div className="lg:w-3/4 p-4 order-1 lg:order-1 flex flex-col justify-center items-center">
@@ -74,7 +74,7 @@ const RedirectPage = () => {
         </div>
         <div className="lg:w-1/4 p-4 order-2 lg:order-2 bg-gray-100">
            
-           <AdCode />
+           
         </div>
       </div>
     </div>

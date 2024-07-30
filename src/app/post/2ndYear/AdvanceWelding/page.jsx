@@ -48,7 +48,7 @@ const AdvanceWelding = () => {
                     className="border-2 border-black"
                   />
                 </div>
-                <AdCode />
+                
                 <p>
                   Hello mates, how are you? The exam is near and you are
                   concerned about your exam, especially Advance Welding. 
@@ -68,7 +68,7 @@ const AdvanceWelding = () => {
                   </div>
                 </Link>
               </div>
-              <AdCode />
+              
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">
                   How to access the Latest Advance Welding AKTU Quantum pdf
@@ -151,13 +151,13 @@ const AdvanceWelding = () => {
             </div>
           </div>
           <div className="sidebar lg:w-1/4 p-4 bg-gray-100">
-            <AdCode />
+            
             <ol type="disc" className="text-orange-500 font-semibold flex flex-col">
               <Link href="/post/rts">Real time Quantum pdf</Link>
               <Link href="/post/3rdYear/Fmem">Fmem Aktu Quantum pdf</Link>
               <Link href="/post/3rdYear/Chemistry">Chemistry 3rd year Quantum</Link>
             </ol>
-            <AdCode />
+            
           </div>
         </div>
       </div>

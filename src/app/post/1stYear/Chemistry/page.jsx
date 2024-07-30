@@ -48,7 +48,7 @@ const Chemistry = () => {
                     className="border-2 border-black"
                   />
                 </div>
-                <AdCode />
+                
                 <p>
                   Hello mates, how are you, so the exam is near and you are
                   concerned about your exam, especially Engineering Chemistry. Don't worry!
@@ -69,7 +69,7 @@ const Chemistry = () => {
                   </div>
                 </Link>
               </div>
-              <AdCode />
+              
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">
                   How to access the Latest Engineering Chemistry Aktu Quantum pdf
@@ -167,7 +167,7 @@ const Chemistry = () => {
             </div>
           </div>
           <div className="sidebar lg:w-1/4 p-4 bg-gray-100">
-            <AdCode />
+            
             <ul className="text-orange-500 font-semibold">
               <Link href="/post/rts">Real time Aktu Quantum pdf</Link>
             </ul>

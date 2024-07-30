@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import electronic from "../../../PostImage/Electronic.png";
-import AdCode from "../../../component/AdCode";
 const Electronic = () => {
   const pageTitle =
     "Fundamentals Of Electronics Engineering Aktu Quantum pdf | B.tech 1st year quantum ";
@@ -49,7 +48,7 @@ const Electronic = () => {
                     className="border-2 border-black"
                   />
                 </div>
-                <AdCode />
+                
                 <p>
                   Hello mates, how are you, so the exam is near and you are
                   concerned about your exam, especially Fundamentals Of
@@ -72,7 +71,7 @@ const Electronic = () => {
                   </div>
                 </Link>
               </div>
-              <AdCode />
+              
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">
                   How to access the Latest Fundamentals Of Electronics
@@ -178,11 +177,11 @@ const Electronic = () => {
             </div>
           </div>
           <div className="sidebar lg:w-1/4 p-4 bg-gray-100">
-            <AdCode />
+            
             <ul className="text-orange-500 font-semibold">
               <Link href="/post/rts">Real time Aktu Quantum pdf</Link>
             </ul>
-            <AdCode />
+            
             {/* <h2 className="text-xl font-semibold mb-4">Sidebar Content</h2> */}
             <p></p>
           </div>
