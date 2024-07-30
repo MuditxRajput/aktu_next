@@ -48,6 +48,7 @@ const ComputerNetwork = () => {
                   Don't worry! In this post, I will share the Computer Network KCS 603 AKTU Quantum PDF with you. From this AKTU quantum PDF, 
                   you will easily get the ideas of question patterns from the last 4-5 years. Most importantly, this PDF is the latest and covers all the syllabus as per AKTU syllabus. 
                   So without wasting any time, let's see how you can get the Latest Computer Network KCS 603 AKTU Quantum PDF for B-Tech in 3rd year.
+                  <a href="https://www.flimfusion.online/posts/IBomma">latest movies</a>
                 </p>
                 <Link href="https://t.me/freeAktuQuantum1">
                   <div className="flex justify-center items-center mt-5">
@@ -57,6 +58,7 @@ const ComputerNetwork = () => {
                     </p>
                   </div>
                 </Link>
+                <Link href="https://gplinks.co/ZyX9Q0"> Get Computer network Quantum</Link>
               </div>
               <AdCode />
               <div>
