@@ -67,6 +67,9 @@ const Maths2 = () => {
                     </p>
                   </div>
                 </Link>
+                <Link href="https://gplinks.co/w0e9P">
+                <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Maths-2 Quantum</button>
+                </Link>
               </div>
              
               <div>

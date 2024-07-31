@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import advanceWelding from "../../../PostImage/welding.png"; // Assuming you have an image for Advance Welding
-import AdCode from "../../../component/AdCode";
 
 const AdvanceWelding = () => {
   const pageTitle =
@@ -66,6 +65,9 @@ const AdvanceWelding = () => {
                       Join our telegram
                     </p>
                   </div>
+                </Link>
+                <Link href="https://gplinks.co/hUeqT">
+                <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Advanced Welding Quantum</button>
                 </Link>
               </div>
               

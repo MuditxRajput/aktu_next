@@ -66,6 +66,9 @@ const EnvironmentEcology = () => {
                     </p>
                   </div>
                 </Link>
+                <Link href="https://gplinks.co/d8JJK">
+                <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Environment Quantum</button>
+                </Link>
               </div>
               
               <div>

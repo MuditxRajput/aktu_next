@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import fmem from '../../../PostImage/Fmem.png';
-import AdCode from "../../../component/AdCode";
 const Fmem = () => {
   const pageTitle = "Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum free | aktu 1st year quantum";
   const pageDescription = "Get the latest Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum PDF for B.Tech 1st year. Access question patterns, syllabus, and more.";
@@ -37,7 +36,7 @@ const Fmem = () => {
                 <div className="flex justify-center items-center mb-3">
                   <Image src={fmem} alt="Syllabus of Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum" className="border-2 border-black" />
                 </div>
-                <AdCode />
+                
                 <p>
                   Hello mates, how are you, so the exam is near and you are concerned about your exam, especially Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum.
                   Don't worry! In this post, I will share the Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum pdf with you. From this Aktu quantum pdf,
@@ -49,9 +48,12 @@ const Fmem = () => {
                 <FaTelegram className=" text-3xl sm:text-6xl"/> <p className="px-3 font-semibold text-orange-500  underline">Join our telegram</p>
                 </div>
             </Link>
+            <Link href="https://gplinks.co/qwOrV">
+                <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Mechanical Quantum</button>
+                </Link>
                 
               </div>
-              <AdCode />
+              
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">How to access the Latest Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum pdf</h2>
                 <p>You need to follow some steps to get access to the Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum Quantum.</p>

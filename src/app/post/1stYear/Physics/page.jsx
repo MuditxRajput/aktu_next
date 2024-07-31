@@ -66,6 +66,9 @@ const EngineeringPhysics = () => {
                     </p>
                   </div>
                 </Link>
+                <Link href="https://gplinks.co/9NJPlkh">
+                <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Physics Quantum</button>
+                </Link>
               </div>
               
               <div>

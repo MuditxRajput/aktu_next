@@ -70,6 +70,9 @@ const Electronic = () => {
                     </p>
                   </div>
                 </Link>
+                <Link href="https://gplinks.co/fRvHbKl"> 
+                  <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Electronics Quantum</button>
+                </Link>
               </div>
               
               <div>

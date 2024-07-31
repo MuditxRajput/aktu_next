@@ -101,7 +101,7 @@
     },
     {
         name:"Maths-3",
-        src:"https://gplinks.co/z2og",
+        src:"https://gplinks.co/ypwCHXR",
         year:"2",
     },
     {
