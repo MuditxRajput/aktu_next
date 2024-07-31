@@ -2,15 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
-import pythonProgramming from "../../../PostImage/PythonProgramming.png";
+import dataStructure from "../../../PostImage/Dsa.png";
 
-const PythonProgramming = () => {
+const DataStructure = () => {
   const pageTitle =
-    "Python Programming KNC 302 / KNC 402 Aktu Quantum pdf 2nd year | B.Tech 2nd year aktu quantum pdf";
+    "Data Structure KCS 301 Aktu Quantum pdf 2nd year | B.Tech 2nd year aktu quantum pdf";
   const pageDescription =
-    "Get the latest Python Programming KNC 302 / KNC 402 Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
+    "Get the latest Data Structure KCS 301 Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
   const pageKeywords =
-    "Python Programming KNC 302, Python Programming KNC 402, Aktu Quantum, B.Tech 2nd Year, PDF, Syllabus, aktu, aktu result, aktu one view, Aktu 2nd year quantum pdf free";
+    "Data Structure KCS 301 Aktu Quantum, Aktu Quantum, B.Tech 2nd Year, PDF, Syllabus, aktu, aktu result, aktu one view, Aktu 2nd year quantum pdf free";
 
   return (
     <>
@@ -36,28 +36,28 @@ const PythonProgramming = () => {
             <div className="rounded-md shadow-sm shadow-gray-700 p-7">
               <div className="mb-10">
                 <h1 className="font-bold text-3xl mb-2">
-                  Python Programming KNC 302 / KNC 402 Aktu Quantum pdf | B.Tech 2nd year aktu quantum pdf
+                  Data Structure KCS 301 Aktu Quantum pdf | B.Tech 2nd year aktu quantum pdf
                 </h1>
                 
               </div>
               <div className="mb-6">
                 <div className="flex justify-center items-center mb-3">
                   <Image
-                    src={pythonProgramming}
-                    alt="Syllabus of Python Programming KNC 302 / KNC 402 Aktu Quantum"
+                    src={dataStructure}
+                    alt="Syllabus of Data Structure KCS 301 Aktu Quantum"
                     className="border-2 border-black"
                   />
                 </div>
 
                 <p>
-                  Hello mates, how are you? The exam is approaching, and you are
-                  concerned about your exam, especially Python Programming KNC 302 / KNC 402.
-                  Don't worry! In this post, I will share the Python Programming KNC 302 / KNC 402 Aktu Quantum pdf with you.
+                  Hello mates, how are you, so the exam is near and you are
+                  concerned about your exam, especially Data Structure KCS 301.
+                  Don't worry! In this post, I will share the Data Structure KCS 301 Aktu Quantum pdf with you. 
                   From this Aktu quantum pdf, you will easily get the ideas of question patterns from
                   the last 4-5 years. Most importantly, this pdf is the latest
                   and covers all the syllabus as per AKTU syllabus. So without
                   wasting any time, let's see how you can get the Latest
-                  Python Programming KNC 302 / KNC 402 Aktu Quantum pdf for B-Tech in 2nd year.
+                  Data Structure KCS 301 Aktu Quantum pdf for B-Tech in 2nd year.
                 </p>
                 <Link href="https://t.me/freeAktuQuantum2">
                   <div className="flex justify-center items-center mt-5 ">
@@ -69,18 +69,18 @@ const PythonProgramming = () => {
                 </Link>
                 <Link href="https://gplinks.co/CuEo8">
                   <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">
-                    Download Python Programming Quantum
+                    Download Data Structure Quantum
                   </button>
                 </Link>
               </div>
 
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">
-                  How to access the Latest Python Programming KNC 302 / KNC 402 Aktu Quantum pdf
+                  How to access the Latest Data Structure KCS 301 Aktu Quantum pdf
                 </h2>
                 <p>
-                  You need to follow some steps to get access to the Python
-                  Programming Quantum.
+                  You need to follow some steps to get access to the Data
+                  Structure Quantum.
                 </p>
                 <p className="text-lg font-semibold mb-1 mt-1">
                   Step 1: Go to our website.
@@ -101,10 +101,10 @@ const PythonProgramming = () => {
                 <p>
                   After clicking on the official website, you are redirected to
                   our official website, where you see the years button. As
-                  Python Programming comes under 2nd year, you can click on the
+                  Data Structure comes under 2nd year, you can click on the
                   2nd-year button. After clicking on the 2nd-year button, the pdf
                   section will be refreshed, and all quantum is of 2nd year.
-                  Scroll down and find the Python Programming pdf, click on
+                  Scroll down and find the Data Structure pdf, click on
                   it, and access it directly.
                 </p>
                 <p className="text-lg font-semibold mb-1 mt-1">
@@ -113,72 +113,87 @@ const PythonProgramming = () => {
                 <p>
                   If you don't want to scroll down, no problem. On the same
                   page, you see the search bar, click on it, and type
-                  Python Programming. Simply type the first word of any Aktu
+                  Data Structure. Simply type the first word of any Aktu
                   quantum you want to find. After writing, click on the search
                   button, and as you click on it, below it you see the
-                  Python Programming aktu quantum pdf. Click on it and access
+                  Data Structure aktu quantum pdf. Click on it and access
                   it easily. These are all the steps you need to follow to get
-                  access to Python Programming Aktu quantum pdf.
+                  access to Data Structure Aktu quantum pdf.
                 </p>
                 <p>
                   These are all the steps you need to follow to get access to
-                  Python Programming Aktu Quantum pdf.
+                  Data Structure Aktu Quantum pdf.
                 </p>
                 <h3 className="text-lg font-semibold mb-1 mt-2">
-                  Syllabus of Python Programming KNC 302 / KNC 402 Aktu Quantum pdf
+                  Syllabus of Data Structure KCS 301 Aktu Quantum pdf
                 </h3>
                 <p>
-                  In Python Programming pdf, there are a total of 5 units as
-                  per the Aktu syllabus of Python Programming.
+                  In Data Structure pdf, there are a total of 5 units as
+                  per the Aktu syllabus of Data Structure.
                   <br />{" "}
                   <span className="font-semibold">
-                    Unit 1: Introduction and Basics
+                    Unit 1: Arrays and Linked Lists
                   </span>{" "}
                   <br />
-                  Introduction: The Programming Cycle for Python, Python IDE,
-                  Interacting with Python Programs, Elements of Python, Type
-                  Conversion. Basics: Expressions, Assignment Statement, Arithmetic Operators,
-                  Operator Precedence, Boolean Expression.
+                  Introduction: Basic Terminology, Elementary Data Organization, Built in
+                  Data Types in C. Algorithm, Efficiency of an Algorithm, Time and Space
+                  Complexity, Asymptotic notations: Big Oh, Big Theta and Big Omega,
+                  Time-Space trade-off. Abstract Data Types (ADT).
+                  Arrays: Definition, Single and Multidimensional Arrays, Representation
+                  of Arrays: Row Major Order, and Column Major Order, Derivation of
+                  Index Formulae for 1-D, 2-D, 3-D and n-D Array. Application of arrays,
+                  Sparse Matrices and their representations.
+                  Linked lists: Array Implementation & Pointer Implementation of Singly Linked
+                  Lists, Doubly Linked List, Circularly Linked List, Operations on Linked List.
+                  Insertion, Deletion, Traversal, Polynomial Representation & Addition Subtraction
+                  & Multiplications of Single variable & Two variables Polynomial.
                   <br />
                   <span className="font-semibold">
-                    Unit 2: Conditionals and Loops
+                    Unit 2: Stacks and Queues
                   </span>{" "}
                   <br />
-                  Conditionals: Conditional statement in Python (if-else statement,
-                  its working and execution), Nested-if statement and Elif statement
-                  in Python, Expression Evaluation & Float Representation. Loops: Purpose and working of loops,
-                  While loop including its working, For Loop, Nested Loops, Break and Continue.
+                  Stacks: Abstract Data Type, Primitive Stack operations: Push & Pop, Array
+                  & Linked Implementation of Stack in C, Application of stack: Prefix and
+                  Postfix Expressions, Evaluation of postfix expression, Iteration and Recursion-
+                  Principles of recursion, Tail recursion, Removal of recursion Problem solving
+                  using iteration and recursion with examples such as binary search, Fibonacci
+                  numbers and Hanoi towers. Tradeoffs between iteration and recursion.
+                  Queues: Operations on Queue: Create, Add, Delete, Full & Empty, Circular queues,
+                  Array & linked implementation of queues in C, Dequeue & Priority Queue.
                   <br />
                   <span className="font-semibold">
-                    Unit 3: Function and Strings
+                    Unit 3: Searching & Sorting
                   </span>{" "}
                   <br />
-                  Function: Parts of A Function, Execution of A Function, Keyword
-                  and Default Arguments, Scope Rules. Strings : Length of the string and perform Concatenation and Repeat
-                  operations in it, Indexing and Slicing of Strings. Python Data Structure : Tuples, Unpacking Sequences, Lists,
-                  Mutable Sequences, List Comprehension, Sets, Dictionaries. Higher Order Functions: Treat functions as first class Objects,
-                  Lambda Expressions.
+                  Concept of Searching, Sequential search, Index Sequential Search, Binary Search.
+                  Concept of Hashing & Collision resolution Techniques used in Hashing.
+                  Sorting: Insertion Sort, Selection, Bubble Sort, Quick Sort, Merge Sort, Heap Sort
+                  and Radix Sort.
                   <br />
                   <span className="font-semibold">
-                    Unit 4: Sieve of Eratosthenes & File I/O
+                    Unit 4: Graphs
                   </span>{" "}
                   <br />
-                  Sieve of Eratosthenes: generate prime numbers with the help of an
-                  algorithm given by the Greek Mathematician named Eratosthenes,
-                  whose algorithm is known as Sieve of Eratosthenes. File I/O : File input and output operations in Python Programming.
-                  Exceptions and Assertions Modules : Introduction, Importing
-                  Modules. Abstract Data Types : Abstract data types and ADT interface in
-                  Python Programming. Classes : Class definition and other operations in the classes, Special
-                  Methods (such as _init_, _str_, comparison methods and Arithmetic
-                  methods etc.), Class Example, Inheritance, Inheritance and OOP.
+                  Terminology used with Graph, Data Structure for Graph Representations:
+                  Adjacency Matrices, Adjacency List, Adjacency. Graph Traversal: Depth
+                  First Search & Breadth First Search, Connected Component, Spanning Trees,
+                  Minimum Cost Spanning Trees: Prims and Kruskal algorithm. Transitive
+                  Closure & Shortest Path algorithm: Warshal Algorithm & Dijikstra Algorithm.
                   <br />
                   <span className="font-semibold">
-                    Unit 5: Iterators & Recursion
+                    Unit 5: Trees
                   </span>{" "}
                   <br />
-                  Iterators & Recursion: Recursive Fibonacci, Tower Of Hanoi. Search : Simple Search and Estimating Search Time, Binary Search
-                  and Estimating Binary Search Time. Sorting & Merging : Selection Sort, Merge List, Merge Sort, Higher Order Sort
-                  </p>
+                  Basic terminology used with Tree, Binary Trees, Binary Tree
+                  Representation: Array Representation and Pointer (Linked List)
+                  Representation, Binary Search Tree, Strictly Binary Tree, Complete Binary
+                  Tree. A Extended Binary Trees, Tree Traversal algorithms: Inorder,
+                  Preorder and Postorder, Constructing Binary Tree from given Tree
+                  Traversal, Operation of Insertion, Deletion, Searching & Modification of
+                  data in Binary Search. Threaded Binary trees, Traversing Threaded Binary
+                  trees. Huffman coding using Binary Tree. Concept & Basic Operations for
+                  AVL Tree, B Tree & Binary Heaps.
+                </p>
                 <p className="text-lg font-semibold mb-1 mt-1">
                   How to request any aktu quantum pdf on our website.
                 </p>
@@ -188,27 +203,30 @@ const PythonProgramming = () => {
                   we upload the pdf and you get access to that Aktu quantum pdf.
                 </p>
                 <h2 className="text-bold text-xl mt-2">
-                  Study Tips for Mastering Python Programming
+                  Study Tips for Mastering Data Structure
                 </h2>
                 <ol>
                   <li>
                     Review the AKTU Quantum PDF regularly to reinforce concepts.
                   </li>
                   <li>
-                    Practice coding exercises to apply theoretical knowledge.
+                    Practice solving previous years' questions to familiarize
+                    yourself with exam patterns.
                   </li>
                   <li>
-                    Break down complex problems into smaller, manageable tasks.
+                    Create mind maps or flowcharts to visualize complex processes.
                   </li>
                   <li>
-                    Participate in coding challenges and competitions to test your skills.
+                    Form study groups to discuss challenging topics and share
+                    insights.
                   </li>
                   <li>
-                    Engage in peer programming and seek feedback on your code.
+                    Apply theoretical knowledge to practical scenarios through
+                    simple experiments or case studies.
                   </li>
                 </ol>
                 <h2 className="text-bold text-xl mt-2 mb-2">Frequently Asked Questions</h2>
-                <h3>Q: Is the Python Programming KNC 302 / KNC 402 AKTU Quantum PDF free?</h3>
+                <h3>Q: Is the Data Structure KCS 301 AKTU Quantum PDF free?</h3>
                 <p>
                   A: Yes, the PDF is completely free for all B.Tech 2nd year
                   students.
@@ -225,9 +243,9 @@ const PythonProgramming = () => {
                 </p>
                 <p className="text-lg font-semibold mb-1 mt-1">Conclusion</p>
                 <p>
-                  In this post, we learned how to access Python Programming KNC 302 / KNC 402
+                  In this post, we learned how to access Data Structure KCS 301
                   Aktu Quantum pdf for B-tech 2nd year in just a few steps. I
-                  hope you find this information useful. There is a button below from which you
+                  hope you like the post. There is a button below from which you
                   can get access to the aktu quantum series for all B.tech.
                 </p>
               </div>
@@ -247,4 +265,4 @@ const PythonProgramming = () => {
   );
 };
 
-export default PythonProgramming;
+export default DataStructure;

@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
-import maths3Image from "../../../PostImage/Maths-3.png"; // Update the path to your new image
+import maths3Image from "../../../PostImage/maths-3.png"; // Update the path to your new image
 
 const Maths3 = () => {
   const pageTitle =
