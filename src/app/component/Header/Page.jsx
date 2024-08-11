@@ -39,6 +39,9 @@ const Header = () => {
           <li className="hover:underline cursor-pointer">
             <Link href="/component/Dmca">Dmca</Link>
           </li>
+          <li className="hover:underline cursor-pointer">
+            <Link href="https://forms.gle/Dh9Vbg3ahG3Lkt8B6">Form</Link>
+          </li>
         </ul>
       </div>
       <div className="sm:hidden">
