@@ -236,7 +236,7 @@ const quantum = [
     },
     {
         name:"Microprocessor and microcontroller",
-        src:"https://drive.google.com/file/d/1F4Op6cm8w9Di7XLLO6Gel7SiEJ8litPw/view?usp=drive_link",
+        src:"https://drive.google.com/file/d/1F4Op6cm8w9Di7XLLO6Gel7SiEJ8litPw/view?usp=sharing",
         year:"3"
     },
     {
