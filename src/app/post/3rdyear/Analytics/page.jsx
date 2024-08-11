@@ -7,7 +7,7 @@ import AdCode from "../../../component/AdCode";
 
 const DataAnalytics = () => {
   const pageTitle =
-    "Data Analytics AKTU Quantum pdf | B.Tech 3rd year quantum pdf";
+    "Data Analytics Aktu Quantum pdf | B.Tech 3rd year quantum pdf";
   const pageDescription =
     "Get the latest Data Analytics AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =
@@ -24,7 +24,7 @@ const DataAnalytics = () => {
         <meta property="og:image" content="/path/to/your/image.jpg" />
         <meta
           property="og:url"
-          content="http://aktu-quantum.online/path/to/your/page"
+          content="http://aktu-quantum.online/post/3rdyear/Analytics"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />

@@ -22,7 +22,7 @@ const Maths2 = () => {
         <meta property="og:image" content="/path/to/your/image.jpg" />
         <meta
           property="og:url"
-          content="http://aktu-quantum.online/path/to/your/page"
+          content="http://aktu-quantum.online/post/1stYear/Maths2"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
@@ -67,7 +67,7 @@ const Maths2 = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/w0e9P">
+                <Link href="/component/Quantum">
                 <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Maths-2 Quantum</button>
                 </Link>
               </div>

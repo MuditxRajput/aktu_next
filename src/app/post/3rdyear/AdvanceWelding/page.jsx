@@ -6,7 +6,7 @@ import advanceWelding from "../../../PostImage/welding.png"; // Assuming you hav
 
 const AdvanceWelding = () => {
   const pageTitle =
-    "Advance Welding AKTU Quantum pdf | B.Tech 3rd year quantum pdf";
+    "Advance Welding Aktu Quantum pdf | B.Tech 3rd year quantum pdf";
   const pageDescription =
     "Get the latest Advance Welding AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =
@@ -23,7 +23,7 @@ const AdvanceWelding = () => {
         <meta property="og:image" content="/path/to/your/image.jpg" />
         <meta
           property="og:url"
-          content="http://aktu-quantum.online/path/to/your/page"
+          content="http://aktu-quantum.online/post/3rdyear/AdvanceWelding"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
@@ -66,7 +66,7 @@ const AdvanceWelding = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/hUeqT">
+                <Link href="http://aktu-quantum.online/post/3rdyear/AdvanceWelding">
                 <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Advanced Welding Quantum</button>
                 </Link>
               </div>

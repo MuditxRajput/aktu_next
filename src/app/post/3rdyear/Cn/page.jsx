@@ -5,9 +5,9 @@ import { FaTelegram } from "react-icons/fa";
 import computerNetworkImg from '../../../PostImage/cn.png'; // Assuming you have an image for Computer Networks
 
 const ComputerNetwork = () => {
-  const pageTitle = "Computer Network KCS 603 AKTU Quantum PDF | B.Tech 3rd Year Quantum";
+  const pageTitle = "Computer Network aktu quantum KCS 603 AKTU Quantum PDF | B.Tech 3rd Year aktu Quantum";
   const pageDescription = "Get the latest Computer Network KCS 603 AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
-  const pageKeywords = "Computer Network, AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns";
+  const pageKeywords = "Computer Network quantum, AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns";
 
   return (
     <>
@@ -57,7 +57,7 @@ const ComputerNetwork = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/ZyX9Q0"> Get Computer network Quantum</Link>
+                <Link href="/post/3rdyear/Cn"> Get Computer network Quantum</Link>
               </div>
               
               <div>

@@ -5,7 +5,7 @@ import { FaTelegram } from "react-icons/fa";
 import electronic from "../../../PostImage/Electronic.png";
 const Electronic = () => {
   const pageTitle =
-    "Fundamentals Of Electronics Engineering Aktu Quantum pdf | B.tech 1st year quantum ";
+    "Fundamentals Of Electronics Engineering Aktu Quantum pdf 1st year | B.tech 1st year aktu quantum pdf ";
   const pageDescription =
     "Get the latest Fundamentals Of Electronics Engineering Aktu Quantum PDF for B.Tech 1st year. Access question patterns, syllabus, and more.";
   const pageKeywords =
@@ -22,7 +22,7 @@ const Electronic = () => {
         <meta property="og:image" content="/path/to/your/image.jpg" />
         <meta
           property="og:url"
-          content="http://aktu-quantum.online/path/to/your/page"
+          content="http://aktu-quantum.online/post/1stYear/Electronic"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
@@ -70,7 +70,7 @@ const Electronic = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/fRvHbKl"> 
+                <Link href="/component/Quantum"> 
                   <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Electronics Quantum</button>
                 </Link>
               </div>

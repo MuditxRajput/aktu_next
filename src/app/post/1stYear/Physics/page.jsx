@@ -6,7 +6,7 @@ import engineeringPhysics from "../../../PostImage/physics.png"; // Assuming you
 
 const EngineeringPhysics = () => {
   const pageTitle =
-    "Engineering Physics AKTU Quantum pdf | B.Tech 1st year quantum pdf";
+    "Engineering Physics AKTU Quantum pdf 1st year | B.Tech 1st year quantum pdf";
   const pageDescription =
     "Get the latest Engineering Physics AKTU Quantum PDF for B.Tech 1st year. Access question patterns, syllabus, and more.";
   const pageKeywords =
@@ -23,7 +23,7 @@ const EngineeringPhysics = () => {
         <meta property="og:image" content="/path/to/your/image.jpg" />
         <meta
           property="og:url"
-          content="http://aktu-quantum.online/path/to/your/page"
+          content="http://aktu-quantum.online/post/1stYear/Physics"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
@@ -66,7 +66,7 @@ const EngineeringPhysics = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/9NJPlkh">
+                <Link href="/component/Quantum">
                 <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Physics Quantum</button>
                 </Link>
               </div>

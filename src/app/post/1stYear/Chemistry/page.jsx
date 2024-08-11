@@ -23,7 +23,7 @@ const Chemistry = () => {
         <meta property="og:image" content="/path/to/your/image.jpg" />
         <meta
           property="og:url"
-          content="http://aktu-quantum.online/path/to/your/page"
+          content="http://aktu-quantum.online/post/1stYear/Chemistry"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
@@ -69,7 +69,7 @@ const Chemistry = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/chemistryEng">
+                <Link href="/component/Quantum">
                   <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">
                     Download Chemistry Quantum
                   </button>

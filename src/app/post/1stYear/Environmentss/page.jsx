@@ -6,7 +6,7 @@ import environment from "../../../PostImage/environment.png"; // Assuming you ha
 
 const EnvironmentEcology = () => {
   const pageTitle =
-    "Environment And Ecology AKTU Quantum pdf | B.Tech 1st year quantum";
+    "Environment And Ecology AKTU Quantum pdf 1st year | B.Tech 1st year aktu quantum";
   const pageDescription =
     "Get the latest Environment And Ecology AKTU Quantum PDF for B.Tech 1st year. Access question patterns, syllabus, and more.";
   const pageKeywords =
@@ -23,7 +23,7 @@ const EnvironmentEcology = () => {
         <meta property="og:image" content="/path/to/your/image.jpg" />
         <meta
           property="og:url"
-          content="http://aktu-quantum.online/path/to/your/page"
+          content="http://aktu-quantum.online/post/1stYear/Environmentss"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
@@ -66,7 +66,7 @@ const EnvironmentEcology = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/d8JJK">
+                <Link href="component/Quantum">
                 <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Environment Quantum</button>
                 </Link>
               </div>

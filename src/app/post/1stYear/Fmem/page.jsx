@@ -4,7 +4,7 @@ import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import fmem from '../../../PostImage/Fmem.png';
 const Fmem = () => {
-  const pageTitle = "Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum free | aktu 1st year quantum";
+  const pageTitle = "Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum pdf free | aktu 1st year quantum pdf";
   const pageDescription = "Get the latest Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum PDF for B.Tech 1st year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum, Aktu Quantum, B.Tech 3rd Year, PDF, Syllabus, aktu , aktu result, aktu one view , Aktu 1st year quanutm pdf free";
 
@@ -17,7 +17,7 @@ const Fmem = () => {
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDescription} />
         <meta property="og:image" content="/path/to/your/image.jpg" />
-        <meta property="og:url" content="http://aktu-quantum.online/path/to/your/page" />
+        <meta property="og:url" content="http://aktu-quantum.online/post/1stYear/Fmem" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
@@ -48,7 +48,7 @@ const Fmem = () => {
                 <FaTelegram className=" text-3xl sm:text-6xl"/> <p className="px-3 font-semibold text-orange-500  underline">Join our telegram</p>
                 </div>
             </Link>
-            <Link href="https://gplinks.co/qwOrV">
+            <Link href="/component/Quantum">
                 <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Mechanical Quantum</button>
                 </Link>
                 
