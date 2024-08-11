@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-orange-600 mt-10 w-full rounded-lg shadow p-4">
+    <footer className="bg-orange-600  w-full rounded-lg shadow p-4">
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between">
         <span className="text-sm text-center text-white mb-4 md:mb-0">
           © 2024 Aktu-Quantum. All Rights Reserved.

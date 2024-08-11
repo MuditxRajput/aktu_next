@@ -78,32 +78,42 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.aktu-quantum.online/post/2ndYear/Geology</loc>
+  <loc>https://www.aktu-quantum.online/post/1stYear/All</loc>
   <lastmod>2024-06-24T12:59:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.aktu-quantum.online/post/2ndYear/Mechanism</loc>
+  <loc>https://www.aktu-quantum.online/post/2ndYear/All</loc>
   <lastmod>2024-06-24T12:59:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.aktu-quantum.online/post/2ndYear/Environmental</loc>
+  <loc>https://www.aktu-quantum.online/post/3rdyear/Geology</loc>
   <lastmod>2024-06-24T12:59:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.aktu-quantum.online/post/2ndYear/DigitalSignal</loc>
+  <loc>https://www.aktu-quantum.online/post/3rdyear/Mechanism</loc>
   <lastmod>2024-06-24T12:59:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.aktu-quantum.online/post/2ndYear/Daa</loc>
+  <loc>https://www.aktu-quantum.online/post/3rdyear/Environmental</loc>
   <lastmod>2024-06-24T12:59:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.aktu-quantum.online/post/2ndYear/Control</loc>
+  <loc>https://www.aktu-quantum.online/post/3rdyear/DigitalSignal</loc>
+  <lastmod>2024-06-24T12:59:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.aktu-quantum.online/post/3rdyear/Daa</loc>
+  <lastmod>2024-06-24T12:59:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.aktu-quantum.online/post/3rdyear/Control</loc>
   <lastmod>2024-06-24T12:59:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -113,12 +123,12 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.aktu-quantum.online/post/2ndYear/Analytics</loc>
+  <loc>https://www.aktu-quantum.online/post/3rdyear/Analytics</loc>
   <lastmod>2024-06-24T12:59:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.aktu-quantum.online/post/2ndYear/AdvanceWelding</loc>
+  <loc>https://www.aktu-quantum.online/post/3rdyear/AdvanceWelding</loc>
   <lastmod>2024-06-24T12:59:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -129,6 +139,11 @@
 </url>
 <url>
   <loc>https://www.aktu-quantum.online/post/3rdyear/concrete</loc>
+  <lastmod>2024-06-24T12:59:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.aktu-quantum.online/post/3rdyear/ConcreteTech</loc>
   <lastmod>2024-06-24T12:59:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -149,6 +164,11 @@
 </url>
 <url>
   <loc>https://www.aktu-quantum.online/post/3rdyear/Machines</loc>
+  <lastmod>2024-06-24T12:59:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.aktu-quantum.online/post/3rdyear/All</loc>
   <lastmod>2024-06-24T12:59:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>

@@ -1,32 +1,32 @@
- const listOfQuantum = [
+const quantum = [
     {
             name:"Soft Skill",
-            src:"https://gplinks.co/0iTWepG",
+            src:"https://drive.google.com/file/d/1utTDCJpqZJVm1Nvc5eyjcXSkKKKJ8J8c/view?usp=sharing",
             year:"1"
     },
     {
        name:"Fundamental of mechincal ENGINEERING",
-       src:"https://gplinks.co/qwOrV",
+       src:"https://drive.google.com/file/d/1IVZfKFavWjRWAIeA3my9IdsiulTBgZF5/view?usp=sharing",
        year:"1", 
     },
     {
        name:"ENGINEERING CHEMISTRY",
-       src:"https://gplinks.co/chemistryEng",
+       src:"https://drive.google.com/file/d/1tjA5OHoP7RKHC7RbDdnqahtcVnluNfo_/view?usp=sharing",
        year:"1", 
     },
     {
        name:"FUNDAMENTALS OF ELECTRONICS ENGINEERING",
-       src:"https://gplinks.co/fRvHbKl",
+       src:"https://drive.google.com/file/d/1K6mrdNjrVndGHmc5ldsaUD8X2nTtjdbh/view?usp=sharing",
        year:"1", 
     },
     {
        name:"ENGINEERING  MATHEMATICS -I",
-       src:"https://gplinks.co/urxGsdTC",
+       src:"https://drive.google.com/file/d/1i7aNWQ9KxvRrUnbsspwN7ZozWE_4dZ4a/view?usp=sharing",
        year:"1", 
     },
     {
        name:"ENGINEERING MATHEMATICS -II",
-       src:"https://gplinks.co/w0e9P",
+       src:"https://drive.google.com/file/d/1HGge5LhzwOatNeemxBNvWFGzXFNFNPjZ/view?usp=drive_link",
        year:"1", 
     },
     {
@@ -36,267 +36,267 @@
     },
     {
        name:"ENGINEERING PHYSICS",
-       src:"https://gplinks.co/9NJPlkh",
+       src:"https://drive.google.com/file/d/1QTJP3Fab5yv7tSfixfi9meNe9upFGvZu/view?usp=drive_link",
        year:"1", 
     },
     {
        name:"PROGRAMMING FOR PROBLEM-SOLVING",
-       src:"https://gplinks.co/O3RFap",
+       src:"https://drive.google.com/file/d/15m8SRGv3oYN2M4aWJb0q0AV3qay12Goe/view?usp=drive_link",
        year:"1", 
     },
     {
        name:"ENVIRONMENT AND ECOLOGY",
-       src:"https://gplinks.co/d8JJK",
+       src:"https://drive.google.com/file/d/15uvs2FoxBmbrYxiuRRcNP8s-bRFpdNwP/view?usp=drive_link",
        year:"1", 
     },
     {
         name:"Tafl ",
-        src:"https://gplinks.co/KfcyaJ",
+        src:"https://drive.google.com/file/d/1Ug_IDw4h9FETuFNocq9RhKS707gV6M9M/view?usp=sharing",
         year:"2",
     },
     {
         name:"Data Structure and algo",
-        src:"https://gplinks.co/CuEo8",
+        src:"https://drive.google.com/file/d/1FTtFXdIuDAcPpZCquIditQ0tRX0TeDr0/view?usp=drive_link",
         year:"2",
     },
     {
         name:"COA",
-        src:"https://gplinks.co/VB5w",
+        src:"https://drive.google.com/file/d/1TyHajTWXbU4beg6rJYjgqE6_DBT0bni-/view?usp=drive_link",
         year:"2",
     },
     {
         name:"Materials Science and Engineering",
-        src:"https://gplinks.co/rjvrW33",
+        src:"https://drive.google.com/file/d/1O4k766VXgtUtk1PlcGJMyTwZyunu5oA3/view?usp=drive_link",
         year:"2",
     },
     {
         name:"Fluid Mechanics & Fluid Machines",
-        src:"https://gplinks.co/gRx4gi",
+        src:"https://drive.google.com/file/d/1O1TeDkbAOhPZra-eEfmKUgJkzgVaF7D8/view?usp=drive_link",
         year:"2",
     },
     {
         name:"Energy science quantum",
-        src:"https://gplinks.co/fSJfQNCp",
+        src:"https://drive.google.com/file/d/1sWZo9amUSxBCiAh5HsrETLkLHKr3-NuV/view?usp=sharing",
         year:"2",
     },
     {
         name:"Computer System Security",
-        src:"https://gplinks.co/ym4o",
+        src:"https://drive.google.com/file/d/1lVq8h2kAThdXjlRpkuJpVWYq7NnnX6rb/view?usp=drive_link",
         year:"2",
     },
     {
         name:"DSTL",
-        src:"https://gplinks.co/sX3U",
+        src:"https://drive.google.com/file/d/1mAxuefubbqGaVCveJPl3H3l35DzcqJWt/view?usp=drive_link",
         year:"2",
     },
     {
         name:"Math-4",
-        src:"https://gplinks.co/S1Z0O",
+        src:"https://drive.google.com/file/d/1Sf3id-5xOVyAXmG8F3o0REVrZXBgVXQm/view?usp=drive_link",
         year:"2",
     },
     {
         name:"Python Programming",
-        src:"https://gplinks.co/75FauPE",
+        src:"https://drive.google.com/file/d/1uYzXX9AkD4KqYb06UpFCbP_GwmT0Dsws/view?usp=drive_link",
         year:"2",
     },
     {
         name:"Maths-3",
-        src:"https://gplinks.co/ypwCHXR",
+        src:"https://drive.google.com/file/d/11S84234OFFjgVTJ-OGp9DBTfRDL94-qo/view?usp=drive_link",
         year:"2",
     },
     {
         name:"Technical Communication",
-        src:"https://gplinks.co/4MQiU",
+        src:"https://drive.google.com/file/d/14I-Rj5Lcc0Y-2RIS8MSX3n7K80ZmEoGw/view?usp=drive_link",
         year:"2",
     },
     {
         name:"Operating System",
-        src:"https://gplinks.co/mwaXVB6Y",
+        src:"https://drive.google.com/file/d/1lBWvML4742qg-T2lkKdQ01SgNsrVYDhQ/view?usp=drive_link",
         year:"2",
     },
     {
         name:"Manufacturing Processes",
-        src:"https://gplinks.co/qOS4qCbT",
+        src:"https://drive.google.com/file/d/1CC8LubxAPF2V2JZlQmlnqYYiEZEo8oJb/view?usp=drive_link",
         year:"2",
     },
     {
         name:"Hydraulics quantum",
-        src:"https://gplinks.co/J5f2IsS",
+        src:"https://drive.google.com/file/d/1yEr0_4UB5enHkvH8-PMsaIcQdCGOTgaJ/view?usp=drive_link",
         year:"2",
     },
     {
         name:"Materials testing & construction",
-        src:"https://gplinks.co/sl3wu1oX",
+        src:"https://drive.google.com/file/d/1BZLM7kSknPby98L6ha6FyU1FfEKmJD1T/view?usp=drive_link",
         year:"2",
     },
     {
         name:"Advance Welding",
-        src:"https://gplinks.co/hUeqT",
+        src:"https://drive.google.com/file/d/1_KzHUT-UN4VfH6LDsYcvHDuZ3ccowmEl/view?usp=sharing",
         year:"3",
     },
     {
         name:"antenna and wave Quantum",
-        src:"https://gplinks.co/qiPW4",
+        src:"https://drive.google.com/file/d/1SNPu2ZJ1KmibhAnExRr7A4xmged_9Uuv/view?usp=drive_link",
         year:"3",
     },
     {
-        name:"Compiler Design quantum ",
-        src:"https://gplinks.co/RvvD1Rjf",
+        name:"Compiler Design quantum",
+        src:"https://drive.google.com/file/d/1qFYqjDyOJe0ZOuQMc-FiMXR2GrPE_pEt/view?usp=sharing",
         year:"3",
     },
     {
         name:"Concrete Technology",
-        src:"https://gplinks.co/EYdCRATm",
+        src:"https://drive.google.com/file/d/1cb6TnFyVkF0uaumRnsrykxUIUCBKQPDC/view?usp=drive_link",
         year:"3",
     },
     {
         name:"Control System",
-        src:"https://gplinks.co/QOi9rS",
+        src:"https://drive.google.com/file/d/1LzvNQHxHfM7Vl8CN-Fey82koFTNabwpm/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Data Analytics",
-        src:"https://gplinks.co/2QdD",
+        src:"https://drive.google.com/file/d/1f4grZ3D92v1JMbMz6-JOQlrWYsgFn66G/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Database management system",
-        src:"https://gplinks.co/ZHcDEvoH",
+        src:"https://drive.google.com/file/d/1mdPJmrBL_m-iuz4KV_DxLGRBrs16o2Cn/view?usp=sharing",
         year:"3"
     },
     {
         name:"Design and analysis of algorithm",
-        src:"https://gplinks.co/y4O2v",
+        src:"https://drive.google.com/file/d/1gauFNw4VfB9jgRjuDOrHOdtvfOw6eK15/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Digital Signal Processing",
-        src:"https://gplinks.co/FeIZtB2b",
+        src:"https://drive.google.com/file/d/1hZs_YvDB-H-H1pn9SXPf-DYj0UkNaS4c/view?usp=sharing",
         year:"3"
     },
     {
         name:"Electrical machines",
-        src:"https://gplinks.co/Yf3tGGl",
+        src:"https://drive.google.com/file/d/1JLdutGcGfTqGKw2BsNcmYrkTtZY797Bg/view?usp=sharing",
         year:"3"
     },
     {
         name:"Engineering Geology",
-        src:"https://gplinks.co/SDTUkg33",
+        src:"https://drive.google.com/file/d/1lhzn2FJCTMWnYGOkuBjqngHUmugBmSrk/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Environmental Engineering",
-        src:"https://gplinks.co/NX7a",
+        src:"https://drive.google.com/file/d/18SUwy4Uj-c5GBV-lcSk3Cw6-NlvRRRJp/view?usp=drive_link",
         year:"3"
     },
     {
-        name:"Foundation design ",
-        src:"https://gplinks.co/OMyv6",
+        name:"Foundation design",
+        src:"https://drive.google.com/file/d/1_p9z0NsYd2BmuQW9MxNdMsjclVf3loM_/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Geotechnical Engineering",
-        src:"https://gplinks.co/5PKrGOu",
+        src:"https://drive.google.com/file/d/1qGo2wt91oqGByJlrtsHnFnNLFGaaWvho/view?usp=drive_link",
         year:"3"
     },
     {
         name:"GIS _ advanced remote sensing",
-        src:"https://gplinks.co/sgtT",
+        src:"https://drive.google.com/file/d/1YYsp6GQZIG2SAC0AeNUChJ_K_gHE2fvo/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Heat and mass transfer",
-        src:"https://gplinks.co/oqdxKVY",
+        src:"https://drive.google.com/file/d/1kFkvIGLTQvOwNHtxWwYeWVJwrMihTK0H/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Human Computer interface",
-        src:"https://gplinks.co/WQHP73",
+        src:"https://drive.google.com/file/d/1fZtgLwEEp1R8YobSL7OIPXnAdmX8O_dC/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Industrial Engineering",
-        src:"https://gplinks.co/WSfjF",
+        src:"https://drive.google.com/file/d/128LRJPBF7UvVRbfJL6fpmeQWssNJBtp1/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Integrated circuits",
-        src:"https://gplinks.co/uAHRV",
+        src:"https://drive.google.com/file/d/1CrwRJwPug3LOf-XgLuP75HbsReedIC55/view?usp=drive_link",
         year:"3"
     },
     {
-        name:"ITC qunatam",
-        src:"https://gplinks.co/iy9kK6W",
+        name:"ITC quantum",
+        src:"https://drive.google.com/file/d/146pbYxGcZiFNpNUF0-d7XRJLxM199b_v/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Machine learning techniques",
-        src:"https://gplinks.co/bzVZtR",
+        src:"https://drive.google.com/file/d/1ws2uWCptYKfJo5ZX-mDmjAH0q0hEUH8p/view?usp=drive_link",
         year:"3"
     },
     {
-        name:"‘Microprocessor and microcontroller",
-        src:"https://gplinks.co/DOBtjAbm",
+        name:"Microprocessor and microcontroller",
+        src:"https://drive.google.com/file/d/1F4Op6cm8w9Di7XLLO6Gel7SiEJ8litPw/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Object oriented system quantum",
-        src:"https://gplinks.co/XiB7AYq",
+        src:"https://drive.google.com/file/d/1J-8hAuuK-GpIknQNm3-twqejCELNZHdw/view?usp=drive_link",
         year:"3"
     },
     {
-        name:"Power Electronics ",
-        src:"https://gplinks.co/wL3wXH3",
+        name:"Power Electronics",
+        src:"https://drive.google.com/file/d/1um6As_nIqhEfiOujRsJ2m-F7d3KWTRuO/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Power system 2",
-        src:"https://gplinks.co/xawk4Af",
+        src:"https://drive.google.com/file/d/1K1Zjypwpi43p8ktDJ1VjRinIxpVEbrZ4/view?usp=drive_link",
         year:"3"
     },
     {
         name:"satellite quantum",
-        src:"https://gplinks.co/s65Th",
+        src:"https://drive.google.com/file/d/1--h1UAEDBOzZWgKKT6nNFu6wGv5XfQ1w/view?usp=drive_link",
         year:"3"
     },
     {
         name:"software Engineering",
-        src:"https://gplinks.co/PwjagX1",
+        src:"https://drive.google.com/file/d/1gtLVGp7FMElGMKcsbI8NQ8-doi390wRb/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Special Electrical Machines",
-        src:"https://gplinks.co/TRut",
+        src:"https://drive.google.com/file/d/1DbNkErRsg7VK9DqOqF1XqMC2Y2tlyNno/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Theory of Machines",
-        src:"https://gplinks.co/rtxVy",
+        src:"https://drive.google.com/file/d/1IBNwuU_UO8k0IqnYIkyNGl9DXWFXDt7i/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Transportation Engineering",
-        src:"https://gplinks.co/RkfTgA",
+        src:"https://drive.google.com/file/d/1p_x-GWGUkTMcbFyAazeegHdZD_wkVz8b/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Web Designing",
-        src:"https://gplinks.co/JUgyB3",
+        src:"https://drive.google.com/file/d/14oO0JYn6Xjry-S7-eDl5nV_YprkwIwRq/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Web Technology",
-        src:"https://gplinks.co/4qPZmgu",
+        src:"https://drive.google.com/file/d/1OKOefz4V2tt4YeQ4Ml_4puBg2Lgy86TU/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Computer Network",
-        src:"https://gplinks.co/ZyX9Q0",
+        src:"https://drive.google.com/file/d/1RbKJzqp6_rYEYccjBXSmai6m6Cq9DEu9/view?usp=drive_link",
         year:"3"
     },
     {
         name:"Data Communication Networks",
-        src:"https://gplinks.co/zAyruyVZ",
+        src:"https://drive.google.com/file/d/1y1qY9Gt2Fr9j3S9SMSaT17gX5KE9MbKv/view?usp=drive_link",
         year:"3"
     },
     {
@@ -306,95 +306,94 @@
     },
     {
         name:"Engineering Hydrology",
-        src:"https://gplinks.co/W0v9",
+        src:"https://drive.google.com/file/d/1vTkV4_hzMTwpkEVrc0R3YLUBlIT5HSN-/view?usp=drive_link",
         year:"3"
     },
     {
-        name:"Quantity estimation and construction ",
-        src:"https://gplinks.co/W6uQeY5v",
+        name:"Quantity estimation and construction",
+        src:"https://drive.google.com/file/d/1fkK1emZGnU_xB9CxreTNDjZw4q7mZi1f/view?usp=drive_link",
         year:"3"
     },
     {
-        name:"Design of concrete structures ",
-        src:"https://gplinks.co/ioZ0rel",
+        name:"Design of concrete structures",
+        src:"https://drive.google.com/file/d/1UbdB7EQOaajOL3JWfJ-8l2Lgg-IB1Bzm/view?usp=drive_linkl",
         year:"3"
     }, 
     {
         name:"Artificial Intelligence quantum",
-        src:"https://gplinks.co/9xaPm",
+        src:"https://drive.google.com/file/d/1tD46wveYUu5qpwSd5wzpAyweSCOrbisM/view?usp=sharing",
         year:"4",
     },
     {
         name:"Automation and Robotics",
-        src:"https://gplinks.co/TqONI5LJ",
+        src:"https://drive.google.com/file/d/1v_qFfnRPLHKrbl7be7oBU_njzUBHvN6R/view?usp=drive_link",
         year:"4",
     },
     {
         name:"Cloud Computing ",
-        src:"https://gplinks.co/eTgRQyl",
+        src:"https://drive.google.com/file/d/1oYKg2PtgIyxOuqZvOhGkkHH70VbC9URY/view?usp=drive_link",
         year:"4",
     },
     {
         name:"Cryptography and network security",
-        src:"https://gplinks.co/xsJWJ",
+        src:"https://drive.google.com/file/d/1PuRGTHNq6TF1iXuLsRcH6uZqOsFffbGM/view?usp=drive_link",
         year:"4",
     },
     {
         name:"data warehouse and data mining quantum",
-        src:"https://gplinks.co/RONdHBuX",
+        src:"https://drive.google.com/file/d/18-wZ_Ial78WUrRZjp410VVQp9LDqrkel/view?usp=drive_link",
         year:"4",
     },
     {
         name:"Digital and social media Marketing ",
-        src:"https://gplinks.co/wL8xK0R",
+        src:"https://drive.google.com/file/d/1KG_5onl10qp4UuOphQkpJBlKKWGcOzR8/view?usp=drive_link",
         year:"4",
     },
     {
         name:"Distributed System",
-        src:"https://gplinks.co/Yzhvn1",
+        src:"https://drive.google.com/file/d/1gKh5dIr6ux5sHdwsq8T2MOu6H_cnOcC9/view?usp=drive_link",
         year:"4",
     },
     {
         name:"Image processing quantum",
-        src:"https://gplinks.co/5zwP",
+        src:"https://drive.google.com/file/d/1eHzpdMH4Qg_Nor3qaZxclawKwck9dkGJ/view?usp=drive_link",
         year:"4",
     },
     {
         name:"Natural Language Processing",
-        src:"https://gplinks.co/WiWCqFk",
+        src:"https://drive.google.com/file/d/1umCQpG4exgPWqKEyS76htW0E7-4SSywq/view?usp=drive_link",
         year:"4",
     },
     {
         name:"Power Quality",
-        src:"https://gplinks.co/hzXw",
+        src:"https://drive.google.com/file/d/1XdBVqHlaSg5T3EXF5uvb7_v9H7_M0MGJ/view?usp=drive_link",
         year:"4",
     },
     {
         name:"Project Management and Entrepreneurship",
-        src:"https://gplinks.co/7UifJcDv",
+        src:"https://drive.google.com/file/d/1updVDEuesMS21ue9aIFQ6gQjrxhY4MWz/view?usp=drive_link",
         year:"4",
     },
     {
         name:"Quality Management",
-        src:"https://gplinks.co/EQEixt",
+        src:"https://drive.google.com/file/d/1PRQbT6BORwLToUtv2yrMzMFPOe03D64H/view?usp=drive_link",
         year:"4",
     },
     {
         name:"Rural Development",
-        src:"https://gplinks.co/9IDxwi",
+        src:"https://drive.google.com/file/d/1xHlj5twPLFfeZEwGDC3SPIXhTYgz2xJ1/view?usp=drive_link",
         year:"4",
     },
     {
         name:"Software Testing",
-        src:"https://gplinks.co/YoA26",
+        src:"https://drive.google.com/file/d/1-FcSYW8W8tcREQGXP0gR0ctdftBXNcDp/view?usp=drive_link",
         year:"4",
     },
     {
         name:"vision for human society",
-        src:"https://gplinks.co/UK9N61Vc",
+        src:"https://drive.google.com/file/d/1CFrpX5AlqELVHlm8C6xc5rt03qH7kODS/view?usp=drive_link",
         year:"4",
     },
 ]
 
-export default listOfQuantum;
-// https://drive.google.com/uc?export=view&id=1qyR7YVWBzJX9gSdHUyzJEmcvrv6TGLB-
+export default quantum;

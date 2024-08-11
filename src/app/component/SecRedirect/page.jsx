@@ -1,18 +1,17 @@
 'use client';
-import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { Suspense, useEffect, useState } from "react";
 import AdCode from "../AdCode";
 
-const RedirectPage = () => {
-  const [timeLeft, setTimeLeft] = useState(15);
+const SecRedirect = () => {
+  const [timeLeft, setTimeLeft] = useState(5);
   const [showButton, setShowButton] = useState(false);
   const searchParams = useSearchParams();
   const url = searchParams.get("url");
-  const router = useRouter();
 
   useEffect(() => {
     if (timeLeft > 0) {
-      const timerId = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
+      const timerId = setTimeout(() => setTimeLeft(timeLeft - 1), 1200);
       return () => clearTimeout(timerId);
     } else {
       setShowButton(true);
@@ -21,26 +20,29 @@ const RedirectPage = () => {
 
   const handleOpenPdf = () => {
     if (url) {
-      router.push(`/component/SecRedirect?url=${url}`);
-    } else {
-      window.open(decodedUrl, "_blank", "noopener,noreferrer");
+      const decodedUrl = decodeURIComponent(url);
+      if (/Mobi|Android/i.test(navigator.userAgent)) {
+        window.location.href = decodedUrl;
+      } else {
+        window.open(decodedUrl, "_blank", "noopener,noreferrer");
+      }
     }
   };
 
   return (
     <div className="container mx-auto p-4">
       <div className="flex flex-col lg:flex-row">
-        <div className="lg:w-3/4  p-4 order-1 lg:order-1 flex flex-col justify-center items-center">
-          <h2 className="text-4xl font-semibold mb-5">
-            Wait for some time, your PDF is on the way 🏃🏃
+        <div className="lg:w-3/4 p-4 order-1 lg:order-1 flex flex-col justify-center items-center">
+          <h2 className="text-3xl font-semibold mb-5  ">
+            Just 5 sec your pdf is loading.. 🏃🏃
           </h2>
           <AdCode />
           <div className="p-4 flex justify-center items-center">
             {!showButton && (
-              <div className="text-semibold whitespace-nowrap">
+              <p className="text-semibold whitespace-nowrap">
                 Download will start in {timeLeft} seconds
-                <AdCode />
-              </div>
+                <AdCode/>
+              </p>
             )}
             {showButton && (
               <button
@@ -52,7 +54,7 @@ const RedirectPage = () => {
             )}
           </div>
 
-          <div className="text-lg font-semibold mb-1 mt-1">
+          <div className="text-lg font-semibold mb-1 mt-1 ">
             <AdCode />
             <p>What if I can't get the Aktu quantum?</p>
           </div>
@@ -63,7 +65,6 @@ const RedirectPage = () => {
             sem with code and click on submit. Within 1 hr we upload the PDF and
             you get access to that Aktu quantum PDF.
           </p>
-          
           <AdCode />
         </div>
 
@@ -75,4 +76,10 @@ const RedirectPage = () => {
   );
 };
 
-export default RedirectPage;
+export default function Page() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <SecRedirect/>
+    </Suspense>
+  );
+}
