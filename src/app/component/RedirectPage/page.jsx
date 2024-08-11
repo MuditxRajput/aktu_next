@@ -1,6 +1,7 @@
+// RedirectPage.js
 'use client';
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import AdCode from "../AdCode";
 
 const RedirectPage = () => {
@@ -75,4 +76,10 @@ const RedirectPage = () => {
   );
 };
 
-export default RedirectPage;
+export default function Page() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <RedirectPage/>
+    </Suspense>
+  );
+}
