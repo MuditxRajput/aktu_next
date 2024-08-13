@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import AdCode from "../../../component/AdCode";
 import concrete from '../../../PostImage/concrete3.png';
-import AdCode from "../../../component/AdCode";
+
 const ConcreteStructures = () => {
   const pageTitle = "Design Of Concrete Structures AKTU Quantum PDF | B.Tech 3rd Year Quantum";
   const pageDescription = "Get the latest Design Of Concrete Structures AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
