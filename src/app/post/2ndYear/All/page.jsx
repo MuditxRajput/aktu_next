@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
-
+import AdCode from "../../../component/AdCode";
 const SecondYear = () => {
   const pageTitle =
     "AKTU Quantum B-Tech 2nd Year All Branch PDF Download | Free Resources Available";
@@ -9,7 +9,7 @@ const SecondYear = () => {
     "Download AKTU Quantum PDFs for B-Tech 2nd Year covering all branches. Essential study materials, free and tailored to the AKTU syllabus.";
   const pageKeywords =
     "AKTU Quantum, B-Tech 2nd Year, Free PDF Download, AKTU Syllabus, Data Structure, COA, Fluid Mechanics, Computer System Security";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/2ndYear/All";
   return (
     <>
       <Head>
@@ -27,6 +27,7 @@ const SecondYear = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -60,6 +61,7 @@ const SecondYear = () => {
                   </p>
                 </div>
               </Link>
+              <AdCode />
               <Link href="/component/Quantum">
                 <button className="mt-5 px-6 py-3 bg-orange-500 text-white rounded-lg text-lg font-semibold hover:bg-orange-600 transition">
                   Download Quantum PDFs
@@ -69,7 +71,8 @@ const SecondYear = () => {
 
             <div>
               <h2 className="text-2xl font-semibold  mb-4 mt-1">
-                List of Free 2nd Year AKTU Quantum PDFs Available for B-Tech 2nd Year
+                List of Free 2nd Year AKTU Quantum PDFs Available for B-Tech 2nd
+                Year
               </h2>
               <p className="text-gray-800 leading-7">
                 Below is the list of all the essential subjects for B-Tech
@@ -79,22 +82,79 @@ const SecondYear = () => {
               </p>
 
               <ul className="list-disc ml-5 mt-5 space-y-2 text-gray-700">
-                <li>Tafl</li>
-                <li>Data Structure and Algorithms</li>
-                <li>Computer Organization and Architecture (COA)</li>
+                <Link href="/post/2ndYear/Tafl" className="text-orange-600">
+                  {" "}
+                  <li>Tafl</li>
+                </Link>
+                <Link href="/post/2ndYear/Dsa" className="text-orange-600">
+                  {" "}
+                  <li>Data Structure and Algorithms</li>
+                </Link>
+                <Link href="/post/2ndYear/COA" className="text-orange-600">
+                  {" "}
+                  <li>Computer Organization and Architecture (COA)</li>
+                </Link>
                 <li>Materials Science and Engineering</li>
-                <li>Fluid Mechanics & Fluid Machines</li>
-                <li>Energy Science Quantum</li>
-                <li>Computer System Security</li>
-                <li>DSTL</li>
-                <li>Math-4</li>
-                <li>Python Programming</li>
-                <li>Maths-3</li>
-                <li>Technical Communication</li>
-                <li>Operating System</li>
+                <Link href="/post/2ndYear/Fluid" className="text-orange-600">
+                  {" "}
+                  <li>Fluid Mechanics & Fluid Machines</li>
+                </Link>
+                <Link
+                  href="/post/2ndYear/ScienceAndEnergy"
+                  className="text-orange-600"
+                >
+                  {" "}
+                  <li>Energy Science Quantum</li>
+                </Link>
+                <Link
+                  href="/post/2ndYear/ComputerSecurity"
+                  className="text-orange-600"
+                >
+                  {" "}
+                  <li>Computer System Security</li>
+                </Link>
+                <Link href="/post/2ndYear/Dstl" className="text-orange-600">
+                  {" "}
+                  <li>DSTL</li>
+                </Link>
+                <Link href="/post/2ndYear/All" className="text-orange-600">
+                  {" "}
+                  <li>Math-4</li>
+                </Link>
+                <Link href="/post/2ndYear/Pythn" className="text-orange-600">
+                  {" "}
+                  <li>Python Programming</li>
+                </Link>
+                <Link href="/post/2ndYear/Maths-3" className="text-orange-600">
+                  {" "}
+                  <li>Maths-3</li>
+                </Link>
+                <Link
+                  href="/post/2ndYear/TechnicalCommunication"
+                  className="text-orange-600"
+                >
+                  {" "}
+                  <li>Technical Communication</li>
+                </Link>
+                <Link
+                  href="/post/2ndYear/Operating"
+                  className="text-orange-600"
+                >
+                  {" "}
+                  <li>Operating System</li>
+                </Link>
                 <li>Manufacturing Processes</li>
-                <li>Hydraulics Quantum</li>
-                <li>Materials Testing & Construction</li>
+                <Link href="/post/2ndYear/Hydralic" className="text-orange-600">
+                  {" "}
+                  <li>Hydraulics Quantum </li>
+                </Link>
+                <Link
+                  href="/post/2ndYear/MaterialTesting"
+                  className="text-orange-600"
+                >
+                  {" "}
+                  <li>Materials Testing & Construction</li>
+                </Link>
               </ul>
 
               <h2 className="text-2xl font-semibold  mb-4 mt-6">
@@ -153,9 +213,7 @@ const SecondYear = () => {
 
           {/* Sidebar */}
           <aside className="sidebar lg:w-1/4 bg-gray-100 p-5 rounded-md shadow-md mb-6 lg:mb-0 lg:ml-6">
-            <h2 className="text-2xl font-semibold  mb-5">
-              Quick Links
-            </h2>
+            <h2 className="text-2xl font-semibold  mb-5">Quick Links</h2>
             <ul className="space-y-3">
               <li>
                 <Link href="/component/Quantum">

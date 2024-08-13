@@ -1,3 +1,4 @@
+import AdCode from "../../../component/AdCode";
 import Head from "next/head";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
@@ -9,7 +10,7 @@ const All = () => {
     "Download AKTU Quantum PDFs for B-Tech 1st Year covering all branches. Essential study materials, free and tailored to the AKTU syllabus.";
   const pageKeywords =
     "AKTU Quantum, B-Tech 1st Year, Free PDF Download, AKTU Syllabus, Engineering Mathematics, Engineering Chemistry, Mechanical Engineering, Electronics Engineering";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/1stYear/All";
   return (
     <>
       <Head>
@@ -27,6 +28,7 @@ const All = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -59,6 +61,7 @@ const All = () => {
                     Join our Telegram
                   </p>
                 </div>
+                <AdCode/>
               </Link>
               <Link href="/component/Quantum">
                 <button className="mt-5 px-6 py-3 bg-orange-500 text-white rounded-lg text-lg font-semibold hover:bg-orange-600 transition">
@@ -77,18 +80,19 @@ const All = () => {
                 for free. These PDFs cover everything you need to excel in your
                 first-year exams.
               </p>
-
+               
               <ul className="list-disc ml-5 mt-5 space-y-2 text-gray-700">
-                <li>Soft Skills PDF</li>
-                <li>Fundamental of Mechanical Engineering PDF</li>
-                <li>Engineering Chemistry PDF</li>
-                <li>Fundamentals of Electronics Engineering PDF</li>
-                <li>Engineering Mathematics-I PDF</li>
-                <li>Engineering Mathematics-II PDF</li>
+                   <li>Soft Skills PDF</li>
+                 <Link href='/post/1stYear/Fmem'> <li>Fundamental of Mechanical Engineering PDF</li> </Link> 
+                 <Link href='/post/1stYear/Chemistry'><li>Engineering Chemistry PDF</li> </Link>
+                 <Link href='/post/1stYear/Electronic'> <li>Fundamentals of Electronics Engineering PDF</li> </Link>
+                 <Link  href='/post/1stYear/Maths2'><li>Engineering Mathematics-I PDF</li> </Link>
+                <Link href='/post/1stYear/Maths2'> <li>Engineering Mathematics-II PDF</li>  </Link>
+                <Link href='/post/1stYear/Physics'><li>Engineering Physics PDF</li> </Link>
                 <li>Fundamentals of Electrical Engineering PDF</li>
-                <li>Engineering Physics PDF</li>
+                <Link href='/post/1stYear/Environmentss'> <li>Environment and Ecology PDF</li> </Link>
                 <li>Programming for Problem-Solving PDF</li>
-                <li>Environment and Ecology PDF</li>
+                
               </ul>
 
               <h2 className="text-2xl font-semibold  mb-4 mt-6">

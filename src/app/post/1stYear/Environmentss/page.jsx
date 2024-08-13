@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import environment from "../../../PostImage/environment.png"; // Assuming you have an image for Environment And Ecology
-
 const EnvironmentEcology = () => {
   const pageTitle =
     "Environment And Ecology AKTU Quantum pdf 1st year | B.Tech 1st year aktu quantum";
@@ -11,7 +10,7 @@ const EnvironmentEcology = () => {
     "Get the latest Environment And Ecology AKTU Quantum PDF for B.Tech 1st year. Access question patterns, syllabus, and more.";
   const pageKeywords =
     "Environment And Ecology AKTU Quantum, Aktu Quantum, B.Tech 1st Year, PDF, Syllabus, aktu, aktu result, aktu one view, Aktu 1st year quantum pdf free";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/1stYear/Environmentss";
   return (
     <>
       <Head>
@@ -29,6 +28,7 @@ const EnvironmentEcology = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -66,6 +66,7 @@ const EnvironmentEcology = () => {
                     </p>
                   </div>
                 </Link>
+                <Adcode/>
                 <Link href="component/Quantum">
                 <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Environment Quantum</button>
                 </Link>

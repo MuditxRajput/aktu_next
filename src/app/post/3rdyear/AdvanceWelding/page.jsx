@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import advanceWelding from "../../../PostImage/welding.png"; // Assuming you have an image for Advance Welding
-
+import AdCode from "../../../component/AdCode";
 const AdvanceWelding = () => {
   const pageTitle =
     "Advance Welding Aktu Quantum pdf | B.Tech 3rd year quantum pdf";
@@ -11,7 +11,7 @@ const AdvanceWelding = () => {
     "Get the latest Advance Welding AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =
     "Advance Welding AKTU Quantum, Aktu Quantum, B.Tech 3rd Year, PDF, Syllabus, aktu, aktu result, aktu one view, Aktu 3rd year quantum pdf free";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/AdvanceWelding";
   return (
     <>
       <Head>
@@ -29,6 +29,7 @@ const AdvanceWelding = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -66,7 +67,8 @@ const AdvanceWelding = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="http://aktu-quantum.online/post/3rdyear/AdvanceWelding">
+                <AdCode/>
+                <Link href="/component/Quantum">
                 <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Advanced Welding Quantum</button>
                 </Link>
               </div>

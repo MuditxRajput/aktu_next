@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import maths3Image from "../../../PostImage/maths-3.png"; // Update the path to your new image
-
+import AdCode from "../../../component/AdCode";
 const Maths3 = () => {
   const pageTitle =
     "Maths-3 Aktu Quantum PDF 2nd year | B.Tech 2nd year aktu quantum pdf";
@@ -11,7 +11,7 @@ const Maths3 = () => {
     "Get the latest Maths-3 Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
   const pageKeywords =
     "Maths-3 Aktu Quantum, B.Tech 2nd Year, PDF, Syllabus, aktu, aktu result, aktu one view, Aktu 2nd year quantum pdf free";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/2ndYear/Maths-3";
   return (
     <>
       <Head>
@@ -29,6 +29,7 @@ const Maths3 = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -65,7 +66,8 @@ const Maths3 = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/CuEo8">
+                <Adcode/>
+                <Link href="/component/Quantum">
                   <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">
                     Download Maths-3 Quantum
                   </button>

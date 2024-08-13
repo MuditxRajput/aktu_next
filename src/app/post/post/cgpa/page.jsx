@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-
+import AdCode from "../../../component/AdCode";
 const CalculateCGPA = () => {
   const pageTitle = "How to Calculate AKTU CGPA from Percentage in AKTU? CGPA Calculator in 2024";
   const pageDescription =
@@ -17,7 +17,7 @@ const CalculateCGPA = () => {
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDescription} />
         <meta property="og:image" content="/path/to/your/image.jpg" />
-        <meta property="og:url" content="http://aktu-quantum.online/path/to/your/page" />
+        <meta property="og:url" content="http://aktu-quantum.online/post/post/cgpa" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
@@ -68,7 +68,7 @@ const CalculateCGPA = () => {
                 <p>
                   <strong>Note:</strong> For your first semester, your SGPA and CGPA will be the same, as you only have one semester's worth of grades.
                 </p>
-                
+                <AdCode/>
                 <h2 className="text-xl font-semibold mb-4 mt-2">
                   How to Calculate SGPA for AKTU
                 </h2>

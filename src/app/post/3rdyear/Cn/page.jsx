@@ -3,12 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import computerNetworkImg from '../../../PostImage/cn.png'; // Assuming you have an image for Computer Networks
-
+import AdCode from "../../../component/AdCode";
 const ComputerNetwork = () => {
   const pageTitle = "Computer Network aktu quantum KCS 603 AKTU Quantum PDF | B.Tech 3rd Year aktu Quantum";
   const pageDescription = "Get the latest Computer Network KCS 603 AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Computer Network quantum, AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns";
-
+  const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/Cn";
   return (
     <>
       <Head>
@@ -23,6 +23,7 @@ const ComputerNetwork = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -57,7 +58,8 @@ const ComputerNetwork = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="/post/3rdyear/Cn"> Get Computer network Quantum</Link>
+                <AdCode/>
+                <Link href="/component/Quantum" className="text-orange-600 font-semibold"> Get Computer network Quantum</Link>
               </div>
               
               <div>

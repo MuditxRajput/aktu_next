@@ -3,12 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import constitutionImg from '../../../PostImage/constitution.png'; // Assuming you have an image for Constitution Of India KNC 501 KNC 601, Law And Engineering
-
+import AdCode from "../../../component/AdCode";
 const ConstitutionOfIndia = () => {
   const pageTitle = "Constitution Of India KNC  KNC 501 KNC 601, Law And Engineering AKTU Quantum PDF | B.Tech 3rd Year Quantum";
   const pageDescription = "Get the latest Constitution Of India KNC 501 KNC 601, Law And Engineering AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Constitution Of India KNC 501 KNC 601, Law And Engineering, AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns";
-
+  const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/Constitution";
   return (
     <>
       <Head>
@@ -23,6 +23,7 @@ const ConstitutionOfIndia = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -57,6 +58,13 @@ const ConstitutionOfIndia = () => {
                     </p>
                   </div>
                 </Link>
+                
+                <AdCode/>
+                <Link href="/component/Quantum">
+                <button className="mt-5 px-6 py-3 bg-orange-500 text-white rounded-lg text-lg font-semibold hover:bg-orange-600 transition">
+                  Download Quantum PDFs
+                </button>
+              </Link>
               </div>
               
               <div>

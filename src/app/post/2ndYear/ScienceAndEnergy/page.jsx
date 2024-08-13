@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import energy from "../../../PostImage/EnergyScience.png";
-
+import AdCode from "../../../component/AdCode";
 const EnergyScience = () => {
   const pageTitle =
     "Energy Science and Engineering Aktu Quantum pdf 2nd year | B.Tech 2nd year aktu quantum pdf";
@@ -11,7 +11,7 @@ const EnergyScience = () => {
     "Get the latest Energy Science and Engineering Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
   const pageKeywords =
     "Energy Science and Engineering Aktu Quantum, Aktu Quantum, B.Tech 2nd Year, PDF, Syllabus, aktu , aktu result, aktu one view , Aktu 2nd year quantum pdf free";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/2ndYear/ScienceAndEnergy";
   return (
     <>
       <Head>
@@ -29,6 +29,7 @@ const EnergyScience = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -68,7 +69,8 @@ const EnergyScience = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/fSJfQNCp">
+                <AdCode/>
+                <Link href="/component/Quantum">
                   <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">
                     Download Energy Science and Engineering Quantum
                   </button>

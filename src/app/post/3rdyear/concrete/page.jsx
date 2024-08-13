@@ -2,12 +2,12 @@ import Head from "next/head";
 import Image from "next/image";
 import AdCode from "../../../component/AdCode";
 import concrete from '../../../PostImage/concrete3.png';
-
+import AdCode from "../../../component/AdCode";
 const ConcreteStructures = () => {
   const pageTitle = "Design Of Concrete Structures AKTU Quantum PDF | B.Tech 3rd Year Quantum";
   const pageDescription = "Get the latest Design Of Concrete Structures AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Design Of Concrete Structures, AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns";
-
+  const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/concrete";
   return (
     <>
       <Head>
@@ -22,6 +22,7 @@ const ConcreteStructures = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="m-7 rounded-md shadow-sm shadow-gray-700 p-10">
         <div className="mb-10">

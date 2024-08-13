@@ -6,7 +6,6 @@ const Home = () => {
   return (
     <div className="w-full p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
       <Hero/>
-      <AdCode/>
       <Middle/>
       <AdCode/>
       <p className="px-3 sm:px-5 md:px-7 lg:px-10 xl:px-12 mt-10 text-sm ">

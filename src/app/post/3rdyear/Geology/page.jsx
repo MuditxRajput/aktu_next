@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import egImage from "../../../PostImage/geology.png"; // Assuming you have an image for Engineering Geology
-
+import AdCode from "../../../component/AdCode";
 const EngineeringGeology = () => {
   const pageTitle =
     "Engineering Geology AKTU Quantum pdf | B.Tech 3rd year quantum pdf";
@@ -11,7 +11,7 @@ const EngineeringGeology = () => {
     "Get the latest Engineering Geology AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =
     "Engineering Geology AKTU Quantum, Aktu Quantum, B.Tech 3rd Year, PDF, Syllabus, aktu, aktu result, aktu one view, Aktu 3rd year quantum pdf free";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/Geology";
   return (
     <>
       <Head>
@@ -29,6 +29,7 @@ const EngineeringGeology = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -62,6 +63,12 @@ const EngineeringGeology = () => {
                     </p>
                   </div>
                 </Link>
+                <AdCode/>
+                <Link href="/component/Quantum">
+                <button className="mt-5 px-6 py-3 bg-orange-500 text-white rounded-lg text-lg font-semibold hover:bg-orange-600 transition">
+                  Download Quantum PDFs
+                </button>
+              </Link>
               </div>
               
               <div>

@@ -1,12 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import rtsImg from '../../../PostImage/Rts_syllabus.png';
-
+import AdCode from "../../../component/AdCode";
 const Rts = () => {
   const pageTitle = "Real Time System KOE-061 Aktu Quantum PDF | B.Tech 3rd Year Quantum";
   const pageDescription = "Get the latest Real Time System KOE-061 Aktu Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Real Time System, KOE-061, Aktu Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns";
-
+  const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/rts";
   return (
     <>
       <Head>
@@ -21,6 +22,7 @@ const Rts = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="m-7 rounded-md shadow-sm shadow-gray-700 p-10">
         <div className="mb-10">
@@ -39,6 +41,12 @@ const Rts = () => {
             you will easily get the ideas of question patterns from the last 4-5 years. Most importantly, this pdf is the latest and covers all the syllabus as per AKTU syllabus. 
             So without wasting any time, let's see how you can get the Latest Real time system KOE-061 Aktu Quantum pdf for B-Tech in 3rd year.
           </p>
+          <AdCode/>
+          <Link href="/component/Quantum">
+                <button className="mt-5 px-6 py-3 bg-orange-500 text-white rounded-lg text-lg font-semibold hover:bg-orange-600 transition">
+                  Download Quantum PDFs
+                </button>
+              </Link>
         </div>
         
         <div>

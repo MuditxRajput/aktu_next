@@ -3,13 +3,13 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import transportImg from "../../../PostImage/transportation.png";
-// import AdCode from "../../../component/AdCode";
+import AdCode from "../../../component/AdCode";
 
 const TransportationEngineering = () => {
   const pageTitle = "Transportation Engineering KEC 602 AKTU Quantum PDF B-Tech 3rd Year | B.Tech 3rd Year Quantum";
   const pageDescription = "Get the latest Transportation Engineering KEC 602 AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Transportation Engineering KEC 602 AKTU Quantum, AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns, Transportation Engineering KEC 602 aktu quantum, aktu quantum";
-
+  const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/Transportation";
   return (
     <>
       <Head>
@@ -24,6 +24,7 @@ const TransportationEngineering = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -40,7 +41,12 @@ const TransportationEngineering = () => {
                   So without wasting any time, let's see how you can get the Latest Transportation Engineering KEC 602 AKTU Quantum PDF for B-Tech in 3rd year.
                 </p>
               </div>
-              
+              <AdCode/>
+              <Link href="/component/Quantum">
+                <button className="mt-5 px-6 py-3 bg-orange-500 text-white rounded-lg text-lg font-semibold hover:bg-orange-600 transition">
+                  Download Quantum PDFs
+                </button>
+              </Link>
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">How to access the Latest Transportation Engineering KEC 602 AKTU Quantum PDF</h2>
                 <p>You need to follow some steps to get access to the Transportation Engineering KEC 602 Quantum.</p>

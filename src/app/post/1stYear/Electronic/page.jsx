@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import AdCode from "../../../component/AdCode";
 import { FaTelegram } from "react-icons/fa";
 import electronic from "../../../PostImage/Electronic.png";
 const Electronic = () => {
@@ -10,7 +11,7 @@ const Electronic = () => {
     "Get the latest Fundamentals Of Electronics Engineering Aktu Quantum PDF for B.Tech 1st year. Access question patterns, syllabus, and more.";
   const pageKeywords =
     "Fundamentals Of Electronics Engineering Aktu Quantum, Aktu Quantum, B.Tech 1st Year, PDF, Syllabus, aktu , aktu result, aktu one view , Aktu 1st year quanutm pdf free";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/1stYear/Electronic";
   return (
     <>
       <Head>
@@ -28,6 +29,7 @@ const Electronic = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -70,6 +72,7 @@ const Electronic = () => {
                     </p>
                   </div>
                 </Link>
+                <AdCode/>
                 <Link href="/component/Quantum"> 
                   <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Electronics Quantum</button>
                 </Link>

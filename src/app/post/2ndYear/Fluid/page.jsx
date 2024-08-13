@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import fluidMechanics from "../../../PostImage/fluid.png"; // Adjust the path as needed
-
+import AdCode from "../../../component/AdCode";
 const FluidMechanics = () => {
   const pageTitle =
     "Fluid Mechanics & Fluid Machines KME 302 2nd Year | B.Tech 2nd Year AKTU Quantum PDF";
@@ -11,7 +11,7 @@ const FluidMechanics = () => {
     "Access the latest Fluid Mechanics & Fluid Machines KME 302 AKTU Quantum PDF for B.Tech 2nd year. Explore question patterns, syllabus, and more.";
   const pageKeywords =
     "Fluid Mechanics, Fluid Machines, KME 302, B.Tech 2nd Year, AKTU Quantum, PDF, Syllabus, Fluid Flow, Bernoulli's Equation, Pumps, Turbines";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/2ndYear/Fluid";
   return (
     <>
       <Head>
@@ -29,6 +29,7 @@ const FluidMechanics = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -60,7 +61,8 @@ const FluidMechanics = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/gRx4gi">
+                <AdCode/>
+                <Link href="/component/Quantum">
                   <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">
                     Download Fluid Mechanics & Fluid Machines Quantum
                   </button>

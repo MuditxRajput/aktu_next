@@ -35,7 +35,7 @@ const RedirectPage = () => {
           <h2 className="text-4xl font-semibold mb-5">
             Wait for some time, your PDF is on the way 🏃🏃
           </h2>
-          <AdCode />
+          
           <div className="p-4 flex justify-center items-center">
             {!showButton && (
               <div className="text-semibold whitespace-nowrap">
@@ -54,7 +54,7 @@ const RedirectPage = () => {
           </div>
 
           <div className="text-lg font-semibold mb-1 mt-1">
-            <AdCode />
+           
             <p>What if I can't get the Aktu quantum?</p>
           </div>
 

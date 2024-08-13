@@ -3,12 +3,12 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import webTimg from "../../../PostImage/webT_image.png"; // Assuming you have an image for Web Technology
-
+import AdCode from "../../../component/AdCode";
 const WebT = () => {
   const pageTitle = "Web Technology KIT-501 AKTU Quantum PDF B-Tech 3rd Year | B.Tech 3rd Year Quantum";
   const pageDescription = "Get the latest Web Technology AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Web Technology AKTU Quantum, AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns, webt aktu quantum, aktu quantum";
-
+  const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/WebT";
   return (
     <>
       <Head>
@@ -23,6 +23,7 @@ const WebT = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -39,6 +40,12 @@ const WebT = () => {
                   So without wasting any time, let's see how you can get the Latest Web Technology AKTU Quantum PDF for B-Tech in 3rd year.
                 </p>
               </div>
+              <Link href="/component/Quantum">
+                <button className="mt-5 px-6 py-3 bg-orange-500 text-white rounded-lg text-lg font-semibold hover:bg-orange-600 transition">
+                  Download Quantum PDFs
+                </button>
+              </Link>
+              <AdCode/>
               
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">How to access the Latest Web Technology AKTU Quantum PDF</h2>

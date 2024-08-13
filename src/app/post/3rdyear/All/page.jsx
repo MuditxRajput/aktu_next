@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
-
+import AdCode from "../../../component/AdCode";
 const ThirdYear = () => {
   const pageTitle =
     "AKTU Quantum B-Tech 3rd Year All Branch PDF Download | Free Resources Available";
@@ -9,7 +9,7 @@ const ThirdYear = () => {
     "Download AKTU Quantum PDFs for B-Tech 3rd Year covering all branches. Essential study materials, free and tailored to the AKTU syllabus.";
   const pageKeywords =
     "AKTU Quantum, B-Tech 3rd Year, Free PDF Download, AKTU Syllabus, Database Management, Machine Learning, Power Electronics";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/All";
   return (
     <>
       <Head>
@@ -27,6 +27,7 @@ const ThirdYear = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -59,6 +60,7 @@ const ThirdYear = () => {
                   </p>
                 </div>
               </Link>
+              <AdCode/>
               <Link href="/component/Quantum">
                 <button className="mt-5 px-6 py-3 bg-orange-500 text-white rounded-lg text-lg font-semibold hover:bg-orange-600 transition">
                   Download Quantum PDFs

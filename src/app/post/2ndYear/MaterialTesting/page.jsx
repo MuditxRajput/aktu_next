@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import materialTesting from "../../../PostImage/testing.png"; // Adjust the path as needed
-
+import AdCode from "../../../component/AdCode";
 const MaterialTesting = () => {
   const pageTitle =
     "Material, Testing and Construction Practices KCE 401 2nd Year | B.Tech 2nd Year AKTU Quantum PDF";
@@ -11,7 +11,7 @@ const MaterialTesting = () => {
     "Get the latest Material, Testing and Construction Practices KCE 401 AKTU Quantum PDF for B.Tech 2nd year. Explore question patterns, syllabus, and more.";
   const pageKeywords =
     "Material Testing, Construction Practices, KCE 401, B.Tech 2nd Year, AKTU Quantum, PDF, Syllabus, Plastic Manufacturing, Building Components, Doors and Windows, Natural Ventilation";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/2ndYear/MaterialTesting";
   return (
     <>
       <Head>
@@ -29,6 +29,7 @@ const MaterialTesting = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -60,7 +61,8 @@ const MaterialTesting = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/sl3wu1oX">
+                <Adcode/>
+                <Link href="/component/Quantum">
                   <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">
                     Download Material, Testing and Construction Practices Quantum
                   </button>

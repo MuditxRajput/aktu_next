@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import pythonProgramming from "../../../PostImage/py.png"; // Adjust the path as needed
-
+import AdCode from "../../../component/AdCode";
 const PythonProgramming = () => {
   const pageTitle =
     "Python Programming KNC 302 / KNC 402 Aktu Quantum pdf 2nd year| B.Tech 2nd Year AKTU Quantum PDF";
@@ -11,7 +11,7 @@ const PythonProgramming = () => {
     "Get the latest Python Programming KNC 302 / KNC 402 Aktu Quantum pdf 2nd year AKTU Quantum PDF for B.Tech 2nd year. Explore the syllabus, question patterns, and more.";
   const pageKeywords =
     "Python Programming, AKTU Quantum, B.Tech 2nd Year, PDF, Syllabus, Conditional Statements, Loops, Functions, File I/O, Iterators, Recursion";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/2ndYear/Pythn";
   return (
     <>
       <Head>
@@ -29,6 +29,7 @@ const PythonProgramming = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -60,7 +61,8 @@ const PythonProgramming = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/75FauPE">
+                <AdCode/>
+                <Link href="/component/Quantum">
                   <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">
                     Download Python Programming Quantum
                   </button>

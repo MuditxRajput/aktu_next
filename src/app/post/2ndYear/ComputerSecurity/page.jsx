@@ -12,7 +12,7 @@ const ComputerSecurity = () => {
     "Get the latest Computer System Security CSS KNC 301 KNC 401 Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
   const pageKeywords =
     "Computer System Security CSS KNC 301 KNC 401 Aktu Quantum, Aktu Quantum, B.Tech 2nd Year, PDF, Syllabus, aktu, aktu result, aktu one view, Aktu 2nd year quantum pdf free";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/2ndYear/ComputerSecurity";
   return (
     <>
       <Head>
@@ -30,6 +30,7 @@ const ComputerSecurity = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -68,7 +69,7 @@ const ComputerSecurity = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/ym4o">
+                <Link href="/component/Quantum">
                   <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">
                     Download Computer System Security Quantum
                   </button>

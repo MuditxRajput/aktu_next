@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import dstl from "../../../PostImage/Dstl.png";
-
+import AdCode from "../../../component/AdCode";
 const DSTL = () => {
   const pageTitle =
     "Discrete Structures & Theory of Logic KCS 303 Aktu Quantum pdf 2nd year | B.Tech 2nd year aktu quantum pdf";
@@ -11,7 +11,7 @@ const DSTL = () => {
     "Get the latest Discrete Structures & Theory of Logic KCS 303 Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
   const pageKeywords =
     "Discrete Structures & Theory of Logic KCS 303 Aktu Quantum, Aktu Quantum, B.Tech 2nd Year, PDF, Syllabus, aktu, aktu result, aktu one view, Aktu 2nd year quantum pdf free";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/2ndYear/Dstl";
   return (
     <>
       <Head>
@@ -29,6 +29,7 @@ const DSTL = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -67,7 +68,8 @@ const DSTL = () => {
                     </p>
                   </div>
                 </Link>
-                <Link href="https://gplinks.co/sX3U">
+                <AdCode/>
+                <Link href="/component/Quantum">
                   <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">
                     Download Discrete Structures & Theory of Logic Quantum
                   </button>

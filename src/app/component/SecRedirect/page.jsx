@@ -41,7 +41,7 @@ const SecRedirect = () => {
             {!showButton && (
               <p className="text-semibold whitespace-nowrap">
                 Download will start in {timeLeft} seconds
-                <AdCode/>
+                
               </p>
             )}
             {showButton && (

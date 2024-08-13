@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import theoryOfMachinesImg from "../../../PostImage/machine.png";
-
+import AdCode from "../../../component/AdCode";
 const TheoryOfMachines = () => {
   const pageTitle =
     "Theory Of Machines AKTU Quantum PDF | B.Tech 3rd Year Quantum";
@@ -11,7 +11,7 @@ const TheoryOfMachines = () => {
     "Get the latest Theory Of Machines AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =
     "Theory Of Machines AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns";
-
+    const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/Machines";
   return (
     <>
       <Head>
@@ -29,6 +29,7 @@ const TheoryOfMachines = () => {
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <link rel="canonial" href={canonicalUrl} />
       </Head>
       <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
@@ -67,6 +68,12 @@ const TheoryOfMachines = () => {
                     </p>
                   </div>
                 </Link>
+                <AdCode/>
+                <Link href="/component/Quantum">
+                <button className="mt-5 px-6 py-3 bg-orange-500 text-white rounded-lg text-lg font-semibold hover:bg-orange-600 transition">
+                  Download Quantum PDFs
+                </button>
+              </Link>
               </div>
               <div>
                 
