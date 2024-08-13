@@ -67,7 +67,7 @@ const ConcreteTechnology = () => {
                   </div>
                 </Link>
               </div>
-              <Adcode/>
+              <AdCode/>
               <Link href="/component/Quantum">
                 <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Advanced Welding Quantum</button>
                 </Link>

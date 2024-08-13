@@ -55,7 +55,7 @@ const EngineeringHydrology = () => {
                     </p>
                   </div>
                 </Link>
-                <Adcode/>
+                <AdCode/>
                 <Link href="/component/Quantum">
                 <button className="mt-5 px-6 py-3 bg-orange-500 text-white rounded-lg text-lg font-semibold hover:bg-orange-600 transition">
                   Download Quantum PDFs

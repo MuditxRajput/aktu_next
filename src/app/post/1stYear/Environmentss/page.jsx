@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTelegram } from "react-icons/fa";
 import environment from "../../../PostImage/environment.png"; // Assuming you have an image for Environment And Ecology
+import AdCode from "../../../component/AdCode";
 const EnvironmentEcology = () => {
   const pageTitle =
     "Environment And Ecology AKTU Quantum pdf 1st year | B.Tech 1st year aktu quantum";
@@ -66,7 +67,7 @@ const EnvironmentEcology = () => {
                     </p>
                   </div>
                 </Link>
-                <Adcode/>
+                <AdCode/>
                 <Link href="component/Quantum">
                 <button className="px-1 py-2 bg-orange-500 text-white flex justify-center items-center">Download Environment Quantum</button>
                 </Link>
