@@ -1,4 +1,3 @@
-// src/components/AdCode.jsx
 'use client';
 import { useEffect } from 'react';
 
@@ -8,6 +7,8 @@ const AdCode = () => {
       try {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
       } catch (e) {
+        console.log("Error h ads me..");
+
         console.error('Adsbygoogle push error:', e);
       }
     };

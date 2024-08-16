@@ -19,8 +19,8 @@ export default function RootLayout({ children, pageTitle, pageDescription, pageK
         <meta name="keywords" content={keywords} />
         <meta name="google-site-verification" content="rZNyTXrezE4ImuJHdfcYhqOPIcsK023w7VEJRdYdZiE" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-KPG8BQ65JZ"></script>
-        
-        <Script dangerouslySetInnerHTML={{ __html: `
+
+        <Script dangerouslySetInnerHTML={{ __html:`
            window.dataLayer = window.dataLayer || [];
            function gtag(){dataLayer.push(arguments);}
            gtag('js', new Date());
