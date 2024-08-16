@@ -31,19 +31,16 @@ const Chemistry = () => {
         <meta name="twitter:image" content="/path/to/your/image.jpg" />
         <link rel="canonial" href={canonicalUrl} />
       </Head>
-      <div className="container mx-auto ">
+      <div className="container mx-auto p-4">
         <div className="flex flex-col lg:flex-row">
           <div className="main-content lg:w-3/4 p-4">
-           
+            <div className=" rounded-md shadow-sm shadow-gray-700 p-7">
               <div className="mb-10">
                 <h1 className="font-bold text-3xl mb-2">
                   Engineering Chemistry Aktu Quantum pdf| B.tech 1st year aktu
                   quantum pdf
                 </h1>
-         
-                  
-                <AdCode  />
-                
+                <AdCode />
               </div>
               <div className="mb-6">
                 <div className="flex justify-center items-center mb-3">
@@ -233,7 +230,7 @@ const Chemistry = () => {
             <p></p>
           </div>
         </div>
-      
+      </div>
     </>
   );
 };
