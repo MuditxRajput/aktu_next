@@ -4,25 +4,33 @@ import { useEffect } from 'react';
 const AdCode = () => {
   useEffect(() => {
     const initializeAds = () => {
+      console.log("Adsbygoogle object:", window.adsbygoogle);
+
       try {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
       } catch (e) {
-        console.log("Error h ads me..");
-
+        
         console.error('Adsbygoogle push error:', e);
       }
     };
 
-    if (typeof window !== 'undefined' && window.adsbygoogle) {
-      initializeAds();
-    } else {
-      // Reattempt initialization if the script is not yet loaded
-      const interval = setInterval(() => {
-        if (window.adsbygoogle) {
-          initializeAds();
-          clearInterval(interval);
-        }
-      }, 500);
+    const checkAds = () => {
+      if (window.adsbygoogle) {
+        initializeAds();
+        return true;
+      }
+      return false;
+    };
+
+    if (typeof window !== 'undefined') {
+      if (!checkAds()) {
+        // Reattempt initialization if the script is not yet loaded
+        const interval = setInterval(() => {
+          if (checkAds()) {
+            clearInterval(interval);
+          }
+        }, 500);
+      }
     }
   }, []);
 
