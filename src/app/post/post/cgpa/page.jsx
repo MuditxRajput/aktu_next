@@ -40,7 +40,7 @@ const CalculateCGPA = () => {
               </div>
               <div>
                 <h2 className="text-xl font-semibold mb-4 mt-1">
-                  Understanding SGPA and CGPA in AKTU
+                How to Calculate AKTU CGPA from Percentage in AKTU? CGPA Calculator in 2024
                 </h2>
                 <p>
                   Before we dive into calculations, let's clarify the difference between SGPA and CGPA:
