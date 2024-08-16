@@ -8,25 +8,25 @@ const AdCode = () => {
       try {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
       } catch (e) {
-        console.error('Adsbygoogle push error:', e);
+        console.log("Error in ads initialization:");
+        console.error(e);
       }
     };
 
-    if (typeof window !== 'undefined' && window.adsbygoogle) {
+    // Check if the adsense script has loaded
+    if (window.adsbygoogle) {
       initializeAds();
     } else {
-      // Reattempt initialization if the script is not yet loaded
-      const interval = setInterval(() => {
-        if (window.adsbygoogle) {
-          initializeAds();
-          clearInterval(interval);
-        }
-      }, 500);
+      // If not, wait for it to load
+      const script = document.querySelector("script[src^='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js']");
+      if (script) {
+        script.onload = initializeAds;
+      }
     }
   }, []);
 
   return (
-    <div>
+    <div className="ad-container">
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
@@ -34,7 +34,19 @@ const AdCode = () => {
         data-ad-slot="4416077835"
         data-ad-format="auto"
         data-full-width-responsive="true"
-      ></ins>
+      />
+      <style jsx>{`
+        .ad-container {
+          width: 100%;
+          min-height: 250px;
+          margin: 20px 0;
+        }
+        @media (max-width: 768px) {
+          .ad-container {
+            min-height: 100px;
+          }
+        }
+      `}</style>
     </div>
   );
 };
