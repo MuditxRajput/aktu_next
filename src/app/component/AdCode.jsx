@@ -1,5 +1,5 @@
-'use client';
-import { useEffect } from 'react';
+"use client";
+import { useEffect } from "react";
 
 const AdCode = () => {
   useEffect(() => {
@@ -9,8 +9,7 @@ const AdCode = () => {
       try {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
       } catch (e) {
-        
-        console.error('Adsbygoogle push error:', e);
+        console.error("Adsbygoogle push error:", e);
       }
     };
 
@@ -22,7 +21,7 @@ const AdCode = () => {
       return false;
     };
 
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       if (!checkAds()) {
         // Reattempt initialization if the script is not yet loaded
         const interval = setInterval(() => {
@@ -38,7 +37,7 @@ const AdCode = () => {
     <div>
       <ins
         className="adsbygoogle"
-        style={{ display: 'block' }}
+        style={{ display: "block" }}
         data-ad-client="ca-pub-8884977910314227"
         data-ad-slot="4416077835"
         data-ad-format="auto"

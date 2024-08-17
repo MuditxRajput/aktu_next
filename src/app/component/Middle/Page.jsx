@@ -1,7 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
 import AdCode from '../AdCode';
-
 const Middle = () => {
   const router = useRouter();
 
@@ -23,6 +22,7 @@ const Middle = () => {
         
 
           <button
+          onClick={()=>router.push("/YearSection/PreviousYear")}
             className="bg-orange-600 rounded-lg sm:px-4 sm:py-2 px-2 py-1 text-white hover:bg-black hover:shadow-md hover:shadow-orange-600"
           >
             Previous Papers
