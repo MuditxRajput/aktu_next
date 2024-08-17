@@ -6,7 +6,7 @@ import transportImg from "../../../PostImage/transportation.png";
 import AdCode from "../../../component/AdCode";
 
 const TransportationEngineering = () => {
-  const pageTitle = "Transportation Engineering KEC 602 AKTU Quantum PDF B-Tech 3rd Year | B.Tech 3rd Year Quantum";
+  const pageTitle = "Transportation Engineering KEC 602 AKTU Quantum PDF B-Tech 3rd Year ";
   const pageDescription = "Get the latest Transportation Engineering KEC 602 AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Transportation Engineering KEC 602 AKTU Quantum, AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns, Transportation Engineering KEC 602 aktu quantum, aktu quantum";
   const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/Transportation";

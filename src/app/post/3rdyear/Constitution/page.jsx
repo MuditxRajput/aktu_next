@@ -5,7 +5,7 @@ import { FaTelegram } from "react-icons/fa";
 import constitutionImg from '../../../PostImage/constitution.png'; // Assuming you have an image for Constitution Of India KNC 501 KNC 601, Law And Engineering
 import AdCode from "../../../component/AdCode";
 const ConstitutionOfIndia = () => {
-  const pageTitle = "Constitution Of India KNC  KNC 501 KNC 601, Law And Engineering AKTU Quantum PDF | B.Tech 3rd Year Quantum";
+  const pageTitle = "Constitution Of India KNC  KNC 501 KNC 601, Law And Engineering AKTU Quantum PDF";
   const pageDescription = "Get the latest Constitution Of India KNC 501 KNC 601, Law And Engineering AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Constitution Of India KNC 501 KNC 601, Law And Engineering, AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns";
   const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/Constitution";

@@ -6,7 +6,7 @@ import controlSystem from "../../../PostImage/control.png"; // Assuming you have
 import AdCode from "../../../component/AdCode";
 const ControlSystem = () => {
   const pageTitle =
-    "Control System AKTU Quantum pdf | B.Tech 3rd year quantum pdf";
+    "Control System AKTU Quantum pdf ";
   const pageDescription =
     "Get the latest Control System AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

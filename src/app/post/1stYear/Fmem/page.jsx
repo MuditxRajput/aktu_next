@@ -5,7 +5,7 @@ import { FaTelegram } from "react-icons/fa";
 import fmem from '../../../PostImage/Fmem.png';
 import AdCode from "../../../component/AdCode";
 const Fmem = () => {
-  const pageTitle = "Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum pdf free | aktu 1st year quantum pdf";
+  const pageTitle = "Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum pdf free ";
   const pageDescription = "Get the latest Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum PDF for B.Tech 1st year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Fundamental of Mechanical Engineering and Mechatrionic Aktu Quantum, Aktu Quantum, B.Tech 3rd Year, PDF, Syllabus, aktu , aktu result, aktu one view , Aktu 1st year quanutm pdf free";
   const canonicalUrl = "http://aktu-quantum.online/post/1stYear/Fmem";

@@ -6,7 +6,7 @@ import computerArchitecture from "../../../PostImage/COA.png";
 import AdCode from "../../../component/AdCode";
 const ComputerArchitecture = () => {
   const pageTitle =
-    "Computer Organization & Architecture KCS 302 COA Aktu Quantum pdf 2nd year | B.Tech 2nd year aktu quantum pdf";
+    "Computer Organization & Architecture KCS 302 COA Aktu Quantum pdf 2nd year ";
   const pageDescription =
     "Get the latest Computer Organization & Architecture KCS 302 Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

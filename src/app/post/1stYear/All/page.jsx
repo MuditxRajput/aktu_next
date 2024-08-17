@@ -5,7 +5,7 @@ import { FaTelegram } from "react-icons/fa";
 
 const All = () => {
   const pageTitle =
-    "AKTU Quantum B-Tech 1st Year All Branch PDF Download | Free Resources Available";
+    "AKTU Quantum B-Tech 1st Year All Branch PDF Download | B.Tech 1st year aktu quantum ";
   const pageDescription =
     "Download AKTU Quantum PDFs for B-Tech 1st Year covering all branches. Essential study materials, free and tailored to the AKTU syllabus.";
   const pageKeywords =

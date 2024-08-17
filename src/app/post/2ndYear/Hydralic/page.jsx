@@ -6,7 +6,7 @@ import hydraulicEngineering from "../../../PostImage/Hydraulic.png"; // Adjust t
 import AdCode from "../../../component/AdCode";
 const HydraulicEngineering = () => {
   const pageTitle =
-    "Hydraulic Engineering and Machines KCE 403 2nd Year | B.Tech 2nd Year AKTU Quantum PDF";
+    "Hydraulic Engineering and Machines KCE 403 2nd Year ";
   const pageDescription =
     "Access the latest Hydraulic Engineering and Machines KCE 403 AKTU Quantum PDF for B.Tech 2nd year. Explore question patterns, syllabus, and more.";
   const pageKeywords =

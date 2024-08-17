@@ -6,7 +6,7 @@ import quantityEstimationImg from "../../../PostImage/Quality.png";
 import AdCode from "../../../component/AdCode";
 const QuantityEstimation = () => {
   const pageTitle =
-    "Quantity Estimation & Construction Management AKTU Quantum PDF | B.Tech 3rd Year Quantum";
+    "Quantity Estimation & Construction Management AKTU Quantum PDF ";
   const pageDescription =
     "Get the latest Quantity Estimation & Construction Management AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

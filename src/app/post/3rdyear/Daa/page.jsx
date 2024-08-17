@@ -6,7 +6,7 @@ import designAlgorithms from "../../../PostImage/daa.png"; // Assuming you have 
 import AdCode from "../../../component/AdCode";
 const DesignAlgorithms = () => {
   const pageTitle =
-    "Design And Analysis Of Algorithms AKTU Quantum pdf | B.Tech 3rd year quantum pdf";
+    "Design And Analysis Of Algorithms AKTU Quantum pdf ";
   const pageDescription =
     "Get the latest Design And Analysis Of Algorithms AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

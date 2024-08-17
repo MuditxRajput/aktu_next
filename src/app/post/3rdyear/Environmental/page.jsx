@@ -6,7 +6,7 @@ import eeImage from "../../../PostImage/environmental.png"; // Assuming you have
 import AdCode from "../../../component/AdCode";
 const EnvironmentalEngineering = () => {
   const pageTitle =
-    "Environmental Engineering AKTU Quantum pdf | B.Tech 3rd year quantum pdf";
+    "Environmental Engineering AKTU Quantum pdf ";
   const pageDescription =
     "Get the latest Environmental Engineering AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

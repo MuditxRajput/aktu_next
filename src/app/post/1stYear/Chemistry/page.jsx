@@ -6,7 +6,7 @@ import chemistry from "../../../PostImage/chemistry.png";
 import AdCode from "../../../component/AdCode";
 const Chemistry = () => {
   const pageTitle =
-    "Engineering Chemistry Aktu Quantum pdf 1st year| B.tech 1st year aktu quantum pdf ";
+    "Engineering Chemistry Aktu Quantum pdf 1st year ";
   const pageDescription =
     "Get the latest Engineering Chemistry Aktu Quantum PDF for B.Tech 1st year. Access question patterns, syllabus, and more.";
   const pageKeywords =

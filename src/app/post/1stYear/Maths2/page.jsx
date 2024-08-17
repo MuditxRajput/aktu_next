@@ -6,7 +6,7 @@ import maths2 from "../../../PostImage/maths2.png";
 import AdCode from "../../../component/AdCode";
 const Maths2 = () => {
   const pageTitle =
-    "Mathematics-II Aktu Quantum pdf 1st year| B.tech 1st year aktu quantum pdf ";
+    "Mathematics-II Aktu Quantum pdf 1st year ";
   const pageDescription =
     "Get the latest Mathematics-II Aktu Quantum PDF for B.Tech 1st year. Access question patterns, syllabus, and more.";
   const pageKeywords =

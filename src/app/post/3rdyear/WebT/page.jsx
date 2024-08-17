@@ -5,7 +5,7 @@ import Link from "next/link";
 import webTimg from "../../../PostImage/webT_image.png"; // Assuming you have an image for Web Technology
 import AdCode from "../../../component/AdCode";
 const WebT = () => {
-  const pageTitle = "Web Technology KIT-501 AKTU Quantum PDF B-Tech 3rd Year | B.Tech 3rd Year Quantum";
+  const pageTitle = "Web Technology KIT-501 AKTU Quantum PDF B-Tech 3rd Year ";
   const pageDescription = "Get the latest Web Technology AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Web Technology AKTU Quantum, AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns, webt aktu quantum, aktu quantum";
   const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/WebT";

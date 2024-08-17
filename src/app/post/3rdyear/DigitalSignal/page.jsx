@@ -6,7 +6,7 @@ import dspImage from "../../../PostImage/signal.png"; // Assuming you have an im
 import AdCode from "../../../component/AdCode";
 const DigitalSignalProcessing = () => {
   const pageTitle =
-    "Digital Signal Processing AKTU Quantum pdf | B.Tech 3rd year quantum pdf";
+    "Digital Signal Processing AKTU Quantum pdf";
   const pageDescription =
     "Get the latest Digital Signal Processing AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

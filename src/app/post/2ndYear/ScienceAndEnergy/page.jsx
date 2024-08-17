@@ -6,7 +6,7 @@ import energy from "../../../PostImage/EnergyScience.png";
 import AdCode from "../../../component/AdCode";
 const EnergyScience = () => {
   const pageTitle =
-    "Energy Science and Engineering Aktu Quantum pdf 2nd year | B.Tech 2nd year aktu quantum pdf";
+    "Energy Science and Engineering Aktu Quantum pdf 2nd year ";
   const pageDescription =
     "Get the latest Energy Science and Engineering Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

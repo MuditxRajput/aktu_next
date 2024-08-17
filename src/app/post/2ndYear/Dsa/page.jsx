@@ -6,7 +6,7 @@ import dataStructure from "../../../PostImage/Dsa.png";
 import AdCode from "../../../component/AdCode";
 const DataStructure = () => {
   const pageTitle =
-    "Data Structure KCS 301 Aktu Quantum pdf 2nd year | B.Tech 2nd year aktu quantum pdf";
+    "Data Structure KCS 301 Aktu Quantum pdf 2nd year ";
   const pageDescription =
     "Get the latest Data Structure KCS 301 Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

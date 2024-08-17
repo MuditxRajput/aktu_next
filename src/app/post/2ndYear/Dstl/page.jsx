@@ -6,7 +6,7 @@ import dstl from "../../../PostImage/Dstl.png";
 import AdCode from "../../../component/AdCode";
 const DSTL = () => {
   const pageTitle =
-    "Discrete Structures & Theory of Logic KCS 303 Aktu Quantum pdf 2nd year | B.Tech 2nd year aktu quantum pdf";
+    "Discrete Structures & Theory of Logic KCS 303 Aktu Quantum pdf 2nd year ";
   const pageDescription =
     "Get the latest Discrete Structures & Theory of Logic KCS 303 Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

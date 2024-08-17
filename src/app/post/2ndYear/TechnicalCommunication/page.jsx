@@ -6,7 +6,7 @@ import technicalCommunicationImage from "../../../PostImage/TechnicalCommunicati
 import AdCode from "../../../component/AdCode";
 const TechnicalCommunication = () => {
   const pageTitle =
-    "Technical Communication Aktu Quantum PDF 2nd year | B.Tech 2nd year aktu quantum pdf";
+    "Technical Communication Aktu Quantum PDF 2nd year";
   const pageDescription =
     "Get the latest Technical Communication Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

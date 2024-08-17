@@ -7,7 +7,7 @@ import AdCode from "../../../component/AdCode";
 
 const DataAnalytics = () => {
   const pageTitle =
-    "Data Analytics Aktu Quantum pdf | B.Tech 3rd year quantum pdf";
+    "Data Analytics Aktu Quantum pdf ";
   const pageDescription =
     "Get the latest Data Analytics AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

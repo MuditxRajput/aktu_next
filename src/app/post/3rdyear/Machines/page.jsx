@@ -6,7 +6,7 @@ import theoryOfMachinesImg from "../../../PostImage/machine.png";
 import AdCode from "../../../component/AdCode";
 const TheoryOfMachines = () => {
   const pageTitle =
-    "Theory Of Machines AKTU Quantum PDF | B.Tech 3rd Year Quantum";
+    "Theory Of Machines AKTU Quantum PDF ";
   const pageDescription =
     "Get the latest Theory Of Machines AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

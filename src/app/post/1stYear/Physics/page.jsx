@@ -6,7 +6,7 @@ import engineeringPhysics from "../../../PostImage/physics.png"; // Assuming you
 import AdCode from "../../../component/AdCode";
 const EngineeringPhysics = () => {
   const pageTitle =
-    "Engineering Physics AKTU Quantum pdf 1st year | B.Tech 1st year quantum pdf";
+    "Engineering Physics AKTU Quantum pdf 1st year ";
   const pageDescription =
     "Get the latest Engineering Physics AKTU Quantum PDF for B.Tech 1st year. Access question patterns, syllabus, and more.";
   const pageKeywords =

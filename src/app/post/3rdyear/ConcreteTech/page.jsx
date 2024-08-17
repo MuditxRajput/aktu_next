@@ -6,7 +6,7 @@ import concreteTechnology from "../../../PostImage/Concrete.png"; // Assuming yo
 import AdCode from "../../../component/AdCode";
 const ConcreteTechnology = () => {
   const pageTitle =
-    "Concrete Technology AKTU Quantum pdf | B.Tech 3rd year quantum pdf";
+    "Concrete Technology AKTU Quantum pdf ";
   const pageDescription =
     "Get the latest Concrete Technology AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

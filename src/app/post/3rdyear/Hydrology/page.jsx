@@ -5,7 +5,7 @@ import { FaTelegram } from "react-icons/fa";
 import engineeringHydrologyImg from '../../../PostImage/hydrology.png';
 import AdCode from "../../../component/AdCode";
 const EngineeringHydrology = () => {
-  const pageTitle = "Engineering Hydrology KCE 055 AKTU Quantum PDF | B.Tech 3rd Year Quantum";
+  const pageTitle = "Engineering Hydrology KCE 055 AKTU Quantum PDF ";
   const pageDescription = "Get the latest Engineering Hydrology KCE 055  AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Engineering Hydrology KCE 055, AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns";
   const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/Hydrology";

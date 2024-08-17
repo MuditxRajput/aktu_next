@@ -7,7 +7,7 @@ import automataImage from "../../../PostImage/tafl.png"; // Ensure you have the 
 
 const TheoryOfAutomata = () => {
   const pageTitle =
-    "Theory of Automata & Formal Languages KCS 401 Aktu Quantum pdf 2nd year | B.Tech 2nd year aktu quantum pdf";
+    "Theory of Automata & Formal Languages KCS 401 Aktu Quantum pdf 2nd year ";
   const pageDescription =
     "Get the latest Theory of Automata & Formal Languages KCS 401 Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

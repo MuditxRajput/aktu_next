@@ -6,7 +6,7 @@ import egImage from "../../../PostImage/geology.png"; // Assuming you have an im
 import AdCode from "../../../component/AdCode";
 const EngineeringGeology = () => {
   const pageTitle =
-    "Engineering Geology AKTU Quantum pdf | B.Tech 3rd year quantum pdf";
+    "Engineering Geology AKTU Quantum pdf ";
   const pageDescription =
     "Get the latest Engineering Geology AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

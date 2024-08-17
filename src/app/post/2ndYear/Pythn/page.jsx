@@ -6,7 +6,7 @@ import pythonProgramming from "../../../PostImage/py.png"; // Adjust the path as
 import AdCode from "../../../component/AdCode";
 const PythonProgramming = () => {
   const pageTitle =
-    "Python Programming KNC 302 / KNC 402 Aktu Quantum pdf 2nd year| B.Tech 2nd Year AKTU Quantum PDF";
+    "Python Programming KNC 302 / KNC 402 Aktu Quantum pdf 2nd year";
   const pageDescription =
     "Get the latest Python Programming KNC 302 / KNC 402 Aktu Quantum pdf 2nd year AKTU Quantum PDF for B.Tech 2nd year. Explore the syllabus, question patterns, and more.";
   const pageKeywords =

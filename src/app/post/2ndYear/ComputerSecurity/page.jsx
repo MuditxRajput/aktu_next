@@ -7,7 +7,7 @@ import AdCode from "../../../component/AdCode";
 
 const ComputerSecurity = () => {
   const pageTitle =
-    "Computer System Security CSS KNC 301 KNC 401 Aktu Quantum pdf 2nd year | B.Tech 2nd year aktu quantum pdf";
+    "Computer System Security CSS KNC 301 KNC 401 Aktu Quantum pdf 2nd year ";
   const pageDescription =
     "Get the latest Computer System Security CSS KNC 301 KNC 401 Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

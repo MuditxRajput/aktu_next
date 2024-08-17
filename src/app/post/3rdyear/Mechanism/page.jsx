@@ -6,7 +6,7 @@ import emImage from "../../../PostImage/machines.png"; // Assuming you have an i
 import AdCode from "../../../component/AdCode";
 const ElectricalMachines = () => {
   const pageTitle =
-    "Electrical Machines 2  AKTU Quantum pdf | B.Tech 3rd year quantum pdf";
+    "Electrical Machines 2  AKTU Quantum pdf ";
   const pageDescription =
     "Get the latest Electrical Machines 2  AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

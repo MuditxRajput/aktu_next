@@ -6,7 +6,7 @@ import operatingSystem from "../../../PostImage/Operating.png"; // Adjust the pa
 import AdCode from "../../../component/AdCode";
 const OperatingSystem = () => {
   const pageTitle =
-    "Operating System aktu quantum download KCS 401 | B.Tech 2nd Year AKTU Quantum PDF";
+    "Operating System aktu quantum download KCS 401 ";
   const pageDescription =
     "Get the latest Operating System AKTU Quantum PDF for B.Tech 2nd year. Explore the syllabus, question patterns, and more.";
   const pageKeywords =

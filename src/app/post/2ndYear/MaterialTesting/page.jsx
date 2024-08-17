@@ -6,11 +6,11 @@ import materialTesting from "../../../PostImage/testing.png"; // Adjust the path
 import AdCode from "../../../component/AdCode";
 const MaterialTesting = () => {
   const pageTitle =
-    "Material, Testing and Construction Practices KCE 401 2nd Year | B.Tech 2nd Year AKTU Quantum PDF";
+    "Material Testing and Construction Practices Aktu Quantum KCE 401 2nd Year";
   const pageDescription =
     "Get the latest Material, Testing and Construction Practices KCE 401 AKTU Quantum PDF for B.Tech 2nd year. Explore question patterns, syllabus, and more.";
   const pageKeywords =
-    "Material Testing, Construction Practices, KCE 401, B.Tech 2nd Year, AKTU Quantum, PDF, Syllabus, Plastic Manufacturing, Building Components, Doors and Windows, Natural Ventilation";
+    "Material Testing Construction Practices, KCE 401, B.Tech 2nd Year, AKTU Quantum, PDF, Syllabus, Plastic Manufacturing, Building Components, Doors and Windows, Natural Ventilation";
     const canonicalUrl = "http://aktu-quantum.online/post/2ndYear/MaterialTesting";
   return (
     <>

@@ -6,7 +6,7 @@ import maths3Image from "../../../PostImage/maths-3.png"; // Update the path to 
 import AdCode from "../../../component/AdCode";
 const Maths3 = () => {
   const pageTitle =
-    "Maths-3 Aktu Quantum PDF 2nd year | B.Tech 2nd year aktu quantum pdf";
+    "Maths-3 Aktu Quantum PDF 2nd year ";
   const pageDescription =
     "Get the latest Maths-3 Aktu Quantum PDF for B.Tech 2nd year. Access question patterns, syllabus, and more.";
   const pageKeywords =

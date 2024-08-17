@@ -6,7 +6,7 @@ import fluidMechanics from "../../../PostImage/fluid.png"; // Adjust the path as
 import AdCode from "../../../component/AdCode";
 const FluidMechanics = () => {
   const pageTitle =
-    "Fluid Mechanics & Fluid Machines KME 302 2nd Year | B.Tech 2nd Year AKTU Quantum PDF";
+    "Fluid Mechanics & Fluid Machines KME 302 2nd Year ";
   const pageDescription =
     "Access the latest Fluid Mechanics & Fluid Machines KME 302 AKTU Quantum PDF for B.Tech 2nd year. Explore question patterns, syllabus, and more.";
   const pageKeywords =

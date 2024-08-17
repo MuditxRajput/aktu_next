@@ -5,7 +5,7 @@ import { FaTelegram } from "react-icons/fa";
 import dataCommImg from '../../../PostImage/dcn.png';
 import AdCode from "../../../component/AdCode";
 const DataCommunicationNetwork = () => {
-  const pageTitle = "Data Communication Network KEC 063 AKTU Quantum PDF | B.Tech 3rd Year Quantum";
+  const pageTitle = "Data Communication Network KEC 063 AKTU Quantum PDF ";
   const pageDescription = "Get the latest Data Communication Network KEC 063 AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Data Communication Network KEC 063, AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns";
   const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/DCN";

@@ -4,7 +4,7 @@ import AdCode from "../../../component/AdCode";
 import concrete from '../../../PostImage/concrete3.png';
 
 const ConcreteStructures = () => {
-  const pageTitle = "Design Of Concrete Structures AKTU Quantum PDF | B.Tech 3rd Year Quantum";
+  const pageTitle = "Design Of Concrete Structures AKTU Quantum PDF ";
   const pageDescription = "Get the latest Design Of Concrete Structures AKTU Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Design Of Concrete Structures, AKTU Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns";
   const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/concrete";

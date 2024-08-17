@@ -4,7 +4,7 @@ import { FaTelegram } from "react-icons/fa";
 import AdCode from "../../../component/AdCode";
 const ThirdYear = () => {
   const pageTitle =
-    "AKTU Quantum B-Tech 3rd Year All Branch PDF Download | Free Resources Available";
+    "AKTU Quantum B-Tech 3rd Year All Branch PDF Download |B.Tech 3rd year quantum pdf";
   const pageDescription =
     "Download AKTU Quantum PDFs for B-Tech 3rd Year covering all branches. Essential study materials, free and tailored to the AKTU syllabus.";
   const pageKeywords =

@@ -6,7 +6,7 @@ import { FaTelegram } from "react-icons/fa";
 import electronic from "../../../PostImage/Electronic.png";
 const Electronic = () => {
   const pageTitle =
-    "Fundamentals Of Electronics Engineering Aktu Quantum pdf 1st year | B.tech 1st year aktu quantum pdf ";
+    "Fundamentals Of Electronics Engineering Aktu Quantum pdf 1st year  ";
   const pageDescription =
     "Get the latest Fundamentals Of Electronics Engineering Aktu Quantum PDF for B.Tech 1st year. Access question patterns, syllabus, and more.";
   const pageKeywords =

@@ -4,7 +4,7 @@ import Link from "next/link";
 import rtsImg from '../../../PostImage/Rts_syllabus.png';
 import AdCode from "../../../component/AdCode";
 const Rts = () => {
-  const pageTitle = "Real Time System KOE-061 Aktu Quantum PDF | B.Tech 3rd Year Quantum";
+  const pageTitle = "Real Time System KOE-061 Aktu Quantum PDF ";
   const pageDescription = "Get the latest Real Time System KOE-061 Aktu Quantum PDF for B.Tech 3rd year. Access question patterns, syllabus, and more.";
   const pageKeywords = "Real Time System, KOE-061, Aktu Quantum, B.Tech 3rd Year, PDF, Syllabus, Question Patterns";
   const canonicalUrl = "http://aktu-quantum.online/post/3rdyear/rts";
