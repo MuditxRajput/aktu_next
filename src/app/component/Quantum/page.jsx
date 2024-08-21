@@ -27,18 +27,18 @@ const Quantum = () => {
   return (
     <>
       {/* Top Ad */}
-      <div className="bg-gray-100 p-4 shadow-md mb-4">
+      <div className=" p-4 shadow-md mb-4">
         <AdCode />
       </div>
       
       {/* Search Component */}
-      <div className="bg-white p-4 shadow-md mb-4">
+      <div className=" p-4 shadow-md mb-4">
         <Search />
       </div>
 
       <div className="container mx-auto p-4 flex flex-col lg:flex-row gap-4">
         {/* Sticky Sidebar for Desktop and Mobile */}
-        <div className="sticky top-0 p-4 bg-gray-100 shadow-md lg:w-1/4 lg:h-screen lg:overflow-auto lg:block lg:border-r lg:border-gray-200">
+        <div className="sticky top-24 p-4  shadow-md lg:w-1/4 lg:h-screen lg:overflow-auto lg:block lg:border-r lg:border-gray-200">
           <AdCode />
           {/* <AdCode /> */}
         </div>
@@ -102,10 +102,7 @@ const Quantum = () => {
         </div>
 
         {/* Bottom Ad for Mobile */}
-        <div className="lg:hidden fixed h-36 bottom-0 left-0 right-0  ">
-          <AdCode />
-       
-        </div>
+        
       </div>
     </>
   );

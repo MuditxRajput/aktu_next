@@ -158,11 +158,11 @@ const Page = () => {
         </div>
 
         {/* Right Sidebar */}
-        <div className="col-span-12 md:col-span-2 p-4">
+        {/* <div className="col-span-12 md:col-span-2 p-4">
           <div className="sticky top-0 bg-white z-20">
             <AdCode />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
