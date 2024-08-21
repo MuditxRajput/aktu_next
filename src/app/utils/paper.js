@@ -258,233 +258,233 @@ const paper = [
         link : "https://drive.google.com/file/d/1lwcSvGi_GL2Z3pSSeqt-gt_KCIPNUotQ/view?usp=sharing"
     },
     {
-        name: "KCE058-GIS-AND-ADVANCE-REMOTE-SENSING.pdf",
+        name: "KCE058-GIS-AND-ADVANCE-REMOTE-SENSING",
         year: "3",
         link : "https://drive.google.com/file/d/1bcdwmmwI_Y70aH0PttP_e_ZETK0v5zls/view?usp=sharing"
     },
     {
-        name: "KCE501-GEOTECHNICAL-ENGINEERING.pdf",
+        name: "KCE501-GEOTECHNICAL-ENGINEERING",
         year: "3",
         link : "https://drive.google.com/file/d/1xHGUeEz3SGz8zvMu7Q3LWExtpbP7YuVQ/view?usp=sharing"
     },
     {
-        name: "KCE502-STRUCTURAL-ANALYSIS.pdf",
+        name: "KCE502-STRUCTURAL-ANALYSIS",
         year: "3",
         link : "https://drive.google.com/file/d/1VhmR6T8o6FVam6Ff0NZG1_RM3gLPY0k1/view?usp=sharing"
     },
     {
-        name: "KCE503-QUANTITY-ESTIMATION-AND-CONSTRUCTION-MANAGEMENT.pdf",
+        name: "KCE503-QUANTITY-ESTIMATION-AND-CONSTRUCTION-MANAGEMENT",
         year: "3",
         link : "https://drive.google.com/file/d/10pReu7MkeoZJCABS1qhH5PFzyId4eA7G/view?usp=sharing"
     },
     {
-        name: "KCS052-WEB-DESIGNING.pdf",
+        name: "KCS052-WEB-DESIGNING",
         year: "3",
         link : "https://drive.google.com/file/d/10Mpka0fw1OwabxnZcJ6Ceo9TD-j-LvLr/view?usp=sharing"
     },
     {
-        name: "KCS053-COMPUTER-GRAPHICS.pdf",
+        name: "KCS053-COMPUTER-GRAPHICS",
         year: "3",
         link : "https://drive.google.com/file/d/1Qn-BTR4BNE94u316XPork2WJTlEpqL7K/view?usp=sharing"
     },
     {
-        name: "KCS054-OBJECT-ORIENTED-SYSTEM-DESIGN.pdf",
+        name: "KCS054-OBJECT-ORIENTED-SYSTEM-DESIGN",
         year: "3",
         link : "https://drive.google.com/file/d/1LwH632Br-wBK_n5WWbCTHnmVBmfRsOnu/view?usp=sharing"
     },
     {
-        name: "KCS055-MACHINE-LEARNING-TECHNIQUES.pdf",
+        name: "KCS055-MACHINE-LEARNING-TECHNIQUES",
         year: "3",
         link : "https://drive.google.com/file/d/1hFCxP3agSMlVExzRrkDKra0rZ2chlt-k/view?usp=sharing"
     },
     
     {
-        name: "KCS056-APPLICATION-OF-SOFT-COMPUTING.pdf",
+        name: "KCS056-APPLICATION-OF-SOFT-COMPUTING",
         year: "3",
         link : "https://drive.google.com/file/d/1Gn-qhy0oaWlSNM5Zswt6HgcIbOA_yBYa/view?usp=sharing"
     },
     {
-        name: "KCS501-DATA-BASE-MANAGEMENT-SYSTEM.pdf",
+        name: "KCS501-DATA-BASE-MANAGEMENT-SYSTEM",
        year: "3",
         link : "https://drive.google.com/file/d/17VYEl1eMtpQuR7iiowXPUrggbh6_po0s/view?usp=sharing"
     },
     {
-        name: "KCS502-COMPILER-DESIGN.pdf",
+        name: "KCS502-COMPILER-DESIGN",
        year: "3",
         link : "https://drive.google.com/file/d/1u8ZBsXhogfzNvm3_peYfAxkDt-X8ntPr/view?usp=sharing"
     },
     {
-        name: "KCS503-DESIGN-AND-ANALYSIS-OF-ALGORITHM.pdf",
+        name: "KCS503-DESIGN-AND-ANALYSIS-OF-ALGORITHM",
        year: "3",
         link : "https://drive.google.com/file/d/1ROVUH6IUgTRBsYzn0E9GH-lfZrIbYYVj/view?usp=sharing"
     },
     {
-        name: "KDS051-BUSINESS-INTELLIGENCE-AND-ANALYTICS.pdf",
+        name: "KDS051-BUSINESS-INTELLIGENCE-AND-ANALYTICS",
        year: "3",
         link : "https://drive.google.com/file/d/1izLtYdfxde4dhkwnONcbc9kxZQ3y53CN/view?usp=sharing"
     },
     {
-        name: "KDS052-DISTRIBUTED-SYSTEM.pdf",
+        name: "KDS052-DISTRIBUTED-SYSTEM",
        year: "3",
         link : "https://drive.google.com/file/d/1p4T3U4PtTB5jIJMoroP6mxOU4d-qiKY_/view?usp=sharing"
     },
     {
-        name: "KDS053-STREAM-PROCESSING-AND-ANALYTICS.pdf",
+        name: "KDS053-STREAM-PROCESSING-AND-ANALYTICS",
        year: "3",
         link : "https://drive.google.com/file/d/1_BSdlPa2Ex41owAqII_BlYYiNCJKho7w/view?usp=sharing"
     },
     {
-        name: "KDS501-INTRODUCTION-TO-DATA-ANALYTICS-AND-VISUALIZATION.pdf",
+        name: "KDS501-INTRODUCTION-TO-DATA-ANALYTICS-AND-VISUALIZATION",
        year: "3",
         link : "https://drive.google.com/file/d/1LQsvgmgM_30ZvG8Xa-txTNqQFXEzLFY3/view?usp=sharing"
     },
     {
-        name: "KEC051-COMPUTER-ARCHITECTURE-AND-ORGANIZATION.pdf",
+        name: "KEC051-COMPUTER-ARCHITECTURE-AND-ORGANIZATION",
        year: "3",
         link : "https://drive.google.com/file/d/1RqT5KZyVPP5baGFbmJ-AJ16hZ2cgxri6/view?usp=sharing"
     },
     {
-        name: "KEC052-INDUSTRIAL-ELECTRONICS.pdf",
+        name: "KEC052-INDUSTRIAL-ELECTRONICS",
        year: "3",
         link : "https://drive.google.com/file/d/1PNjpWA-kmhB88NzJeWmpzTk2CSA4MxoW/view?usp=sharing"
     },
     {
-        name: "KEC053-VLSI-TECHNOLOGY.pdf",
+        name: "KEC053-VLSI-TECHNOLOGY",
        year: "3",
         link : "https://drive.google.com/file/d/1x0RNK5ASVXnOtTl0wHOgxc2CCCwQdL8x/view?usp=sharing"
     },
     {
-        name: "KEC054-ADVANCE-DIGITAL-DESIGN-USING-VERILOG.pdf",
+        name: "KEC054-ADVANCE-DIGITAL-DESIGN-USING-VERILOG",
        year: "3",
         link : "https://drive.google.com/file/d/10yGQtaJfF_e2y0SRtUlAcwgTzbJplsBH/view?usp=sharing"
     },
     {
-        name: "KEC055-ELECTRONICS-SWITCHING.pdf",
+        name: "KEC055-ELECTRONICS-SWITCHING",
        year: "3",
         link : "https://drive.google.com/file/d/1E5pIcvxGhEEk6IwRjV_NJz4SSzQeyUGP/view?usp=sharing"
     },
     {
-        name: "KEC056-ADVANCE-SEMICONDUCTOR-DEVICE.pdf",
+        name: "KEC056-ADVANCE-SEMICONDUCTOR-DEVICE",
        year: "3",
         link : "https://drive.google.com/file/d/1yFtqRAlCWCANa9ulgoIN_0qHg1Sma8F9/view?usp=sharing"
     },
     {
-        name: "KEC057-ELECTRONIC-INSTRUMENTATION-AND-MEASUREMENTS.pdf",
+        name: "KEC057-ELECTRONIC-INSTRUMENTATION-AND-MEASUREMENTS",
        year: "3",
         link : "https://drive.google.com/file/d/1bAl9l5e7lFWKDu8OZ8fRAxSt8ddzycUG/view?usp=sharing"
     },
     {
-        name: "KEC058-OPTICAL-COMMUNICATION.pdf",
+        name: "KEC058-OPTICAL-COMMUNICATION",
        year: "3",
         link : "https://drive.google.com/file/d/1OTjFx5nseaGGiSkRj1wajaoCELCQZh97/view?usp=sharing"
     },
     {
-        name: "KEC501-INTEGRATED-CIRCUITS.pdf",
+        name: "KEC501-INTEGRATED-CIRCUITS",
        year: "3",
         link : "https://drive.google.com/file/d/1rCC9cS2zzgwxe5ISTb-H_RFQAxP-_tav/view?usp=sharing"
     },
     {
-        name: "KEC502-MICROPROCESSOR-MICROCONTROLLER.pdf",
+        name: "KEC502-MICROPROCESSOR-MICROCONTROLLER",
        year: "3",
         link : "https://drive.google.com/file/d/1xCStLAy_A8KgBLFY2K3EZ1BQMHqvFQtv/view?usp=sharing"
     },
     {
-        name: "KEE051-ROBOTICS.pdf",
+        name: "KEE051-ROBOTICS",
        year: "3",
         link : "https://drive.google.com/file/d/1Zg6osR6aLhnSb6rJ-a-pWKjiVUF90eJA/view?usp=sharing"
     },
     {
-        name: "KEE052-SENSORS-AND-TRANSDUCERS.pdf",
+        name: "KEE052-SENSORS-AND-TRANSDUCERS",
        year: "3",
         link : "https://drive.google.com/file/d/1mq-DNRhY2AKJNNRI4YHlIDm-C0FPfPNk/view?usp=sharing"
     },
     {
-        name: "KEE053-INDUSTRIAL-AUTOMATION-AND-CONTROL.pdf",
+        name: "KEE053-INDUSTRIAL-AUTOMATION-AND-CONTROL",
        year: "3",
         link : "https://drive.google.com/file/d/1PiJXIbAqjcXa9l4qhlvh5oyoteE_uGCQ/view?usp=sharing"
     },
     {
-        name: "KEE054-ELECTRICAL-STANDARDS-AND-ENGINEERING-PRACTICES.pdf",
+        name: "KEE054-ELECTRICAL-STANDARDS-AND-ENGINEERING-PRACTICES",
        year: "3",
         link : "https://drive.google.com/file/d/1D04lfAY8KDXERcTmijNSuCTUdhKG8ed0/view?usp=sharing"
     },
     {
-        name: "KEE503-ELECTRICAL-MACHINES-II.pdf",
+        name: "KEE503-ELECTRICAL-MACHINES-II",
        year: "3",
         link : "https://drive.google.com/file/d/1RnHWQGkRFF9TOIKNK1uIUeLHfIqRgcfD/view?usp=sharing"
     },
     {
-        name: "KIT051-STATISTICAL-COMPUTING.pdf",
+        name: "KIT051-STATISTICAL-COMPUTING",
        year: "3",
         link : "https://drive.google.com/file/d/1O-Smpy_ARn95PcjnCcAtIE5SeNaKUmf4/view?usp=sharing"
     },
     {
-        name: "KME051-COMPUTER-INTEGRATED-MANUFACTURING.pdf",
+        name: "KME051-COMPUTER-INTEGRATED-MANUFACTURING",
        year: "3",
         link : "https://drive.google.com/file/d/1AUjoGrRfgCIbQDZwuchkPPiLQCStlABE/view?usp=sharing"
     },
     {
-        name: "KME052-MECHATRONICS-SYSTEMS.pdf",
+        name: "KME052-MECHATRONICS-SYSTEMS",
        year: "3",
         link : "https://drive.google.com/file/d/1nDcHqTJTSuXMadAX-c5WEgIyA_YaGLU3/view?usp=sharing"
     },
     {
-        name: "KME053-QUANTITY-ESTIMATION-AND-CONSTRUCTION-MANAGEMENT.pdf",
+        name: "KME053-QUANTITY-ESTIMATION-AND-CONSTRUCTION-MANAGEMENT",
        year: "3",
         link : "https://drive.google.com/file/d/19JjbtFILR_Vg9Sb6zmWWKKeeDa8gJk-N/view?usp=sharing"
     },
     {
-        name: "KME054-I-C-ENGINE-FUELS-LUBRICATION.pdf",
+        name: "KME054-I-C-ENGINE-FUELS-LUBRICATION",
        year: "3",
         link : "https://drive.google.com/file/d/1dHU5wqLKvTdEKuw29ZulFemEijENcaRw/view?usp=sharing"
     },
     {
-        name: "KME055-ADVANCE-WELDING.pdf",
+        name: "KME055-ADVANCE-WELDING",
        year: "3",
         link : "https://drive.google.com/file/d/17wA0BCA_BrPeAoRaJTr1IqOQfRM5aID-/view?usp=sharing"
     },
     {
-        name: "KME056-PROGRAMMING-DATA-STRUCTURES-AND-ALGORITHMS-USING-PYTHON.pdf",
+        name: "KME056-PROGRAMMING-DATA-STRUCTURES-AND-ALGORITHMS-USING-PYTHON",
        year: "3",
         link : "https://drive.google.com/file/d/1qbo3ATjuT8Dov4D3r9VZhW0Pvgpq1IUL/view?usp=sharing"
     },
     {
-        name: "KME057-MECHANICAL-VIBRATIONS.pdf",
+        name: "KME057-MECHANICAL-VIBRATIONS",
        year: "3",
         link : "https://drive.google.com/file/d/1ncpMDN6lzhzzGtm92mfKS5RC9MPmDjnR/view?usp=sharing"
     },
     {
-        name: "KME501-HEAT-AND-MASS-TRANSFER.pdf",
+        name: "KME501-HEAT-AND-MASS-TRANSFER",
        year: "3",
         link : "https://drive.google.com/file/d/1JurdXabcTUlX3faF5gI7mrLZicVWyfsZ/view?usp=sharing"
     },
     {
-        name: "KME502-STRENGTH-OF-MATERIAL.pdf",
+        name: "KME502-STRENGTH-OF-MATERIAL",
        year: "3",
         link : "https://drive.google.com/file/d/1mq0KQT0vliiPM4TsF89qCnyRcF8zu90R/view?usp=sharing"
     },
     {
-        name: "KME503-INDUSTRIAL-ENGINEERING.pdf",
+        name: "KME503-INDUSTRIAL-ENGINEERING",
        year: "3",
         link : "https://drive.google.com/file/d/1JgC123XB9et9j2xRo-WGh-J0gU04w3ur/view?usp=sharing"
     },
     {
-        name: "KML051-CLOUD-COMPUTING.pdf",
+        name: "KML051-CLOUD-COMPUTING",
        year: "3",
         link : "https://drive.google.com/file/d/1ohaFKFuqUq1gppMuN8vm7upYnECHy7M1/view?usp=sharing"
     },
     {
-        name: "KNC501-CONSTITUTION-OF-INDIA-LAW-AND-ENGINEERING.pdf",
+        name: "KNC501-CONSTITUTION-OF-INDIA-LAW-AND-ENGINEERING",
        year: "3",
         link : "https://drive.google.com/file/d/1j3XWPMUukeKNhYgAomwjMwhllE_ZIy6L/view?usp=sharing"
     },
     {
-        name: "KNC502-INDIAN-TRADITION-CULTURE-AND-SOCIETY.pdf",
+        name: "KNC502-INDIAN-TRADITION-CULTURE-AND-SOCIETY",
        year: "3",
         link : "https://drive.google.com/file/d/1xk_ZPh9UlOEZwEA6fx8SLI6VQ3VynVSI/view?usp=sharing"
     },
     {
-        name: "KOT052-PROGRAMMING-AND-INTERFACING-WITH-MICROCONTROLLERS.pdf",
+        name: "KOT052-PROGRAMMING-AND-INTERFACING-WITH-MICROCONTROLLERS",
        year: "3",
         link : "https://drive.google.com/file/d/1ROUMSxJCFNlG83C6KCd9b_unrK-3AxsH/view?usp=sharing"
     },
@@ -494,232 +494,232 @@ const paper = [
         link : "https://drive.google.com/file/d/1k7ChgnF8dlmJ3e1XwclwQpPyo7rUhfx4/view?usp=sharing"
     },
     {
-        name: "KOT054-PRIVACY-AND-SECURITY-IN-IOT.pdf",
+        name: "KOT054-PRIVACY-AND-SECURITY-IN-IOT",
        year: "3",
         link : "https://drive.google.com/file/d/1cLcSv7YJLUT6PxwV6CKxcrmyLPf6yv91/view?usp=sharing"
     },
     {
-        name: "KOT055-EMBEDDED-SYSTEMS-AND-REAL-TIME-OPERATING-SYSTEM.pdf",
+        name: "KOT055-EMBEDDED-SYSTEMS-AND-REAL-TIME-OPERATING-SYSTEM",
        year: "3",
         link : "https://drive.google.com/file/d/18M-i2oP1xh3kTzMMzboRze6Z4Tv9ZACJ/view?usp=sharing"
     },
     {
-        name: "KOT501-INTRODUCTION-TO-INTERNET-OF-THINGS.pdf",
+        name: "KOT501-INTRODUCTION-TO-INTERNET-OF-THINGS",
        year: "3",
         link : "https://drive.google.com/file/d/1KOQHC-WV-wtZaYPUho51Dg0udEXngr5h/view?usp=sharing"
     },
     {
-        name: "KOT501-INTRODUCTION-TO-INTERNET-OF-THINGS.pdf",
+        name: "KOT501-INTRODUCTION-TO-INTERNET-OF-THINGS",
        year: "4",
         link : "https://drive.google.com/file/d/1KOQHC-WV-wtZaYPUho51Dg0udEXngr5h/view?usp=sharing"
     },
     {
-        name: "KAI071-OPTIMIZATION-IN-MACHINE-LEARNING.pdf",
+        name: "KAI071-OPTIMIZATION-IN-MACHINE-LEARNING",
        year: "4",
         link : "https://drive.google.com/file/d/1QqlLx6bNNwyf55jMn1s2NrsA2AGR9EUq/view?usp=sharing"
     },
     {
-        name: "KAI073-TEXT-ANALYTICS-AND-NATURAL-LANGUGAE-PROCESSING.pdf",
+        name: "KAI073-TEXT-ANALYTICS-AND-NATURAL-LANGUGAE-PROCESSING",
        year: "4",
         link : "https://drive.google.com/file/d/1tO4unqIHj8ITwWFNQisezlmygyzkt45n/view?usp=sharing"
     },
     {
-        name: "KAI075-DATA-WAREHOUSING-AND-DATA-MINING.pdf",
+        name: "KAI075-DATA-WAREHOUSING-AND-DATA-MINING",
        year: "4",
         link : "https://drive.google.com/file/d/1zZtIvBZ8d1gebMA_D03FW2Sw9RS8AI8a/view?usp=sharing"
     },
     {
-        name: "KAI076-TIME-SERIES-ANALYSIS-AND-FORECASTING.pdf",
+        name: "KAI076-TIME-SERIES-ANALYSIS-AND-FORECASTING",
        year: "4",
         link : "https://drive.google.com/file/d/13zr9KZgOhyPw-HIuZd55pAIIogLZ_sau/view?usp=sharing"
     },
     {
-        name: "KAI077-SOFTWARE-ENGINEERING.pdf",
+        name: "KAI077-SOFTWARE-ENGINEERING",
        year: "4",
         link : "https://drive.google.com/file/d/1TGkAE00GOC2KgDjQGq7nXRPlGeVDwYT5/view?usp=sharing"
     },
     {
-        name: "KAI079-DISTRIBUTED-COMPUTING-SYSTEM.pdf",
+        name: "KAI079-DISTRIBUTED-COMPUTING-SYSTEM",
        year: "4",
         link : "https://drive.google.com/file/d/1rffnXeYmDdwWfnpkZ83C1dlgMFb1rTnC/view?usp=sharing"
     },
     {
-        name: "KAU073-VEHICLE-BODY-ENGINEERING-SAFETY.pdf",
+        name: "KAU073-VEHICLE-BODY-ENGINEERING-SAFETY",
        year: "4",
         link : "https://drive.google.com/file/d/1qWwWbI8-vzrkmpXnwPQltH8Pb-CjgIBK/view?usp=sharing"
     },
     {
-        name: "KAU074-TROUBLE-SHOOTING-SERVICE-MAINTENANCE-REPAIR.pdf",
+        name: "KAU074-TROUBLE-SHOOTING-SERVICE-MAINTENANCE-REPAIR",
        year: "4",
         link : "https://drive.google.com/file/d/1gfU2jS44B3s1x9sVNLaK0_Zs4oyjmWoB/view?usp=sharing"
     },
     {
-        name: "KCS071-ARTIFICIAL-INTELLIGENCE.pdf",
+        name: "KCS071-ARTIFICIAL-INTELLIGENCE",
        year: "4",
         link : "https://drive.google.com/file/d/10t6BkEp9ifGE7GSZ9lVrcUjXncnEg3yA/view?usp=sharing"
     },
     {
-        name: "KCS072-NATURAL-LANGUAGE-PROCESSING.pdf",
+        name: "KCS072-NATURAL-LANGUAGE-PROCESSING",
        year: "4",
         link : "https://drive.google.com/file/d/15rYVqvVLy-lIfLF6scE-dH2-GasSmfkI/view?usp=sharing"
     },
     {
-        name: "KCS073-HIGH-PERFORMANCE-COMPUTING.pdf",
+        name: "KCS073-HIGH-PERFORMANCE-COMPUTING",
        year: "4",
         link : "https://drive.google.com/file/d/1Lf1Yods1Z_Y8PNdEsYdaeDSPumPI4YJ8/view?usp=sharing"
     },
     {
-        name: "KCS074-CRYPTOGRAPHY-AND-NETWORK-SECURITY.pdf",
+        name: "KCS074-CRYPTOGRAPHY-AND-NETWORK-SECURITY",
        year: "4",
         link : "https://drive.google.com/file/d/1QGivKgM4rlVr3oU2oB9IdqaVgPBvQkpc/view?usp=sharing"
     },
     {
-        name: "KCS079-SERVICE-ORIENTED-ARCHITECTURE.pdf",
+        name: "KCS079-SERVICE-ORIENTED-ARCHITECTURE",
        year: "4",
         link : "https://drive.google.com/file/d/1Q-78oxS9QoTztImMuwLCbCCQr7ypcnq9/view?usp=sharing"
     },
     {
-        name: "KCS710-QUANTUM-COMPUTING.pdf",
+        name: "KCS710-QUANTUM-COMPUTING",
        year: "4",
         link : "https://drive.google.com/file/d/1ErmcMm6f0-_-4kGfZc8MNELKvHMRvrJ7/view?usp=sharing"
     },
     {
-        name: "KCS711-MOBILE-COMPUTING.pdf",
+        name: "KCS711-MOBILE-COMPUTING",
        year: "4",
         link : "https://drive.google.com/file/d/1kx1kWpZTVkUJa2LXs0qoqw86AY9RBK5j/view?usp=sharing"
     },
     {
-        name: "KCS712-INTERNET-OF-THINGS.pdf",
+        name: "KCS712-INTERNET-OF-THINGS",
        year: "4",
         link : "https://drive.google.com/file/d/1zx3mMCWK27CwcVSko5mvUiYBX8qgC-Rs/view?usp=sharing"
     },
     {
-        name: "KCS713-CLOUD-COMPUTING.pdf",
+        name: "KCS713-CLOUD-COMPUTING",
        year: "4",
         link : "https://drive.google.com/file/d/18H5qgEaC9vC3vTLVOt1N78FdNwkSPhHE/view?usp=sharing"
     },
     {
-        name: "KCS714-BLOCKCHAIN-ARCHITECTURE-DESIGN.pdf",
+        name: "KCS714-BLOCKCHAIN-ARCHITECTURE-DESIGN",
        year: "4",
         link : "https://drive.google.com/file/d/1mdSY7G-tyX5cIZUpa_FeMlQPfEYvjrz8/view?usp=sharing"
     },
     {
-        name: "KDS079-SERVICE-ORIENTED-ARCHITECTURE.pdf",
+        name: "KDS079-SERVICE-ORIENTED-ARCHITECTURE",
        year: "4",
         link : "https://drive.google.com/file/d/1dTd-GpeN96YAEojBohP2-XjtZID2nSoI/view?usp=sharing"
     },
     {
-        name: "KHU701-RURAL-DEVELOPMENT-ADMINISTRATION-PLANNING.pdf",
+        name: "KHU701-RURAL-DEVELOPMENT-ADMINISTRATION-PLANNING",
        year: "4",
         link : "https://drive.google.com/file/d/15MRTePsutjXI9m_FA2w9U_n6Pf613vwu/view?usp=sharing"
     },
     {
-        name: "KHU702-PROJECT-MANAGEMENT-ENTREPRENEURSHIP.pdf",
+        name: "KHU702-PROJECT-MANAGEMENT-ENTREPRENEURSHIP",
        year: "4",
         link : "https://drive.google.com/file/d/1UveE_O-88vCdu9z7dmwzb_ZpRh50TSxy/view?usp=sharing"
     },
     {
-        name: "KIT071-SOFTWARE-PROJECT-MANAGEMENT.pdf",
+        name: "KIT071-SOFTWARE-PROJECT-MANAGEMENT",
        year: "4",
         link : "https://drive.google.com/file/d/10aK7kkJ2hG_YhjijoiKVvkhSTGX5zS1v/view?usp=sharing"
     },
     {
-        name: "KME073-MATHEMATICAL-MODELING-OF-MANUFACTURING-PROCESSES.pdf",
+        name: "KME073-MATHEMATICAL-MODELING-OF-MANUFACTURING-PROCESSES",
        year: "4",
         link : "https://drive.google.com/file/d/1gcj9Ged2_RnxKnzOiLoyGJI5HGHrOuK5/view?usp=sharing"
     },
     {
-        name: "KME074-MACHINE-LEARNING.pdf",
+        name: "KME074-MACHINE-LEARNING",
        year: "4",
         link : "https://drive.google.com/file/d/1tJt-NB5UP1i2gcbXT6C_OeU9W9UGqWC5/view?usp=sharing"
     },
     {
-        name: "KME075-COMPUTER-GRAPHICS-AND-PRODUCT-MODELING.pdf",
+        name: "KME075-COMPUTER-GRAPHICS-AND-PRODUCT-MODELING",
        year: "4",
         link : "https://drive.google.com/file/d/1gweTsSdT19cuXzLKl1UyWucGxDoip30H/view?usp=sharing"
     },
     {
-        name: "KME076-POWER-PLANT-ENGINEERING.pdf",
+        name: "KME076-POWER-PLANT-ENGINEERING",
        year: "4",
         link : "https://drive.google.com/file/d/1muWZRoKih9V6ChEumXPJs3gAlm6jQWDZ/view?usp=sharing"
     },
     {
-        name: "KOE071-FILTER-DESIGN.pdf",
+        name: "KOE071-FILTER-DESIGN",
        year: "4",
         link : "https://drive.google.com/file/d/1kQwxiE2FH4jwsdcmaUjfVaXogBpbwNT0/view?usp=sharing"
     },
     {
-        name: "KOE072-BIOECONOMICS.pdf",
+        name: "KOE072-BIOECONOMICS",
        year: "4",
         link : "https://drive.google.com/file/d/1LZrGzPzy7yJCKaa04A6zcQ8XLCQvuaao/view?usp=sharing"
     },
     {
-        name: "KOE073-MACHINE-LEARNING.pdf",
+        name: "KOE073-MACHINE-LEARNING",
        year: "4",
         link : "https://drive.google.com/file/d/1Vz2acWn3AQQFspMuxI6h6XJIKKYBZnCE/view?usp=sharing"
     },
     {
-        name: "KOE074-RENEWABLE-ENERGY-RESOURCES.pdf",
+        name: "KOE074-RENEWABLE-ENERGY-RESOURCES",
        year: "4",
         link : "https://drive.google.com/file/d/1uludD2OE1p68mEB3CzVeU_llaYhAa-jd/view?usp=sharing"
     },
     {
-        name: "KOE075-OPERATIONS-RESEARCH.pdf",
+        name: "KOE075-OPERATIONS-RESEARCH",
        year: "4",
         link : "https://drive.google.com/file/d/1_7UZ8dnWIAPMWa5O1rpBfH5q2_vosCGc/view?usp=sharing"
     },
     {
-        name: "KOE076-VISION-FOR-HUMANE-SOCIETY.pdf",
+        name: "KOE076-VISION-FOR-HUMANE-SOCIETY",
        year: "4",
         link : "https://drive.google.com/file/d/1KqPq-QBKkBhhKg53HWDdtt3bSEDl_RF6/view?usp=sharing"
     },
     {
-        name: "KOE077-DESIGN-THINKING.pdf",
+        name: "KOE077-DESIGN-THINKING",
        year: "4",
         link : "https://drive.google.com/file/d/1kPJmW0OjV-qZEapUDZuNUEJ5JiPhe6dR/view?usp=sharing"
     },
     {
-        name: "KOE078-SOIL-WATER-CONSERVATION-ENGINEERING.pdf",
+        name: "KOE078-SOIL-WATER-CONSERVATION-ENGINEERING",
        year: "4",
         link : "https://drive.google.com/file/d/1c4tcup17aW4wYhqjE_TmbKi_Ebt5BuZ_/view?usp=sharing"
     },
     {
-        name: "KOE079-INTRODUCTION-TO-WOMENS-GENDER-STUDIES.pdf",
+        name: "KOE079-INTRODUCTION-TO-WOMENS-GENDER-STUDIES",
        year: "4",
         link : "https://drive.google.com/file/d/10y5IttTtsUm7ttupUCNZjMcwIb2oWooC/view?usp=sharing"
     },
     {
-        name: "KOT071-IOT-SECURITY.pdf",
+        name: "KOT071-IOT-SECURITY",
        year: "4",
         link : "https://drive.google.com/file/d/12M88jIKoyR3XOZKgPz9fqICsINbNUy95/view?usp=sharing"
     },
     {
-        name: "KOT075-REAL-TIME-OPERATING-SYSTEMS.pdf",
+        name: "KOT075-REAL-TIME-OPERATING-SYSTEMS",
        year: "4",
         link : "https://drive.google.com/file/d/1DALZWXD7Izo2w8NFuhTrawMWdEzwRnrq/view?usp=sharing"
     },
     {
-        name: "KOT077-DATA-ANALYTICS-FOT-IOT.pdf",
+        name: "KOT077-DATA-ANALYTICS-FOT-IOT",
        year: "4",
         link : "https://drive.google.com/file/d/1rrqaQ9alG-TVAowf5FlKMAMqPFbEpp5z/view?usp=sharing"
     },
     {
-        name: "KOT078-ARCHITECTING-SMART-IOT-DEVICES.pdf",
+        name: "KOT078-ARCHITECTING-SMART-IOT-DEVICES",
        year: "4",
         link : "https://drive.google.com/file/d/1DB8Y1AJPp45BTWFHsUwoi_0OakgQbq32/view?usp=sharing"
     },
     {
-        name: "KOT710-IOT-SYSTEM-ARCHITECTURE.pdf",
+        name: "KOT710-IOT-SYSTEM-ARCHITECTURE",
        year: "4",
         link : "https://drive.google.com/file/d/1C8KvrUMpNzBaK9aLIMP7g0JFQ3kW8fyY/view?usp=sharing"
     },
     {
-        name: "KOT711-OPEARTING-SYSTEM-FOR-IOT.pdf",
+        name: "KOT711-OPEARTING-SYSTEM-FOR-IOT",
        year: "4",
         link : "https://drive.google.com/file/d/1nZHk90OMdAY34OPo9huC1WcluFjAalfl/view?usp=sharing"
     },
     {
-        name: "KOT712-MOBILE-APPLICATION-DEVELOPMENT-FOR-IOT.pdf",
+        name: "KOT712-MOBILE-APPLICATION-DEVELOPMENT-FOR-IOT",
        year: "4",
         link : "https://drive.google.com/file/d/19terJPBgobb3Jddx-gFHvU0MNW7tahgS/view?usp=sharing"
     },

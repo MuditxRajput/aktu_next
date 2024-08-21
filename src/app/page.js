@@ -6,6 +6,8 @@ const Home = () => {
   return (
     <div className="w-full p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
       <Hero/>
+      <AdCode/>
+       <p className="flex justify-center items-center font-bold">Click on quantum to get all aktu quantums, click on paper for aktu previous year question paper</p>
       <Middle/>
       <AdCode/>
       <p className="px-3 sm:px-5 md:px-7 lg:px-10 xl:px-12 mt-10 text-sm ">
