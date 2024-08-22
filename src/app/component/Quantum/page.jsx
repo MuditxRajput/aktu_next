@@ -69,7 +69,7 @@ const Quantum = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-lg font-semibold text-gray-800 mb-1">{val.name}</p>
+                        <p className="text-sm font-semibold text-gray-800 mb-1">{val.name}</p>
                         <p className="text-sm text-gray-500">{val.year}</p>
                       </div>
                     </div>
@@ -92,7 +92,7 @@ const Quantum = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-lg font-semibold text-gray-800 mb-1">{val.name}</p>
+                        <p className="text-xs font-semibold text-gray-800 mb-1">{val.name}</p>
                         <p className="text-sm text-gray-500">Year: {val.year}</p>
                       </div>
                     </div>
