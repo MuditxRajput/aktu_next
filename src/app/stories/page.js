@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import ClientStorySelector from './ClientStorySelector';
 
 export const metadata = {
@@ -19,5 +20,9 @@ export const metadata = {
 };
 
 export default function Story() {
-  return <ClientStorySelector />;
+  return (
+    <Suspense fallback={<div>Loading stories...</div>}>
+      <ClientStorySelector />
+    </Suspense>
+  );
 }
