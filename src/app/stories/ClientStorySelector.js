@@ -2,6 +2,7 @@
 
 import dynamic from 'next/dynamic';
 import { useSearchParams } from 'next/navigation';
+import { Suspense } from 'react';
 
 const FirstStory = dynamic(() => import('./firstStory/AmpStory'), { ssr: false });
 // const SecondStory = dynamic(() => import('./secondStory/AmpStory'), { ssr: false });
@@ -16,11 +17,11 @@ export default function ClientStorySelector() {
   if (story === 'first') {
     StoryComponent = FirstStory;
   } 
-//   else if (story === 'second') {
-//     StoryComponent = SecondStory;
-//   } else if (story === 'third') {
-//     StoryComponent = ThirdStory;
-//   }
+  // else if (story === 'second') {
+  //   StoryComponent = SecondStory;
+  // } else if (story === 'third') {
+  //   StoryComponent = ThirdStory;
+  // }
 
   return (
     <div>
@@ -34,7 +35,11 @@ export default function ClientStorySelector() {
           </ul>
         </div>
       )}
-      {story && StoryComponent && <StoryComponent />}
+      {story && StoryComponent && (
+        <Suspense fallback={<div>Loading story...</div>}>
+          <StoryComponent />
+        </Suspense>
+      )}
     </div>
   );
 }
