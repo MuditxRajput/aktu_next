@@ -1,4 +1,3 @@
-import AdCode from "./component/AdCode";
 import Hero from "./component/Hero/Page.jsx";
 import Middle from "./component/Middle/Page.jsx";
 
@@ -7,17 +6,17 @@ const Home = () => {
     <div className="w-full p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
       <Hero />
       <div className="mt-10 mb-12 ">
-      <AdCode/>
+      {/* <AdCode/> */}
       </div>
        <p className=" underline flex justify-center items-center font-bold m-10">Click on quantum to get all aktu quantums, click on paper for aktu previous year question paper</p>
       <Middle/>
       <div className="mt-12 mb-10 ">
-      <AdCode/>
+      {/* <AdCode/> */}
       </div>
       <p className="px-3 sm:px-5 md:px-7 lg:px-10 xl:px-12 mt-10 text-sm ">
         In this website you can get the all B.Tech 1st, 2nd, 3rd, 4th year AKTU quantum PDF in just one click.
       </p>
-      <p className="text-md sm:text-lg md:text-xl  font-semibold mb-1 mt-7 px-3 sm:px-5 md:px-7 lg:px-10 xl:px-12">
+      <p className="text-md sm:text-lg md:text-xl mt-10 font-semibold mb-1 px-3 sm:px-5 md:px-7 lg:px-10 xl:px-12">
         What if I can't get the AKTU quantum?
       </p>
       <p className="px-3 sm:px-5 md:px-7 lg:px-10 xl:px-12 text-sm ">
