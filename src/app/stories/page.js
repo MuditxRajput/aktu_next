@@ -2,11 +2,11 @@ import { Suspense } from 'react';
 import ClientStorySelector from './ClientStorySelector';
 
 export const metadata = {
-  title: 'Palmistry Revealed | Discover Your Future Through the Ancient Art of Palm Reading',
-  description: 'Uncover the secrets hidden in your palm lines. Learn about your life, love, and destiny with our interactive palmistry stories.',
+  title: 'Aktu Free Quantum for B.Tech Students',
+  description: 'Get all B.tech 1st, 2nd, 3rd and 4th year aktu quantum in just one click',
   openGraph: {
-    title: 'Explore Your Destiny with Palmistry AMP Stories',
-    description: 'Dive into visually engaging AMP stories about palmistry and discover what your palm lines reveal about your future.',
+    title: 'Aktu result | aktu oneview Aktu Free Quantum for B.Tech Students',
+    description: 'Get all B.tech 1st, 2nd, 3rd and 4th year aktu quantum in just one click',
     // url: 'https://yourwebsite.com/palmistry-stories',
     images: [
       {
