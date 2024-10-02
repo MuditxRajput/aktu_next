@@ -7,10 +7,10 @@ export const metadata = {
   openGraph: {
     title: 'Explore Your Destiny with Palmistry AMP Stories',
     description: 'Dive into visually engaging AMP stories about palmistry and discover what your palm lines reveal about your future.',
-    url: 'https://yourwebsite.com/palmistry-stories',
+    // url: 'https://yourwebsite.com/palmistry-stories',
     images: [
       {
-        url: 'https://yourwebsite.com/assets/palmistry-og-image.jpg',
+        // url: 'https://yourwebsite.com/assets/palmistry-og-image.jpg',
         width: 800,
         height: 600,
         alt: 'Palmistry AMP Stories',
