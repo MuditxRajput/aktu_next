@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import AdCode from '../AdCode';
 const Middle = () => {
@@ -31,11 +32,12 @@ const Middle = () => {
           {/* Ad between the second and third buttons */}
           
 
-          <button
+          <Link
+            href={("https://www.devjob.online/")}
             className="bg-orange-600 rounded-lg sm:px-4 sm:py-2 px-2 py-1 text-white hover:bg-black hover:shadow-md hover:shadow-orange-600"
           >
-            Notes
-          </button>
+            Remote jobs
+          </Link>
         </div>
 
         {/* Ad below the buttons */}

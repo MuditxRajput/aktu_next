@@ -13,7 +13,7 @@ export const metadata = {
         // url: 'https://yourwebsite.com/assets/palmistry-og-image.jpg',
         width: 800,
         height: 600,
-        alt: 'Palmistry AMP Stories',
+        alt: 'Aktu quantum free pdf',
       },
     ],
   },
