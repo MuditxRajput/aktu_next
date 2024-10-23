@@ -22,15 +22,15 @@ const Middle = () => {
           {/* Ad between the first and second buttons */}
         
 
-          {/* <button
+          <button
           onClick={()=>router.push("/YearSection/PreviousYear")}
             className="bg-orange-600 rounded-lg sm:px-4 sm:py-2 px-2 py-1 text-white hover:bg-black hover:shadow-md hover:shadow-orange-600"
           >
             Previous Papers
-          </button> */}
-          <Link href={"https://www.aitohumantextconvertor.online/components/Papers"} className="bg-orange-600 rounded-lg sm:px-4 sm:py-2 px-2 py-1 text-white hover:bg-black hover:shadow-md hover:shadow-orange-600">
+          </button>
+          {/* <Link href={"https://www.aitohumantextconvertor.online/components/Papers"} className="bg-orange-600 rounded-lg sm:px-4 sm:py-2 px-2 py-1 text-white hover:bg-black hover:shadow-md hover:shadow-orange-600">
           Previous Year
-          </Link>
+          </Link> */}
 
           {/* Ad between the second and third buttons */}
           
@@ -39,7 +39,7 @@ const Middle = () => {
             href={("https://www.devjob.online/")}
             className="bg-orange-600 rounded-lg sm:px-4 sm:py-2 px-2 py-1 text-white hover:bg-black hover:shadow-md hover:shadow-orange-600"
           >
-            Remote jobs
+            Remote jobs + Internship
           </Link>
         </div>
 
