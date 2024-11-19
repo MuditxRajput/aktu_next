@@ -1,6 +1,11 @@
 import AdCode from "../../../component/AdCode";
 
 const AktuResultGuide = () => {
+  const pageTitle = "AKTU Result 2024 (Declared) Check out now – Download Odd/Even Sem Exam Result";
+  const pageDescription =
+    "AKTU Result 2024 (Declared) Check out your aktu result now, in this post we tell you about how to check the aktu result step by step.";
+  const pageKeywords =
+    "AKTU Result 2024, result, AKTU RESULT, AKTU result, aktu quantum, B.Tech AKTU";
   return (
     <div className="flex flex-col lg:flex-row p-4">
       {/* Main Content */}

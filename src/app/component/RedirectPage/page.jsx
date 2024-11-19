@@ -1,9 +1,10 @@
 // RedirectPage.js
 'use client';
+import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useState } from "react";
+import { FaTelegram } from "react-icons/fa";
 import AdCode from "../AdCode";
-
 const RedirectPage = () => {
   const [timeLeft, setTimeLeft] = useState(15);
   const [showButton, setShowButton] = useState(false);
@@ -40,16 +41,29 @@ const RedirectPage = () => {
             {!showButton && (
               <div className="text-semibold whitespace-nowrap">
                 Download will start in {timeLeft} seconds
+                <Link href="https://t.me/freeAktuQuantum1" >
+                <div className="flex justify-center items-center mt-5 cursor-pointer">
+                  <FaTelegram className="text-5xl sm:text-6xl text-blue-500" />
+                  <p className="px-3 text-lg font-semibold  underline">
+                    Join our Telegram
+                  </p>
+                </div>
+              
+              </Link>
                 <AdCode />
               </div>
             )}
             {showButton && (
-              <button
+              <div>
+                <AdCode/>
+                 <button
                 className="bg-orange-600 text-white font-semibold px-2 rounded-md m-2 shadow-md shadow-orange-300"
                 onClick={handleOpenPdf}
               >
                 Download PDF
               </button>
+              </div>
+             
             )}
           </div>
 

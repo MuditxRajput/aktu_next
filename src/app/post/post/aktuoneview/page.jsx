@@ -5,8 +5,8 @@ import AdCode from "../../../component/AdCode";
 import aktuoneview from '../../../PostImage/aktuoneview.png';
 
 const AKTUOneView = () => {
-  const pageTitle = "AKTU One View: Accessing Results and Academic Information in 2024";
-  const pageDescription = "Unlock your academic potential with AKTU One View! Learn how to easily access your results, track your progress, and manage your academic journey. Essential guide for AKTU students in 2024.";
+  const pageTitle = "AKTU One View Result Out: check out your aktu result all year ";
+  const pageDescription = "Unlock your academic potential with AKTU One View result! Learn how to easily access your aktu results, track your progress, and manage your academic journey. Essential guide for AKTU students in 2024.";
   const pageKeywords = "AKTU One View, AKTU results, AKTU B.Tech results, AKTU student portal, AKTU academic records, AKTU exam results";
 
   return (
