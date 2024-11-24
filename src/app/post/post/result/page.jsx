@@ -11,7 +11,7 @@ const AktuResultGuide = () => {
       {/* Main Content */}
       <div className="w-full lg:w-3/4 bg-white shadow-md rounded-lg p-6">
         <h1 className="text-2xl font-bold mb-4">
-          How to Check AKTU Results: Step-by-Step Guide
+        AKTU Result 2024 (Declared) Check out now – Download Odd/Even Sem Exam Result
         </h1>
         <p className="mb-4">
           In this post, we will see how you can check your semester result in
