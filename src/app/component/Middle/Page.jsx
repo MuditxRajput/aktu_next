@@ -36,10 +36,10 @@ const Middle = () => {
           
 
           <Link
-            href={("https://www.devjob.online/")}
+            href={("https://whatsapp.com/channel/0029VaxdbZsJENxv3duV8b31")}
             className="bg-orange-600 rounded-lg sm:px-4 sm:py-2 px-2 py-1 text-white hover:bg-black hover:shadow-md hover:shadow-orange-600"
           >
-            Remote jobs + Internship
+            Entry Level Jobs
           </Link>
         </div>
 

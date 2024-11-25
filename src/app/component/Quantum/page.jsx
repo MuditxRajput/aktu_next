@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from 'next/navigation';
 import { useSelector } from "react-redux";
 import pdf from '../../Image/pdf.png';
@@ -35,7 +36,7 @@ const Quantum = () => {
       <div className=" p-4 shadow-md mb-4">
         <Search />
       </div>
-
+      
       <div className="container mx-auto p-4 flex flex-col lg:flex-row gap-4">
         {/* Sticky Sidebar for Desktop and Mobile */}
         <div className="sticky top-24 p-4  shadow-md lg:w-1/4 lg:h-screen lg:overflow-auto lg:block lg:border-r lg:border-gray-200">
@@ -49,6 +50,7 @@ const Quantum = () => {
             <div className="hidden lg:block mb-4">
               <AdCode />
             </div>
+            <Link className=" text-white font-semibold p-10 flex justify-center rounded-lg bg-green-500" href={"https://whatsapp.com/channel/0029VaxdbZsJENxv3duV8b31"}> Private WhatsApp group for internship and jobs </Link>
             <div className="grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
               {query
                 ? quantumAfterQuery?.map((val, index) => (

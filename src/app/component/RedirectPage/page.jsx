@@ -3,9 +3,10 @@
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useState } from "react";
-import { FaTelegram } from "react-icons/fa";
+import { FaTelegram, FaWhatsapp } from "react-icons/fa";
 import AdCode from "../AdCode";
 const RedirectPage = () => {
+  
   const [timeLeft, setTimeLeft] = useState(15);
   const [showButton, setShowButton] = useState(false);
   const searchParams = useSearchParams();
@@ -46,6 +47,12 @@ const RedirectPage = () => {
                   <FaTelegram className="text-5xl sm:text-6xl text-blue-500" />
                   <p className="px-3 text-lg font-semibold  underline">
                     Join our Telegram
+                  </p>
+                </div>
+                <div className="flex justify-center items-center mt-5 cursor-pointer">
+                  <FaWhatsapp className="text-xl sm:text-6xl text-green-500" />
+                  <p className="px-3 text-lg font-semibold  underline">
+                    private whatsapp group for jobs and internship 
                   </p>
                 </div>
               
