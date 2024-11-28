@@ -28,7 +28,7 @@ const AKTUOneView = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "AKTU One View: Accessing Results and Academic Information in 2024",
+            "headline": "AKTU One View Result Out: check out your aktu result all year",
             "image": "../../../PostImage/aktuoneview.png",
             "datePublished": "2024-01-01T08:00:00+08:00",
             "dateModified": "2024-01-01T09:20:00+08:00",
